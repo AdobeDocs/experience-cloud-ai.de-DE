@@ -1,24 +1,31 @@
 ---
-title: Journey Agent Analyze Skill Overview und Benutzerhandbuch
+title: Journey Analyze Agent SKILL Overview and User Guide
 description: Umfassende Anleitung zur Journey Agent Analyze-Kompetenz, mit der Anwender Marketing-Journey analysieren, Probleme erkennen, Erkenntnisse gewinnen und die Kundeninteraktion optimieren können.
 solution: Journey Optimizer
 product: journey optimizer
 role: Admin,User,Developer,Leader
-hide: true
-hidefromtoc: true
-source-git-commit: 3bab2928fba6d06785797630e405b216cc080fd2
+source-git-commit: 56dbe826fc73cbf699f08b12014b2b73d2bab71b
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '937'
 ht-degree: 0%
 
 ---
 
 
-# Journey Agent Analyze: Kompetenzübersicht und Benutzerhandbuch
+# Journey Analyze Agent: Kompetenzübersicht und Benutzerhandbuch
 
 ## Übersicht
 
-Journey Agent ermöglicht es Journey Optimizer-Anwendern, Journey über eine natürliche Sprachschnittstelle zu erstellen, zu analysieren und zu optimieren. Mit Journey Agent können Anwender schnell Journey erstellen, Zeitplan- oder Zielgruppenkonflikte erkennen und lösen, Leistungs- und Abfallpunkte analysieren und leistungsstarke Journey identifizieren, die für zukünftige Kampagnen repliziert werden können. Es ermöglicht Anwendern, datengesteuerte Entscheidungen zu treffen, die Kundeninteraktion zu verbessern und die Journey-Orchestrierung zu optimieren.
+Journey Agent ermöglicht es Journey Optimizer-Anwendern, Journey mithilfe einer natürlichen Sprachschnittstelle zu analysieren und zu optimieren. Mit Journey Agent können Anwendende Zeitplankonflikte und/oder Zielgruppenkonflikte schnell identifizieren und lösen, Punkte der Benutzerkündigung in einer Journey erkennen und Einblicke oder Empfehlungen liefern. Es ermöglicht Anwendern, datengesteuerte Entscheidungen zu treffen, die Kundeninteraktion zu verbessern und die Journey-Orchestrierung zu optimieren.
+
+>[!AVAILABILITY]
+>
+>Die Journey Agent steht allen Kunden zur Verfügung, die Zugriff auf den KI-Assistenten haben. Sie benötigen jedoch die folgenden Berechtigungen, um die Funktionen von Journey Agent vollständig nutzen zu können.
+>
+>**Journey anzeigen**: Mit dieser Berechtigung können Sie die Journey Agent verwenden, um Einblicke in die Journey direkt im KI-Assistenten anzuzeigen.
+>>**Journey verwalten**: Mit der Berechtigung „Bis“ können Sie die Journey Agent verwenden, um neue Journey-Dateien direkt im KI-Assistenten zu erstellen.
+>>**Segmente anzeigen**: Mit dieser Berechtigung können Sie die Journey Agent verwenden, um Einblicke in die Zielgruppen direkt im KI-Assistenten anzuzeigen.
+>>**Segmente verwalten**: Mit der Berechtigung „Bis“ können Sie die Journey Agent verwenden, um neue Zielgruppen direkt im KI-Assistenten zu erstellen.
 
 ![Beispiel für AJO Agent](./images/ajo-agent/ajo-agent-sample.png)
 
@@ -50,6 +57,8 @@ Journey Agent Analyze bietet eine Reihe von Funktionen, mit denen Marketing-Maß
 
    - Prompt-basierte Journey-Einblicke - Erhalten Sie operative Einblicke über Journey, d. h. „Zeige mir alle Live-Journey&quot;.
 
+Bei jeder dieser Analysen erkennt der Agent nicht nur Probleme, sondern gibt auch **umsetzbare Empfehlungen zur Lösung dieser Probleme**.
+
 
 ## In Scope and Out of Scope Skills
 
@@ -59,6 +68,7 @@ Journey Agent Analyze unterstützt die folgenden Funktionen:
 
 - **Reaktive Abfragen**: Ermöglicht es Benutzenden, spezifische Fragen zur Journey-Leistung, Zielgruppennutzung und Zeitplankonflikten zu stellen.
 - **Integration mit anderen Agenten**: arbeitet mit Audience Agent und Data Insights Agent für eine genauere Analyse zusammen.
+- **Struktur der Agent-**: Argumentation (Erläuterung der Logik), Zusammenfassung der Analyse (Hervorhebung der Schlüsselpunkte), Problemdetails (Beschreibung des Problems) und Empfehlung (Vorschlag der nächsten Schritte).
 
 ### **Außerhalb des Bereichs**
 
@@ -93,6 +103,10 @@ Im Folgenden finden Sie Beispiele für wertvolle Eingabeaufforderungen, mit dene
 - „Welche Zielgruppen werden in mehr als X Journey verwendet?“
 - „Listen Sie alle Journey mit der [Zielgruppenname] Zielgruppe auf.“
 
+### Fallout-Analyse
+
+
+
 ### Eingabeaufforderungen zur Konfliktanalyse
 
 Verwenden Sie diese Eingabeaufforderungen, um potenzielle Konflikte zwischen Journeys zu analysieren, einschließlich Zeitplanungs- und Zielgruppenüberschneidungen:
@@ -111,8 +125,8 @@ Verwenden Sie diese Eingabeaufforderungen, um potenzielle Konflikte zwischen Jou
 - „Identifizieren Sie Konflikttypen für Journey [Journey-Name] im Vergleich zu laufenden Journey.“
 - „Überschneidende Zielgruppen für das Journey von [Journey-Name] und anderen Journey anzeigen.“
 - „Zeitplanüberschneidungen zwischen Journey [Journey-Name] und Live-Journey hervorheben.“
-- „Steht die Ausführung von Journey [Journey]Name&rbrace; im Konflikt mit einer anderen Journey?“
-- „Bitte Konflikte für [Journey-Name&rbrace; erkennen und ].“
+- „Steht die Ausführung von Journey [Journey]Name} im Konflikt mit einer anderen Journey?“
+- „Bitte Konflikte für [Journey-Name} erkennen und ].“
 - „Melden Sie alle Konflikttypen für das Journey [Journey-Name].“
 - „Geben Sie mir eine Konfliktaufschlüsselung (Planung und Zielgruppe) für [Journey-Name].“
 - „Gibt es für [Journey-] Konflikte, die sich auf die Leistung auswirken können?“
