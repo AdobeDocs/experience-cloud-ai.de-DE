@@ -18,7 +18,7 @@ Lesen Sie dieses Dokument, um mehr über die auf das Kundenvertrauen fokussierte
 * Der KI-Assistent kennt keine Verbraucherdaten.
 * Alle vorhandenen [Zugriffssteuerungsrichtlinien](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home) werden vom KI-Assistenten berücksichtigt.
 
-   * Alle neuen attributbasierten Zugriffssteuerungsrichtlinien werden nach maximal 24 Stunden im KI-Assistenten angezeigt.&amp;ast;
+   * Alle neuen attributbasierten Zugriffssteuerungsrichtlinien werden nach maximal 24 Stunden im KI-Assistenten angezeigt.&ast;
 
 * Die Interaktion mit dem KI-Assistenten muss ausdrücklich erlaubt sein.
 
@@ -30,4 +30,4 @@ Lesen Sie dieses Dokument, um mehr über die auf das Kundenvertrauen fokussierte
 * Der KI-Assistent basiert auf Sandbox-spezifischen Daten und der öffentlichen Adobe-Dokumentation, wenn auf Benutzeraufforderungen reagiert wird. Daten werden nicht über Sandboxes hinweg freigegeben.
 * Eingabeaufforderungen, die Sie an den KI-Assistenten senden, werden nicht an andere Kunden weitergegeben.
 
-&amp;ast; *Dies bedeutet, dass es beim Hinzufügen neuer Kennzeichnungen zu Feldern und Objekten oder beim Erstellen neuer Richtlinien bis zu 24 Stunden dauert, bis der KI-Assistent diese berücksichtigt. Während dieser 24 Stunden können Benutzer mit neu eingeschränktem Zugriff weiterhin auf diese Felder und Objekte zugreifen.*
+&ast; *Dies bedeutet, dass es beim Hinzufügen neuer Kennzeichnungen zu Feldern und Objekten oder beim Erstellen neuer Richtlinien bis zu 24 Stunden dauert, bis der KI-Assistent diese berücksichtigt. Während dieser 24 Stunden können Benutzer mit neu eingeschränktem Zugriff weiterhin auf diese Felder und Objekte zugreifen.*
