@@ -16,13 +16,13 @@ Lesen Sie dieses Dokument, um mehr über die auf das Kundenvertrauen fokussierte
 
 * KI Assistant verwendet heute keine personenbezogenen Daten, auch nicht für Trainingszwecke.
 * Der KI-Assistent kennt keine Verbraucherdaten.
-* Alle vorhandenen [Zugriffssteuerungsrichtlinien](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home) werden vom KI-Assistenten berücksichtigt.
+* Alle vorhandenen [Zugriffssteuerungsrichtlinien](https://experienceleague.adobe.com/de/docs/experience-platform/access-control/home) werden vom KI-Assistenten berücksichtigt.
 
    * Alle neuen attributbasierten Zugriffssteuerungsrichtlinien werden nach maximal 24 Stunden im KI-Assistenten angezeigt.&ast;
 
 * Die Interaktion mit dem KI-Assistenten muss ausdrücklich erlaubt sein.
 
-   * Sie können Berechtigungen für Experience Platform und Journey Optimizer mithilfe der [Benutzeroberfläche „Berechtigungen“ unterschiedlich ](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/browse) und mit der [Admin Console](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/browse) Berechtigungen für Customer Journey Analytics zuweisen.
+   * Sie können Berechtigungen für Experience Platform und Journey Optimizer mithilfe der [Benutzeroberfläche „Berechtigungen“ unterschiedlich ](https://experienceleague.adobe.com/de/docs/experience-platform/access-control/abac/permissions-ui/browse) und mit der [Admin Console](https://experienceleague.adobe.com/de/docs/experience-platform/access-control/ui/browse) Berechtigungen für Customer Journey Analytics zuweisen.
    * Die Berechtigungen sind granular und Ihr Sandbox-Administrator kann konfigurieren, welche Ihrer Benutzer bzw. Benutzerinnen verschiedene Fragenkategorien stellen können (Produktkenntnisfragen mit dem KI-Assistenten oder Fragen zu operativen Einblicken).
 
 * Der KI-Assistent ist eine HIPAA-fähige Funktion, wenn sie in Kombination mit Adobe Experience Platform Healthcare Shield verwendet wird.
