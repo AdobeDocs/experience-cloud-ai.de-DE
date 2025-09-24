@@ -1,7 +1,7 @@
 ---
 title: Audience Agent
 description: Erfahren Sie, wie Sie mit der Audience Agent Zielgruppen erstellen, Zielgruppenänderungen anzeigen, doppelte Zielgruppen erkennen und Zielgruppeneinblicke anzeigen können.
-source-git-commit: 6d1f6a8c6a97bbbad88c0dd8123fac7821f06754
+source-git-commit: d91aac948a6fef36949218004dc0481dc8f5cf7f
 workflow-type: tm+mt
 source-wordcount: '816'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 >Die Audience Agent steht allen Kunden zur Verfügung, die Zugriff auf den KI-Assistenten haben. Sie benötigen jedoch die folgenden Berechtigungen, um die Funktionen von Audience Agent vollständig nutzen zu können.
 >
 >**Segmente anzeigen**: Mit dieser Berechtigung können Sie die Audience Agent verwenden, um Einblicke in die Zielgruppen direkt im KI-Assistenten anzuzeigen.
->&#x200B;>**Segmente verwalten**: Mit der Berechtigung „Bis“ können Sie die Audience Agent verwenden, um neue Zielgruppen direkt im KI-Assistenten zu erstellen.
+>>**Segmente verwalten**: Mit der Berechtigung „Bis“ können Sie die Audience Agent verwenden, um neue Zielgruppen direkt im KI-Assistenten zu erstellen.
 
 Mit der Audience Agent können Sie Einblicke zu Zielgruppen erhalten, einschließlich der Erkennung signifikanter Änderungen der Zielgruppengröße, der Erkennung doppelter Zielgruppen, der Untersuchung Ihres Zielgruppeninventars und des Abrufs der Zielgruppengröße.
 
@@ -33,7 +33,7 @@ Der Audience Agent innerhalb des KI-Assistenten unterstützt die folgenden Anwen
 - Entdecken Sie XDM-Felder, mit denen Sie eine Zielgruppe definieren können
    - Mit dieser Fähigkeit können Sie basierend auf Kontext und Relevanz die richtigen Felder für Ihre Zielgruppe leichter identifizieren
 
-Die Audience Agent unterstützt derzeit **nicht** die folgenden Funktionen:
+Die Audience Agent unterstützt **derzeit** die folgenden Funktionen nicht:
 
 - Wissensbasierte Zielgruppenerstellung
    - Die wissensbasierte Zielgruppenerstellung erstellt eine Zielgruppe basierend auf den angegebenen Attributen und Ereignissen
