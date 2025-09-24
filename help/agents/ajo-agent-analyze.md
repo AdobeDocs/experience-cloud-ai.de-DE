@@ -4,9 +4,9 @@ description: Umfassende Anleitung zur Journey Agent Analyze-Kompetenz, mit der A
 solution: Journey Optimizer
 product: journey optimizer
 role: Admin,User,Developer,Leader
-source-git-commit: 56dbe826fc73cbf699f08b12014b2b73d2bab71b
+source-git-commit: cf29a28477881b400b32b4623ccff2e626010e10
 workflow-type: tm+mt
-source-wordcount: '937'
+source-wordcount: '986'
 ht-degree: 0%
 
 ---
@@ -23,9 +23,9 @@ Journey Agent ermöglicht es Journey Optimizer-Anwendern, Journey mithilfe einer
 >Die Journey Agent steht allen Kunden zur Verfügung, die Zugriff auf den KI-Assistenten haben. Sie benötigen jedoch die folgenden Berechtigungen, um die Funktionen von Journey Agent vollständig nutzen zu können.
 >
 >**Journey anzeigen**: Mit dieser Berechtigung können Sie die Journey Agent verwenden, um Einblicke in die Journey direkt im KI-Assistenten anzuzeigen.
->&#x200B;>**Journey verwalten**: Mit der Berechtigung „Bis“ können Sie die Journey Agent verwenden, um neue Journey-Dateien direkt im KI-Assistenten zu erstellen.
->&#x200B;>**Segmente anzeigen**: Mit dieser Berechtigung können Sie die Journey Agent verwenden, um Einblicke in die Zielgruppen direkt im KI-Assistenten anzuzeigen.
->&#x200B;>**Segmente verwalten**: Mit der Berechtigung „Bis“ können Sie die Journey Agent verwenden, um neue Zielgruppen direkt im KI-Assistenten zu erstellen.
+>>**Journey verwalten**: Mit der Berechtigung „Bis“ können Sie die Journey Agent verwenden, um neue Journey-Dateien direkt im KI-Assistenten zu erstellen.
+>>**Segmente anzeigen**: Mit dieser Berechtigung können Sie die Journey Agent verwenden, um Einblicke in die Zielgruppen direkt im KI-Assistenten anzuzeigen.
+>>**Segmente verwalten**: Mit der Berechtigung „Bis“ können Sie die Journey Agent verwenden, um neue Zielgruppen direkt im KI-Assistenten zu erstellen.
 
 ![Beispiel für AJO Agent](./images/ajo-agent/ajo-agent-sample.png)
 
@@ -105,7 +105,10 @@ Im Folgenden finden Sie Beispiele für wertvolle Eingabeaufforderungen, mit dene
 
 ### Fallout-Analyse
 
-
+- „Ich möchte den Fallout nach Knoten für das Journey der Kampagne vom 4. Juli analysieren.“
+- „Führen Sie eine Fallout-Analyse für das Journey der Kampagne vom 4. Juli durch.“
+- „Was bedeutet Profilverlust im Verlauf des Journey der Kampagne vom 4. Juli?“
+- „Anzeigen, wo Benutzer in der Journey der Kampagne vom 4. Juli abbrechen.“
 
 ### Eingabeaufforderungen zur Konfliktanalyse
 
@@ -125,8 +128,8 @@ Verwenden Sie diese Eingabeaufforderungen, um potenzielle Konflikte zwischen Jou
 - „Identifizieren Sie Konflikttypen für Journey [Journey-Name] im Vergleich zu laufenden Journey.“
 - „Überschneidende Zielgruppen für das Journey von [Journey-Name] und anderen Journey anzeigen.“
 - „Zeitplanüberschneidungen zwischen Journey [Journey-Name] und Live-Journey hervorheben.“
-- „Steht die Ausführung von Journey [Journey]Name&rbrace; im Konflikt mit einer anderen Journey?“
-- „Bitte Konflikte für [Journey-Name&rbrace; erkennen und ].“
+- „Steht die Ausführung von Journey [Journey]Name} im Konflikt mit einer anderen Journey?“
+- „Bitte Konflikte für [Journey-Name} erkennen und ].“
 - „Melden Sie alle Konflikttypen für das Journey [Journey-Name].“
 - „Geben Sie mir eine Konfliktaufschlüsselung (Planung und Zielgruppe) für [Journey-Name].“
 - „Gibt es für [Journey-] Konflikte, die sich auf die Leistung auswirken können?“
