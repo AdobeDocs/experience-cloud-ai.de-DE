@@ -1,9 +1,9 @@
 ---
 title: KI in Experience Cloud-Programmen
 description: Erfahren Sie, wie Experience Cloud-Programme generative KI (GenAI), KI-Assistenten und agentische KI verwenden.
-source-git-commit: 860b0f2414dc006c23fedcd7b0e29727fc0641d4
+source-git-commit: 58cce845f525e7762f32379a8db5791b677ae54f
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '645'
 ht-degree: 0%
 
 ---
@@ -59,10 +59,9 @@ Dieser Agent ist in Customer Journey Analytics verfügbar:
 
 Ermöglicht Journey Optimizer-Benutzern Folgendes:
 
-- Erstellen, Analysieren und Optimieren von Journey mit natürlicher Sprache
+- Analysieren und Optimieren von Journey mit natürlicher Sprache
 - Konflikte mit Zeitplänen oder Zielgruppen erkennen und lösen
 - Analyse der Performance und der Abfallpunkte
-- Identifizieren der leistungsstärksten Journey für die Replikation
 
 #### Produktsupport-Agent
 
