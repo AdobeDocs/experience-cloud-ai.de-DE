@@ -1,7 +1,7 @@
 ---
 title: Handbuch zur Benutzeroberfläche des KI-Assistenten
 description: Erfahren Sie, wie Sie in der Benutzeroberfläche auf den KI-Assistenten zugreifen und ihn verwenden können.
-source-git-commit: 860b0f2414dc006c23fedcd7b0e29727fc0641d4
+source-git-commit: c9909616697ef319a307b5c8a1ee135204347844
 workflow-type: tm+mt
 source-wordcount: '1843'
 ht-degree: 0%
@@ -57,12 +57,12 @@ Die Benutzeroberfläche des KI-Assistenten umfasst mehrere wichtige Elemente, di
 Die Leistenansicht bietet schnellen Zugriff auf Chat, Erkennungsaufforderungen, Aktualisierungen, Unterhaltungen und Benutzeroberflächen-Steuerelemente in einem kompakten Bedienfeld.
 
 1. **[!UICONTROL Chat]**: Wählen Sie **[!UICONTROL Chat]** in der Kopfzeile aus, um zu Ihrer Konversation zurückzukehren, falls Sie sie verlassen haben, um auf verschiedene Elemente in der Benutzeroberfläche zuzugreifen.
-2. **[!UICONTROL Discovery]**: Wählen Sie **[!UICONTROL Discovery]** aus, um eine Liste der Eingabeaufforderungen des KI-Assistenten nach Kategorie geordnet anzuzeigen. Sie können diese vorkonfigurierten Eingabeaufforderungen verwenden, um Ihren Chat zu füllen. Darüber hinaus können Sie die vorgeschlagenen Eingabeaufforderungen an Ihren jeweiligen Anwendungsfall anpassen.
-3. **[!UICONTROL Neue Funktionen]** Wählen Sie **[!UICONTROL Neue Funktionen]** aus, um eine Liste der neuesten Aktualisierungen anzuzeigen, die für den KI-Assistenten verfügbar sind.
-4. **[!UICONTROL Unterhaltungen]**: Wählen Sie das Symbol **[!UICONTROL Unterhaltungen]** aus, um eine neue Unterhaltung zu beginnen und auf aktuelle Unterhaltungen aus Ihrem Verlauf zuzugreifen. Weitere Informationen finden Sie im Abschnitt zu [Konversationen](#conversations).
-5. **Vollbildansicht**: Wählen Sie das Symbol **[!UICONTROL Vollbildansicht]** aus, um Ihre Benutzeroberfläche des KI-Assistenten von der rechten Leiste in den Vollbildmodus zu ändern.
-6. **Automatische Vervollständigung von Daten und Objekten**: Wählen Sie das Pluszeichen, um Daten- und Objektvorschläge zu verwenden und die automatische Vervollständigung durchzuführen. Wenn ausgewählt, können Sie ein Popup-Fenster verwenden, um vorgeschlagene Entitäten auszuwählen. Weitere Informationen finden Sie im Abschnitt zu [automatische Vervollständigung von Daten und Objekten](#autocomplete).
-7. **Kontexteinstellung**: Wählen Sie das Symbol Kontexteinstellung aus, um Informationsquellen für den KI-Assistenten zu konfigurieren. Sie können dieses Tool verwenden, um die Anwendung, Sandbox und Datenansicht zu konfigurieren, auf die der KI-Assistent verweist, um Ihre Abfrage zu beantworten. Weitere Informationen finden Sie im Abschnitt zu [Kontexteinstellungen](#context-setting).
+1. **[!UICONTROL Discovery]**: Wählen Sie **[!UICONTROL Discovery]** aus, um eine Liste der Eingabeaufforderungen des KI-Assistenten nach Kategorie geordnet anzuzeigen. Sie können diese vorkonfigurierten Eingabeaufforderungen verwenden, um Ihren Chat zu füllen. Darüber hinaus können Sie die vorgeschlagenen Eingabeaufforderungen an Ihren jeweiligen Anwendungsfall anpassen.
+1. **[!UICONTROL Neue Funktionen]** Wählen Sie **[!UICONTROL Neue Funktionen]** aus, um eine Liste der neuesten Aktualisierungen anzuzeigen, die für den KI-Assistenten verfügbar sind.
+1. **[!UICONTROL Unterhaltungen]**: Wählen Sie das Symbol **[!UICONTROL Unterhaltungen]** aus, um eine neue Unterhaltung zu beginnen und auf aktuelle Unterhaltungen aus Ihrem Verlauf zuzugreifen. Weitere Informationen finden Sie im Abschnitt zu [Konversationen](#conversations).
+1. **Vollbildansicht**: Wählen Sie das Symbol **[!UICONTROL Vollbildansicht]** aus, um Ihre Benutzeroberfläche des KI-Assistenten von der rechten Leiste in den Vollbildmodus zu ändern.
+1. **Automatische Vervollständigung von Daten und Objekten**: Wählen Sie das Pluszeichen, um Daten- und Objektvorschläge zu verwenden und die automatische Vervollständigung durchzuführen. Wenn ausgewählt, können Sie ein Popup-Fenster verwenden, um vorgeschlagene Entitäten auszuwählen. Weitere Informationen finden Sie im Abschnitt zu [automatische Vervollständigung von Daten und Objekten](#autocomplete).
+1. **Kontexteinstellung**: Wählen Sie das Symbol Kontexteinstellung aus, um Informationsquellen für den KI-Assistenten zu konfigurieren. Sie können dieses Tool verwenden, um die Anwendung, Sandbox und Datenansicht zu konfigurieren, auf die der KI-Assistent verweist, um Ihre Abfrage zu beantworten. Weitere Informationen finden Sie im Abschnitt zu [Kontexteinstellungen](#context-setting).
 
 ![Der KI-Assistent in der Leistenansicht](./images/ai-assistant/rail-mode.png)
 

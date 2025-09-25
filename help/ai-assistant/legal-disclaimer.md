@@ -1,7 +1,7 @@
 ---
 title: Haftungsausschluss - Personenbezogene Daten, Sprachunterstützung und Überprüfung von Antworten
 description: Erfahren Sie mehr über rechtliche Haftungsausschlüsse in Bezug auf personenbezogene Daten, Sprachunterstützung und die Überprüfung von Antworten bei der Verwendung von KI-Assistent.
-source-git-commit: 36307b844a1effb8202d4d10adc171b1429b04ff
+source-git-commit: c9909616697ef319a307b5c8a1ee135204347844
 workflow-type: tm+mt
 source-wordcount: '230'
 ht-degree: 0%
