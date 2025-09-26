@@ -4,7 +4,7 @@ description: Umfassende Anleitung zur Journey Agent Analyze-Kompetenz, mit der A
 solution: Journey Optimizer
 product: journey optimizer
 role: Admin,User,Developer,Leader
-source-git-commit: c9909616697ef319a307b5c8a1ee135204347844
+source-git-commit: 4bb6da3fe1abee98446df62c94730274e0931493
 workflow-type: tm+mt
 source-wordcount: '986'
 ht-degree: 0%
@@ -131,8 +131,8 @@ Verwenden Sie diese Eingabeaufforderungen, um potenzielle Konflikte zwischen Jou
 - „Identifizieren Sie Konflikttypen für Journey [Journey-Name] im Vergleich zu laufenden Journey.“
 - „Überschneidende Zielgruppen für das Journey von [Journey-Name] und anderen Journey anzeigen.“
 - „Zeitplanüberschneidungen zwischen Journey [Journey-Name] und Live-Journey hervorheben.“
-- „Steht die Ausführung von Journey [Journey]Name&rbrace; im Konflikt mit einer anderen Journey?“
-- „Bitte Konflikte für [Journey-Name&rbrace; erkennen und ].“
+- „Steht die Ausführung von Journey [Journey]Name} im Konflikt mit einer anderen Journey?“
+- „Bitte Konflikte für [Journey-Name} erkennen und ].“
 - „Melden Sie alle Konflikttypen für das Journey [Journey-Name].“
 - „Geben Sie mir eine Konfliktaufschlüsselung (Planung und Zielgruppe) für [Journey-Name].“
 - „Gibt es für [Journey-] Konflikte, die sich auf die Leistung auswirken können?“
@@ -158,3 +158,4 @@ Um die Effektivität von Journey Agent Analyze zu maximieren, befolgen Sie die f
 - **Definieren Sie klare Ziele**: Bevor Sie Journey analysieren, legen Sie klare Ziele fest (z. B. die Verbesserung der Kundenbindung, die Steigerung der Konversionen).
 - **Regelmäßig überwachen**: Planen Sie regelmäßige Überprüfungen der Journey-Leistung, um Trends und Anomalien zu identifizieren.
 - **Segmentierung optimieren**: Stellen Sie sicher, dass die Zielgruppensegmentierung ausgewogen ist, um Ermüdung zu vermeiden und die Interaktion zu maximieren.
+

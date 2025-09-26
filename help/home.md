@@ -1,7 +1,7 @@
 ---
 title: KI in Experience Cloud-Programmen
 description: Erfahren Sie, wie Experience Cloud-Programme generative KI (GenAI), KI-Assistenten und agentische KI verwenden.
-source-git-commit: 06d80a7166dd9506cec570a79ed5eba4c2b5fe3c
+source-git-commit: 4bb6da3fe1abee98446df62c94730274e0931493
 workflow-type: tm+mt
 source-wordcount: '645'
 ht-degree: 0%
@@ -107,4 +107,3 @@ Der KI-Assistent wurde mit Datenschutz, Sicherheit und Governance im Vordergrund
 - Feedback für Probleme oder Ungenauigkeiten senden
 
 Dieses Handbuch enthält alles, was Sie für die effektive Nutzung der KI-Funktionen in allen Ihren Experience Cloud-Anwendungen benötigen, von einfachen Interaktionen bis hin zu erweiterter Agentenorchestrierung und spezialisierten Workflows.
-

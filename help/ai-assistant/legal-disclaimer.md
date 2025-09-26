@@ -1,7 +1,7 @@
 ---
 title: Haftungsausschluss - Personenbezogene Daten, Sprachunterstützung und Überprüfung von Antworten
 description: Erfahren Sie mehr über rechtliche Haftungsausschlüsse in Bezug auf personenbezogene Daten, Sprachunterstützung und die Überprüfung von Antworten bei der Verwendung von KI-Assistent.
-source-git-commit: c9909616697ef319a307b5c8a1ee135204347844
+source-git-commit: 4bb6da3fe1abee98446df62c94730274e0931493
 workflow-type: tm+mt
 source-wordcount: '230'
 ht-degree: 0%
@@ -25,3 +25,4 @@ Der KI-Assistent wird derzeit nur auf Englisch unterstützt. Nicht-englische Ein
 ## Überprüfen der Antworten {#verifying-responses}
 
 Es ist wichtig, Ihre Antworten zu überprüfen, da Sprachmodelle Fehler machen können. Überprüfen Sie immer die Quellen, um sicherzustellen, dass die SQL-Logik korrekt ist und dass für Ihren Anwendungsfall auf die entsprechende Dokumentation verwiesen wurde. Sehen Sie sich die von AI Assistant bereitgestellten Begründungsschritte und Erläuterungen an, um zu verstehen, wie es zu seiner Antwort gekommen ist. Wenn etwas nicht richtig aussieht, senden Sie bitte Feedback.
+

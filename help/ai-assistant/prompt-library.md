@@ -1,7 +1,7 @@
 ---
 title: Bibliothek mit Eingabeaufforderungen des KI-Assistenten
 description: Erfahren Sie mehr über die verschiedenen Arten von Eingabeaufforderungen und Eingabeaufforderungsmustern, die Sie bei der Abfrage des KI-Assistenten verwenden können.
-source-git-commit: c9909616697ef319a307b5c8a1ee135204347844
+source-git-commit: 4bb6da3fe1abee98446df62c94730274e0931493
 workflow-type: tm+mt
 source-wordcount: '811'
 ht-degree: 0%
@@ -133,3 +133,4 @@ Der Product Support Agent hilft Ihnen bei der Fehlerbehebung, der Erstellung von
 
 - „Was ist das Neueste zu meinem Fall E-12345?“
 - „Was ist das Update für Ticket E-67890?“
+

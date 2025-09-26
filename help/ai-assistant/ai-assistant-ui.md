@@ -1,7 +1,7 @@
 ---
 title: Handbuch zur Benutzeroberfläche des KI-Assistenten
 description: Erfahren Sie, wie Sie in der Benutzeroberfläche auf den KI-Assistenten zugreifen und ihn verwenden können.
-source-git-commit: c9909616697ef319a307b5c8a1ee135204347844
+source-git-commit: 4bb6da3fe1abee98446df62c94730274e0931493
 workflow-type: tm+mt
 source-wordcount: '1843'
 ht-degree: 0%
