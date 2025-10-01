@@ -6,7 +6,7 @@ type: Documentation
 mini-toc-levels: 2
 git-repo: https://github.com/AdobeDocs/experience-cloud-ai.de-DE
 index: true
-source-git-commit: 63c53db7347c1d5998cb6439833b4f735623d4fb
+source-git-commit: 00bb5af3650dc661da5f007b2062ea2a496a3082
 workflow-type: tm+mt
 source-wordcount: '53'
 ht-degree: 98%
@@ -19,3 +19,4 @@ ht-degree: 98%
 Die Datei „metadata.md“ enthält Metadaten auf Repository-Ebene, die an die „TOC.md“-Dateien des Benutzerhandbuchs im Repository weitergegeben werden. Wenn Sie den Inhalt von „metadata.md“ für ein Benutzerhandbuch ändern möchten, können Sie dies in einer beliebigen „TOC.md“-Datei tun.
 
 Unter [Metadaten](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/editing/user-guide-setup/metadata.html?lang=de) finden Sie eine Liste mit gültigen Werte für **Lösung**, **Produkt** und **Typ**.
+
