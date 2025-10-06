@@ -4,9 +4,9 @@ description: Umfassende Anleitung zur Journey Agent Analyze-Kompetenz, mit der A
 solution: Journey Optimizer
 product: journey optimizer
 role: Admin,User,Developer,Leader
-source-git-commit: 4bb6da3fe1abee98446df62c94730274e0931493
+source-git-commit: 26b579471b591d3c436f4275d07303d297e0fbf8
 workflow-type: tm+mt
-source-wordcount: '986'
+source-wordcount: '979'
 ht-degree: 0%
 
 ---
@@ -18,17 +18,19 @@ ht-degree: 0%
 
 Journey Agent ermöglicht es Journey Optimizer-Anwendern, Journey mithilfe einer natürlichen Sprachschnittstelle zu analysieren und zu optimieren. Mit Journey Agent können Anwendende Zeitplankonflikte und/oder Zielgruppenkonflikte schnell identifizieren und lösen, Punkte der Benutzerkündigung in einer Journey erkennen und Einblicke oder Empfehlungen liefern. Es ermöglicht Anwendern, datengesteuerte Entscheidungen zu treffen, die Kundeninteraktion zu verbessern und die Journey-Orchestrierung zu optimieren.
 
+Erfahren Sie mehr und entdecken Sie den Agenten auf einen Blick in dieser [Übersicht](https://experienceleague.adobe.com/en/slides/journey-agent-overview).
+
 >[!AVAILABILITY]
 >
->Die Journey Agent steht allen Kunden zur Verfügung, die Zugriff auf den KI-Assistenten haben. Sie benötigen jedoch die folgenden Berechtigungen, um die Funktionen von Journey Agent vollständig nutzen zu können.
+>Die Journey Agent steht allen Kunden zur Verfügung, die Zugriff auf den KI-Assistenten haben. Sie benötigen jedoch die folgenden Berechtigungen, um die Funktionen von Journey Agent vollständig nutzen zu können:
 >
->**Journey anzeigen**: Mit dieser Berechtigung können Sie die Journey Agent verwenden, um Einblicke in die Journey direkt im KI-Assistenten anzuzeigen.
+>**Journey anzeigen**: Mit dieser Berechtigung können Sie Einblicke in die Journey direkt im KI-Assistenten anzeigen.
 >
->**Journey verwalten**: Mit der Berechtigung „Bis“ können Sie die Journey Agent verwenden, um neue Journey-Dateien direkt im KI-Assistenten zu erstellen.
+>**Journey verwalten**: Mit der Berechtigung „Bis“ können Sie neue Journeys direkt im KI-Assistenten erstellen.
 >
->**Segmente anzeigen**: Mit dieser Berechtigung können Sie die Journey Agent verwenden, um Einblicke in die Zielgruppen direkt im KI-Assistenten anzuzeigen.
+>**Segmente anzeigen**: Mit dieser Berechtigung können Sie Einblicke in die Zielgruppen direkt im KI-Assistenten anzeigen.
 >
->**Segmente verwalten**: Mit der Berechtigung „Bis“ können Sie die Journey Agent verwenden, um neue Zielgruppen direkt im KI-Assistenten zu erstellen.
+>**Segmente verwalten**: Mit der Berechtigung „Bis“ können Sie neue Zielgruppen direkt im KI-Assistenten erstellen.
 
 ![Beispiel für AJO Agent](./images/ajo-agent/ajo-agent-sample.png)
 
@@ -131,8 +133,8 @@ Verwenden Sie diese Eingabeaufforderungen, um potenzielle Konflikte zwischen Jou
 - „Identifizieren Sie Konflikttypen für Journey [Journey-Name] im Vergleich zu laufenden Journey.“
 - „Überschneidende Zielgruppen für das Journey von [Journey-Name] und anderen Journey anzeigen.“
 - „Zeitplanüberschneidungen zwischen Journey [Journey-Name] und Live-Journey hervorheben.“
-- „Steht die Ausführung von Journey [Journey]Name&rbrace; im Konflikt mit einer anderen Journey?“
-- „Bitte Konflikte für [Journey-Name&rbrace; erkennen und ].“
+- „Steht die Ausführung von Journey [Journey]Name} im Konflikt mit einer anderen Journey?“
+- „Bitte Konflikte für [Journey-Name} erkennen und ].“
 - „Melden Sie alle Konflikttypen für das Journey [Journey-Name].“
 - „Geben Sie mir eine Konfliktaufschlüsselung (Planung und Zielgruppe) für [Journey-Name].“
 - „Gibt es für [Journey-] Konflikte, die sich auf die Leistung auswirken können?“
