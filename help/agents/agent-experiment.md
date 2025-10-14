@@ -1,11 +1,9 @@
 ---
 title: Experimentiermittel
 description: Erfahren Sie, wie Sie den Experimentieragenten verwenden
-hide: true
-hidefromtoc: true
-source-git-commit: 352ba791195eca7f68e6d317e0f2449d6ededeb2
+source-git-commit: 0069a97bcb35f609019ec32f263175a36525161a
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '506'
 ht-degree: 2%
 
 ---
@@ -18,7 +16,7 @@ ht-degree: 2%
 >
 >**Experimente anzeigen**: Mit dieser Berechtigung können Sie den Experimentationsagenten verwenden, um Einblicke in das Experiment direkt im KI-Assistenten anzuzeigen.
 >
->**Experiment-Metada verwalten**: Mit der Berechtigung „Bis“ können Sie den Experimentationsagenten verwenden, um neue Experimente direkt im KI-Assistenten zu erstellen.
+>**Experiment-Metada verwalten**: Mit dieser Berechtigung können Sie den Experimentationsagenten verwenden, um neue Experimente direkt im KI-Assistenten zu erstellen.
 
 ## Überblick
 
