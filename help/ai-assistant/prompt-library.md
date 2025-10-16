@@ -4,7 +4,7 @@ description: Erfahren Sie mehr über die verschiedenen Arten von Eingabeaufforde
 source-git-commit: 4bb6da3fe1abee98446df62c94730274e0931493
 workflow-type: tm+mt
 source-wordcount: '811'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -67,19 +67,19 @@ Die folgenden Beispielaufforderungen können mit der Journey Agent verwendet wer
 - „Wann wurde {JOURNEY_NAME} angehalten?“
 - „Alle Journey auflisten, die sich derzeit im Testmodus befinden“
 
-### Journey-Ressourcenfragen
+### Fragen zu Journey-Ressourcen
 
 - „Wie viele lebende Journey habe ich?“
 - „Geben Sie mir eine Liste aller geplanten wiederkehrenden Journey und ihrer erwarteten Laufzeiten.“
 
-### Zielgruppen- und Journey-Erkenntnisse
+### Erkenntnisse zu Zielgruppen und Journeys
 
 - „Welche Zielgruppen werden in mehr als X Journey verwendet?“
 - „Listen Sie alle Journey auf, die die {AUDIENCE_NAME} Zielgruppe verwenden.“
 
-### Eingabeaufforderungen zur Konfliktanalyse
+### Prompts zur Konfliktanalyse
 
-Verwenden Sie diese Eingabeaufforderungen, um potenzielle Konflikte zwischen Journeys zu analysieren, einschließlich Zeitplanungs- und Zielgruppenüberschneidungen:
+Nutzen Sie diese Prompts, um mögliche Konflikte zwischen Journeys zu analysieren, einschließlich Überschneidungen bei der Zeitplanung und der Zielgruppe:
 
 +++Zur Listenansicht auswählen
 

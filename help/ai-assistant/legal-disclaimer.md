@@ -4,7 +4,7 @@ description: Erfahren Sie mehr über rechtliche Haftungsausschlüsse in Bezug au
 source-git-commit: 4bb6da3fe1abee98446df62c94730274e0931493
 workflow-type: tm+mt
 source-wordcount: '230'
-ht-degree: 0%
+ht-degree: 22%
 
 ---
 
@@ -14,7 +14,7 @@ Lesen Sie dieses Dokument, um Informationen zu rechtlichen Haftungsausschlüssen
 
 ## Personenbezogene Daten {#personal-data}
 
-Der KI-Assistent verwendet einen automatisierten Chatbot. Ihre Verwendung dieses automatisierten Chatbots stellt Ihr Einverständnis dar, dass die in der Chat-Sitzung bereitgestellten Informationen von Adobe und im Namen von Adobe handelnden Dienstleistern gemäß den Bedingungen der Vereinbarung zwischen Ihrem Unternehmen und Adobe erfasst, verwendet, offen gelegt und aufbewahrt werden.
+Der KI-Assistent verwendet einen automatisierten Chatbot. Wenn Sie diesen automatisierten Chatbot nutzen, stimmen Sie zu, dass die Informationen, die Sie in der Chat-Sitzung zur Verfügung stellen, von Adobe und von im Auftrag von Adobe handelnden Dienstleistern gemäß den Bestimmungen der Vereinbarung zwischen Ihrem Unternehmen und Adobe erfasst, verwendet, offengelegt und aufbewahrt werden dürfen.
 
 Wenn Sie hier personenbezogene Daten angeben müssen, fügen Sie nur hinzu, was notwendig ist und nur, wenn Sie das Recht haben, sie zu verwenden.
 

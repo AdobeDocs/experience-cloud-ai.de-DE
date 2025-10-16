@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Sie den Experimentieragenten verwenden
 source-git-commit: 0069a97bcb35f609019ec32f263175a36525161a
 workflow-type: tm+mt
 source-wordcount: '506'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -64,8 +64,8 @@ Seine Funktionen lassen sich in fünf Hauptfunktionen unterteilen:
 
 Die folgenden Funktionen werden derzeit unterstützt:
 
-* Leistung
-* Erkenntnisse
+* Performance
+* Insights
 * Opportunities
 
 ### **Nicht unterstützte Funktionen**

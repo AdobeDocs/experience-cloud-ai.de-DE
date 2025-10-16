@@ -8,7 +8,7 @@ role: Admin,User,Developer,Leader
 source-git-commit: 352ba791195eca7f68e6d317e0f2449d6ededeb2
 workflow-type: tm+mt
 source-wordcount: '74'
-ht-degree: 64%
+ht-degree: 68%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 64%
 - KI-Assistent {#ai-assistant}
    - [Handbuch zur Benutzeroberfläche des KI-Assistenten](./ai-assistant/ai-assistant-ui.md)
    - [Bibliothek der Eingabeaufforderung](./ai-assistant/prompt-library.md)
-   - [DATENSCHUTZ](./ai-assistant/privacy.md)
+   - [Datenschutz](./ai-assistant/privacy.md)
    - [Haftungsausschluss](./ai-assistant/legal-disclaimer.md)
 - Agenten {#agents}
    - [Agent Orchestrator](./agents/agent-orchestrator.md)

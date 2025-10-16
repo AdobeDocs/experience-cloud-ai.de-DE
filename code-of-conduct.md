@@ -9,42 +9,43 @@ ht-degree: 100%
 
 ## Unser Versprechen
 
-Im Sinne einer offenen und freundlichen Umgebung möchten wir als Betreiber und Beitragende, dass die Teilnahme an unserem Projekt und unserer Community frei von Belästigung für alle ist, unabhängig von Alter, Körpergröße, Behinderung, ethnischer Zugehörigkeit, Geschlechtsidentität und -ausdruck, Erfahrung, Nationalität, persönlichem Erscheinungsbild, Rasse, Religion oder sexueller Identität und Orientierung.
+Um eine offene und freundliche Umgebung zu fördern, verpflichten wir uns als Beitragende und Verantwortliche, dafür zu sorgen, dass die Teilnahme an unserem Projekt und in unserer Community für alle frei von Belästigung bleibt, unabhängig von Alter, Körpergröße und Statur, Behinderung, Ethnie, geschlechtlicher Identität und Ausdruck der Geschlechtlichkeit, Erfahrungsniveau, Nationalität, persönlichem Auftreten, Rasse, Religion oder sexueller Identität und Orientierung.
 
 ## Unsere Standards
 
-Beispiele für Verhaltensweisen, die zur Schaffung einer positiven Atmosphäre beitragen:
+Beispiele für Verhaltensweisen, die zu einer freundlichen Umgebung betragen:
 
-* Freundliche und inklusive Ausdrucksweise
-* Respektvoll gegenüber unterschiedlichen Ansichten und Erfahrungen
-* Dankbare Annahme konstruktiver Kritik
-* Fokus auf das, was für die Community am besten ist
-* Emphatisches Verhalten gegenüber anderen Community-Mitgliedern
+* Freundliche und inklusive Sprache
+* Respektvoller Umgang mit anderen Sichtweisen und Erfahrungen
+* Würdevolle Akzeptanz konstruktiver Kritik
+* Konzentration auf den Vorteil der Community
+* Empathie gegenüber anderen Community-Mitgliedern
 
-Beispiele für inakzeptables Verhalten von Teilnehmern:
+Beispiele für inakzeptables Verhalten:
 
-* Die Verwendung sexualisierter Sprache oder Bilder und unerwünschte sexuelle Aufmerksamkeit oder Annäherungsversuche
-* Trollen, beleidigende/herabwürdigende Äußerungen und persönliche oder politische Angriffe
+* Verwenden sexualisierter Sprache oder Symbolik sowie unerwünschte sexuelle Annäherung oder Avancen
+* Veräppeln, Anbringen beleidigender/abfälliger Kommentare sowie persönliche oder politische Angriffe
 * Öffentliche oder private Belästigung
-* Veröffentlichen von privaten Informationen anderer Personen, z. B. einer physischen oder elektronischen Adresse, ohne deren ausdrückliche Genehmigung
-* Sonstige Handlungen, die in einem professionellen Umfeld als unangemessen angesehen werden könnten
+* Veröffentlichung von privaten Informationen anderer Personen (z. B. physische oder elektronische Adresse) ohne deren ausdrückliche Zustimmung
+* Andere Verhaltensweisen, die in einer professionellen Umgebung als unangemessen betrachtet werden können
 
-## Unsere Verantwortung
+## Unsere Zuständigkeiten
 
-Die Projektbetreuer sind für die Erläuterung der Standards akzeptablen Verhaltens verantwortlich. Von ihnen wird erwartet, angemessene und faire Korrekturmaßnahmen zu ergreifen, wenn inakzeptable Handlungen vorliegen.
+Projektverantwortliche sind dafür verantwortlich, die Standards für akzeptables Verhalten zu verdeutlichen. Es wird erwartet, dass sie als Reaktion auf alle Vorfälle von unangemessenem Verhalten geeignete und faire Korrekturmaßnahmen ergreifen.
 
-Die Projektbetreuer haben das Recht und die Verantwortung, Kommentare, Zusagen, Code, Wiki-Bearbeitungen, Probleme und andere Beiträge, die nicht mit diesem Verhaltenskodex im Einklang stehen, zu entfernen, zu bearbeiten oder abzulehnen. Ferner haben die Projektbetreuer das Recht, Beitragende vorübergehend oder dauerhaft wegen etwaiger anderer Verhaltensweisen zu sperren, die sie für unangemessen, bedrohlich, beleidigend oder schädlich erachten.
+Projektverantwortliche haben das Recht und die Aufgabe, Kommentare, Commits, Code, Wiki-Änderungen, Fehlermeldungen und andere Beiträge zu entfernen, zu bearbeiten oder abzulehnen, die dem Verhaltenscode widersprechen, oder Beitragende temporär oder dauerhaft zu sperren, wenn deren Verhaltensweisen als unangemessen, bedrohlich, beleidigend oder schädlich eingestuft werden.
 
-## Geltungsbereich
+## Anwendungsbereich
 
-Dieser Verhaltenskodex gilt sowohl innerhalb der Projekträume als auch in öffentlichen Bereichen, in denen eine Person das Projekt oder dessen Community repräsentiert. Beispiele für die Präsentation eines Projekts oder einer Community sind die Verwendung einer offiziellen Projekt-E-Mail-Adresse, das Posten über ein offizielles Social-Media-Konto oder die Funktion als bestellter Vertreter bei einer Online- oder Offline-Veranstaltung. Die Repräsentation eines Projekts kann von den Projektbetreuern weiter definiert und erläutert werden.
+Dieser Verhaltenskodex findet innerhalb von Projektbereichen und in öffentlichen Bereichen Anwendung, wenn Einzelpersonen das Projekt oder die Community repräsentieren. Beispiele für die Repräsentation eines Projekts oder der Community sind die Verwendung einer offiziellen Projekt-E-Mail-Adresse, die Veröffentlichung über ein offizielles Social-Media-Konto oder das Handeln als ernannter Vertreter bei einer Online- oder Offline-Veranstaltung. Die Repräsentation eines Projekts kann durch die Projektverantwortlichen genauer definiert und erläutert werden.
 
 ## Durchsetzung
 
-Fälle von Missbrauch, Belästigung oder anderweitig inakzeptablem Verhalten können dem Projektteam unter Grp-opensourceoffice@adobe.com gemeldet werden. Alle Beschwerden werden gelesen, geprüft und beantwortet. Die Art der Antwort richtet sich nach dem, was als notwendig und den Umständen angemessen erachtet wird. Das Projektteam ist verpflichtet, die Vertraulichkeit gegenüber dem Berichterstatter eines Vorfalls zu wahren. Weitere Einzelheiten zu spezifischen Durchsetzungsmaßnahmen können auch gesondert angegeben werden.
+Beleidigendes, belästigendes oder anderweitig unakzeptables Verhalten kann an das Projektteam unter Grp-opensourceoffice@adobe.com gemeldet werden. Alle Beschwerden werden geprüft und untersucht und werden entsprechend den jeweiligen Umständen angemessen beantwortet. Das Projektteam ist verpflichtet, die Identität der Person, die ein Vorkommnis meldet, vertraulich zu behandeln.
+Weitere Details zu spezifischen Durchsetzungsrichtlinien können separat veröffentlicht werden.
 
-Projektbetreuer, die den Verhaltenskodex nicht in gutem Glauben befolgen oder umsetzen, haben mit vorübergehenden oder dauerhaften Konsequenzen zu rechnen, die von anderen Mitgliedern der Projektleitung bestimmt werden.
+Gegen Projektverantwortliche, die den Verhaltenskodex nicht nach Treu und Glauben befolgen oder durchsetzen, können vorübergehende oder dauerhafte Sanktionen verhängt werden, die von anderen Mitgliedern der Projektleitung festgelegt werden.
 
-## Quelle
+## Attribution
 
-Dieser Verhaltenskodex ist eine abgeänderte Version des [Contributor Covenant](https://contributor-covenant.org), Version 1.4, der unter [https://www.contributor-covenant.org/de/version/1/4/code-of-conduct.html](https://www.contributor-covenant.org/de/version/1/4/code-of-conduct.html) abrufbar ist.
+Dieser Verhaltenskodex wurde basierend auf dem [Contributor Covenant](https://contributor-covenant.org), Version 1.4, aufgestellt, siehe [https://www.contributor-covenant.org/de/version/1/4/code-of-conduct](https://www.contributor-covenant.org/de/version/1/4/code-of-conduct/)

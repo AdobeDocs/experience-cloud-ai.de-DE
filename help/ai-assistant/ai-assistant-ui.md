@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Sie in der Benutzeroberfläche auf den KI-Assiste
 source-git-commit: 4bb6da3fe1abee98446df62c94730274e0931493
 workflow-type: tm+mt
 source-wordcount: '1843'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -16,13 +16,13 @@ Lesen Sie dieses Handbuch, um zu erfahren, wie Sie den KI-Assistenten verwenden 
 
 ![Die Benutzeroberfläche des KI-Assistenten im Vollbildmodus.](./images/ai-assistant/blank-home.png)
 
-## Zugriff auf KI-Assistenten
+## Zugriff auf den KI-Assistenten
 
 Es gibt mehrere Möglichkeiten, auf den KI-Assistenten zuzugreifen.
 
 Wählen Sie auf der Experience Cloud-Startseite **[!UICONTROL KI-Assistent]** aus der linken Navigationsleiste, um die Vollbildansicht des KI-Assistenten zu öffnen.
 
-+++Zur Ansicht auswählen
++++Zum Anzeigen auswählen
 
 ![Die Experience Cloud-Startseite mit dem ausgewählten Symbol für den KI-Assistenten im linken Navigationsbereich.](./images/ai-assistant/from-experience-cloud.png)
 
@@ -30,7 +30,7 @@ Wählen Sie auf der Experience Cloud-Startseite **[!UICONTROL KI-Assistent]** au
 
 Sie können den KI-Assistenten auch über die Startseiten von Experience Cloud-Programmen wie Experience Platform, Adobe Journey Optimizer und Customer Journey Analytics starten. Navigieren Sie zu Ihrer Produkt-Startseite und wählen Sie dann in der oberen **das Symbol** KI-Assistent“ aus, um das Chat-Bedienfeld des KI-Assistenten in der rechten Leiste zu starten.
 
-+++Zur Ansicht auswählen
++++Zum Anzeigen auswählen
 
 ![Die Produkt-Startseite mit dem im linken Navigationsbereich ausgewählten Symbol „KI-Assistent“.](./images/ai-assistant/from-product.png)
 
@@ -136,11 +136,11 @@ Um Feedback zu geben, wählen Sie entweder Daumen hoch oder Daumen runter aus, n
 
 Wählen Sie **[!UICONTROL Daumen hoch]**, um positives Feedback zu geben. Sie können optional aus einer Liste mit positivem Feedback auswählen oder das Eingabefeld verwenden, um Ihr eigenes spezifisches Feedback einzugeben.
 
-+++Zur Ansicht auswählen
++++Zum Anzeigen auswählen
 
 ![Das Feedback-Fenster mit dem Daumen nach oben.](./images/ai-assistant/inputs/thumbs-up.png)
 
-Sie können auch **[!UICONTROL Detailliertes Feedback]** auswählen, um Ihr Feedback weiter auszuarbeiten. Wenn Sie fertig sind, wählen Sie **[!UICONTROL Senden]** aus.
+Sie können auch **[!UICONTROL Detailliertes Feedback]** auswählen, um Ihr Feedback weiter auszuarbeiten. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Absenden]**..
 
 ![Das detaillierte Feedback-Fenster für Daumen hoch.](./images/ai-assistant/inputs/thumbs-up-detailed.png)
 
@@ -150,11 +150,11 @@ Sie können auch **[!UICONTROL Detailliertes Feedback]** auswählen, um Ihr Feed
 
 Wählen Sie **[!UICONTROL Daumen runter]** um konstruktives Feedback zu geben. Sie können optional aus einer Liste mit konstruktivem Feedback auswählen oder das Eingabefeld verwenden, um Ihr eigenes spezifisches Feedback einzugeben.
 
-+++Zur Ansicht auswählen
++++Zum Anzeigen auswählen
 
 ![Das Feedback-Fenster mit den Daumen nach unten.](./images/ai-assistant/inputs/thumbs-down.png)
 
-Ebenso können Sie auch **[!UICONTROL Detailliertes Feedback]** auswählen, um Ihr Feedback weiter auszuarbeiten. Wenn Sie fertig sind, wählen Sie **[!UICONTROL Senden]** aus.
+Ebenso können Sie auch **[!UICONTROL Detailliertes Feedback]** auswählen, um Ihr Feedback weiter auszuarbeiten. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Absenden]**..
 
 ![Das detaillierte Feedback-Fenster für die Daumen nach unten.](./images/ai-assistant/inputs/thumbs-down-detailed.png)
 
@@ -226,7 +226,7 @@ Der KI-Assistent unterstützt verschiedene Diagrammtypen für die Datenvisualisi
 
 >[!BEGINTABS]
 
->[!TAB line]
+>[!TAB Line]
 
 Um ein Liniendiagramm anzuzeigen, wählen Sie **[!UICONTROL Eigenschaften]** und anschließend **[!UICONTROL Linie]** aus.
 
