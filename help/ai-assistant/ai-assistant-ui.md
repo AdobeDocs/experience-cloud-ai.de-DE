@@ -1,7 +1,7 @@
 ---
 title: Handbuch zur Benutzeroberfläche des KI-Assistenten
 description: Erfahren Sie, wie Sie in der Benutzeroberfläche auf den KI-Assistenten zugreifen und ihn verwenden können.
-source-git-commit: 4bb6da3fe1abee98446df62c94730274e0931493
+source-git-commit: a19c891d1a17c9112aff3d9a52daa94ad162a553
 workflow-type: tm+mt
 source-wordcount: '1843'
 ht-degree: 2%
@@ -15,6 +15,8 @@ AI Assistant ist ein interaktives, generatives KI-Tool, das die Produktivität s
 Lesen Sie dieses Handbuch, um zu erfahren, wie Sie den KI-Assistenten verwenden können.
 
 ![Die Benutzeroberfläche des KI-Assistenten im Vollbildmodus.](./images/ai-assistant/blank-home.png)
+
+>[!SLIDE](agent-orchestrator-ui)
 
 ## Zugriff auf den KI-Assistenten
 
