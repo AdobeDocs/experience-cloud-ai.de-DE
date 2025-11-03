@@ -55,7 +55,7 @@ Die folgenden Parameter regeln den Zugriff auf Data Insights Agent in Customer J
   Um Berechtigungen zu erteilen, muss [Produktprofil-Administrator](https://helpx.adobe.com/de/enterprise/using/manage-product-profiles.html) in der [!UICONTROL Admin Console die folgenden Schritte ausführen]:
    1. Wählen Sie in **[!UICONTROL Admin Console]** die Registerkarte **[!UICONTROL Produkte]** aus, um die Seite **[!UICONTROL Alle Produkte und Services]** anzuzeigen.
    1. **[!UICONTROL Customer Journey Analytics]**.
-   1. Wählen Sie auf **[!UICONTROL Registerkarte]** den Titel des Produktprofils aus, für das Sie Zugriff auf den [!UICONTROL KI-Assistenten: Produktkenntnisse“ ] möchten.
+   1. Wählen Sie auf **[!UICONTROL Registerkarte]** den Titel des Produktprofils aus, für das Sie Zugriff auf den [!UICONTROL KI-Assistenten: Produktkenntnisse“ &#x200B;] möchten.
    1. Wählen Sie im jeweiligen Produktprofil die Registerkarte **[!UICONTROL Berechtigungen]** aus.
 
       ![Registerkarte „Berechtigungen“ in Admin Console](images/cja-agent/ai-assistant-permissions-tab.png)
@@ -172,7 +172,7 @@ Adobe Experience Platform Agent Orchestrator ermöglicht den Zugriff auf die Fun
 
 Agent Orchestrator interpretiert Ihre Anfrage, bestimmt, welche spezialisierten Agenten benötigt werden, und orchestriert sie, um die richtige Antwort zu liefern. Es verfolgt den Kontext über Multi-Turn-Interaktionen hinweg, sodass Sie auf natürliche Weise auf früheren Abfragen aufbauen können.
 
-Weitere Informationen finden Sie unter [Adobe Experience Platform Agent Orchestrator ](/help/agents/agent-orchestrator.md).
+Weitere Informationen finden Sie unter [Adobe Experience Platform Agent Orchestrator &#x200B;](/help/agents/agent-orchestrator.md).
 
 ## Eingabeaufforderungen zur Beispieldatenvisualisierung
 
