@@ -3,7 +3,7 @@ description: Erfahren Sie, wie Sie Daten mit der Data Insights Agent in Customer
 title: Visualisieren von Daten mit der Data Insights Agent in Customer Journey Analytics
 role: User, Admin
 solution: Customer Journey Analytics
-source-git-commit: c29bac7450d29eda617dd712d7d5f55a0a2ca481
+source-git-commit: 0e366e182cfccf2c081f6e5689c02b650148a7b9
 workflow-type: tm+mt
 source-wordcount: '2497'
 ht-degree: 5%
@@ -16,7 +16,7 @@ ht-degree: 5%
 >
 >Data Insights Agent steht berechtigten Kunden für eine begrenzte Zeit zur Verfügung. Der Zugriff auf Data Insights Agent endet am 28. Februar 2026. Um Data Insights Agent ohne Unterbrechung weiter zu verwenden, wenden Sie sich an Ihren Adobe-Kundenbetreuer, um mehr über die Lizenzierung von Data Insights Agent zu erfahren.
 
-Data Insights Agent, auf das über den [KI-Assistenten](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant) in Customer Journey Analytics zugegriffen werden kann, ist ein generativer KI-Konversationsagent, der Fragen zu Ihren Daten schnell und effizient beantwortet. Er erstellt relevante Visualisierungen in Analysis Workspace mithilfe von Komponenten aus Ihrer Datenansicht und unter Verwendung Ihrer tatsächlichen Daten.
+Data Insights Agent, auf das über den [KI-Assistenten](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant) in Customer Journey Analytics zugegriffen werden kann, ist ein generativer KI-Konversationsagent, der Fragen zu Ihren Daten schnell und effizient beantwortet. Er erstellt relevante Visualisierungen in Analysis Workspace mithilfe von Komponenten aus Ihrer Datenansicht und unter Verwendung Ihrer tatsächlichen Daten.
 
 Die Verwendung von Data Insights Agent zur Beantwortung datenorientierter Fragen in Analysis Workspace kann unzählige Stunden einsparen, die Sie andernfalls möglicherweise damit verbringen würden, Visualisierungen in Analysis Workspace manuell zu erstellen und sich mit Ihren Datenansichtskomponenten vertraut zu machen.
 
@@ -53,9 +53,10 @@ Die folgenden Parameter regeln den Zugriff auf Data Insights Agent in Customer J
 * **Berechtigungen**: Die erforderlichen Berechtigungen müssen in der [!UICONTROL Adobe Admin Console gewährt werden] bevor Benutzerinnen und Benutzer auf Data Insights Agent zugreifen können.
 
   Um Berechtigungen zu erteilen, muss [Produktprofil-Administrator](https://helpx.adobe.com/de/enterprise/using/manage-product-profiles.html) in der [!UICONTROL Admin Console die folgenden Schritte ausführen]:
+
    1. Wählen Sie in **[!UICONTROL Admin Console]** die Registerkarte **[!UICONTROL Produkte]** aus, um die Seite **[!UICONTROL Alle Produkte und Services]** anzuzeigen.
    1. **[!UICONTROL Customer Journey Analytics]**.
-   1. Wählen Sie auf **[!UICONTROL Registerkarte]** den Titel des Produktprofils aus, für das Sie Zugriff auf den [!UICONTROL KI-Assistenten: Produktkenntnisse“ &#x200B;] möchten.
+   1. Wählen Sie auf **[!UICONTROL Registerkarte]** den Titel des Produktprofils aus, für das Sie Zugriff auf den [!UICONTROL KI-Assistenten: Produktkenntnisse“ ] möchten.
    1. Wählen Sie im jeweiligen Produktprofil die Registerkarte **[!UICONTROL Berechtigungen]** aus.
 
       ![Registerkarte „Berechtigungen“ in Admin Console](images/cja-agent/ai-assistant-permissions-tab.png)
@@ -70,7 +71,7 @@ Die folgenden Parameter regeln den Zugriff auf Data Insights Agent in Customer J
 
    1. Wählen **[!UICONTROL Speichern]**, um die Berechtigungen zu speichern.
 
-  Weitere Informationen zur Zugriffssteuerung finden Sie unter [Zugriffssteuerung](https://experienceleague.adobe.com/de/docs/analytics-platform/using/technotes/access-control#access-control).
+  Weitere Informationen zur Zugriffssteuerung finden Sie unter [Zugriffssteuerung](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/access-control#access-control).
 
 * **Zugriff auf Datenansicht**: Datenansichten müssen für Data Insights Agent aktiviert sein.
 
@@ -83,7 +84,6 @@ Die folgenden Parameter regeln den Zugriff auf Data Insights Agent in Customer J
   So aktivieren Sie Datenansichten für Data Insights Agent:
 
    1. Wählen Sie in Customer Journey Analytics **[!UICONTROL Daten-Management]** > **[!UICONTROL Datenansichten]**.
-
    1. Wählen Sie eine oder mehrere Datenansichten aus, die Sie für Data Insights Agent aktivieren möchten, und wählen Sie dann **[!UICONTROL Für Data Insights Agent aktivieren]**.
 
       ![Aktivieren von Datenansichten für Data Insights Agent](images/cja-agent/data-view-enable-dia.png)
@@ -91,7 +91,6 @@ Die folgenden Parameter regeln den Zugriff auf Data Insights Agent in Customer J
   So zeigen Sie die Anzahl der Datenansichten an, die für Data Insights Agent in Ihrer IMS-Organisation aktiviert sind:
 
    1. Wählen Sie in Customer Journey Analytics **[!UICONTROL Daten-Management]** > **[!UICONTROL Datenansichten]**.
-
    1. Wählen Sie das Informationssymbol oben in der Spalte **[!UICONTROL Data Insights Agent]** aus.
 
       ![Infosymbol zu Data Insights Agent](images/cja-agent/data-insights-agent-tooltip.png)
@@ -99,26 +98,21 @@ Die folgenden Parameter regeln den Zugriff auf Data Insights Agent in Customer J
 ## Zugriff auf Data Insights Agent im KI-Assistenten
 
 1. Gehen Sie zu [experience.adobe.com](https://experience.adobe.com/) und melden Sie sich mit Ihrer Adobe ID an.
-
-2. Wählen Sie **Customer Journey Analytics** auf der Experience Cloud-Startseite aus.
-
-3. Wählen Sie **[!UICONTROL Leeres Projekt]** im Banner oben auf der Projektseite aus, um ein neues leeres Projekt zu öffnen.
-
-4. Stellen Sie sicher, dass es sich bei der für das Bedienfeld ausgewählten Datenansicht um eine Datenansicht handelt, die für die Verwendung mit Data Insights Agent aktiviert wurde, wie unter [Verwalten des Zugriffs auf Data Insights Agent in Customer Journey Analytics](#manage-access-to-data-insights-agent-in-customer-journey-analytics) beschrieben.
-
-5. Wählen Sie oben rechts auf der Seite das Chat-Symbol für den KI-Assistenten aus.
+1. Wählen Sie **Customer Journey Analytics** auf der Experience Cloud-Startseite aus.
+1. Wählen Sie **[!UICONTROL Leeres Projekt]** im Banner oben auf der Projektseite aus, um ein neues leeres Projekt zu öffnen.
+1. Stellen Sie sicher, dass es sich bei der für das Bedienfeld ausgewählten Datenansicht um eine Datenansicht handelt, die für die Verwendung mit Data Insights Agent aktiviert wurde, wie unter [Verwalten des Zugriffs auf Data Insights Agent in Customer Journey Analytics](#manage-access-to-data-insights-agent-in-customer-journey-analytics) beschrieben.
+1. Wählen Sie oben rechts auf der Seite das Chat-Symbol für den KI-Assistenten aus.
 
    Wenn das Chat-Symbol nicht angezeigt wird, wenden Sie sich an Ihren Administrator, damit er die folgenden Funktionen in der Admin Console aktivieren kann:
 
    * Reporting-Tools: **[!UICONTROL KI-Assistent: Produktkenntnisse]**
-
    * Datenansichts-Tools: **[!UICONTROL Data Insights Agent]**
 
    Weitere Informationen finden Sie unter [Zugriff auf Data Insights Agent in Customer Journey Analytics verwalten](#manage-access-to-data-insights-agent-in-customer-journey-analytics).
 
    ![KI-Assistenten-Symbol](images/cja-agent/ai-asst-icon.png)
 
-6. Stellen Sie im **[!UICONTROL Fragen zu Customer Journey Analytics]** unten auf der Seite eine Frage zur Datenvisualisierung mit Data Insights Agent.
+1. Stellen Sie im **[!UICONTROL Fragen zu Customer Journey Analytics]** unten auf der Seite eine Frage zur Datenvisualisierung mit Data Insights Agent.
 
    Weitere Informationen finden Sie in den folgenden Beispielen.
 
@@ -172,7 +166,7 @@ Adobe Experience Platform Agent Orchestrator ermöglicht den Zugriff auf die Fun
 
 Agent Orchestrator interpretiert Ihre Anfrage, bestimmt, welche spezialisierten Agenten benötigt werden, und orchestriert sie, um die richtige Antwort zu liefern. Es verfolgt den Kontext über Multi-Turn-Interaktionen hinweg, sodass Sie auf natürliche Weise auf früheren Abfragen aufbauen können.
 
-Weitere Informationen finden Sie unter [Adobe Experience Platform Agent Orchestrator &#x200B;](/help/agents/agent-orchestrator.md).
+Weitere Informationen finden Sie unter [Adobe Experience Platform Agent Orchestrator ](/help/agents/agent-orchestrator.md).
 
 ## Eingabeaufforderungen zur Beispieldatenvisualisierung
 
@@ -191,7 +185,6 @@ Im Folgenden finden Sie einige Beispiele für häufige Eingabeaufforderungen und
 | Was waren meine Top 10 SKUs nach Gewinn in [Monat]? | Balken |
 | Anteil der Käufe nach Monat des Jahres | Ringdiagramm |
 | Gesamtgewinn in [Monat] | Zusammenfassungszahl<p>Wenn Sie über einen bestimmten Zeitraum nach der „Gesamtsumme“ einer Metrik fragen, sollte eine Visualisierung der Zusammenfassungszahl zurückgegeben werden. |
-
 
 ## Best Practices bei der Eingabeaufforderung
 
@@ -261,8 +254,7 @@ Im Folgenden finden Sie Best Practices für Ihre Customer Journey Analytics-Konf
 
 >[!MORELIKETHIS]
 >
->[Komponenteneinstellungen](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-dataviews/component-settings/overview)
->[Datenwörterbuch](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-components/data-dictionary/data-dictionary-overview)
->[Berechnete Metrik genehmigen](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-approving)
->[Segmente freigeben](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-components/segments/seg-share)
->
+>[Komponenteneinstellungen](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/overview)
+>[Datenwörterbuch](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/data-dictionary/data-dictionary-overview)
+>[Berechnete Metrik genehmigen](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-approving)
+>[Segmente freigeben](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/segments/seg-share)
