@@ -1,9 +1,9 @@
 ---
 title: Adobe Experience Platform Agent Orchestrator
 description: Erfahren Sie mehr über Adobe Experience Platform Agent Orchestrator.
-source-git-commit: a19c891d1a17c9112aff3d9a52daa94ad162a553
+source-git-commit: 8c05562121071874002afd6d248f16186616da55
 workflow-type: tm+mt
-source-wordcount: '945'
+source-wordcount: '944'
 ht-degree: 7%
 
 ---
@@ -26,7 +26,7 @@ Agent Orchestrator besteht aus mehreren Schlüsselkomponenten, darunter die KI-A
 
 ### Konversationsschnittstelle des KI-Assistenten {#ai-assistant}
 
-KI-Assistent ist ein intelligentes, in natürlicher Sprache geführtes Gesprächserlebnis, das es Anwendern von Experience Cloud-fähigen Programmen ermöglicht, GenAI- und AgentAI-Funktionen zu nutzen, deren Umfang von den von Kunden lizenzierten Experience Cloud-Programmen abhängt. Um den Zugriff zu entsperren, lesen Sie [Handbuch zum Zugriff auf den KI-Assistenten](https://experienceleague.adobe.com/de/docs/experience-platform/ai-assistant/access).
+KI-Assistent ist ein intelligentes, in natürlicher Sprache geführtes Gesprächserlebnis, das es Anwendern von Experience Cloud-fähigen Programmen ermöglicht, GenAI- und AgentAI-Funktionen zu nutzen, deren Umfang von den von Kunden lizenzierten Experience Cloud-Programmen abhängt. Um den Zugriff zu entsperren, lesen Sie [Handbuch zum Zugriff auf den KI-Assistenten](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/access).
 
 Weitere Informationen finden Sie im [Handbuch zur Benutzeroberfläche des KI-Assistenten](../ai-assistant/ai-assistant-ui.md).
 
@@ -41,10 +41,10 @@ Adobe Experience Platform-Agenten sind eine speziell entwickelte Gruppierung von
 | Agent | Details | Unterstützte Anwendungen |
 | --- | --- | --- |
 | [Audience Agent](audience.md) | Mit Audience Agent können Sie Einblicke zu Zielgruppen erhalten, einschließlich der Erkennung signifikanter Änderungen der Zielgruppengröße, der Erkennung doppelter Zielgruppen, der Untersuchung Ihres Zielgruppeninventars und des Abrufs der Zielgruppengröße. | <ul><li>Real-Time CDP</li><li>Adobe Journey Optimizer</li></ul> |
-| [Data Insights Agent](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-overview/cja-b2c-overview/data-analysis-ai) | Data Insights Agent, auf das über den KI-Assistenten in Customer Journey Analytics zugegriffen werden kann, ist ein generativer KI-Konversationsagent, der Fragen zu Ihren Daten schnell und effizient beantwortet. Er erstellt relevante Visualisierungen in Analysis Workspace mithilfe von Komponenten aus Ihrer Datenansicht und unter Verwendung Ihrer tatsächlichen Daten. | Customer Journey Analytics |
+| [Data Insights Agent](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/data-analysis-ai) | Data Insights Agent, auf das über den KI-Assistenten in Customer Journey Analytics zugegriffen werden kann, ist ein generativer KI-Konversationsagent, der Fragen zu Ihren Daten schnell und effizient beantwortet. Er erstellt relevante Visualisierungen in Analysis Workspace mithilfe von Komponenten aus Ihrer Datenansicht und unter Verwendung Ihrer tatsächlichen Daten. | Customer Journey Analytics |
 | [Experimentationsagent](./agent-experiment.md) | Experimentationsagent hilft Teams, schneller zu lernen, indem sie Experimentergebnisse analysieren, Auswirkungen vorhersagen und neue Experimente vorschlagen. Es zentralisiert frühere und aktive Experimente, sodass Sie auf dem aufbauen können, was Sie bereits gelernt haben, Lücken erkennen und Prioritäten setzen können, was als Nächstes getestet werden soll. | Adobe Journey Optimizer Experimentation Accelerator |
 | [Journey Agent](./ajo-agent-analyze.md) | Mit Journey Agent können Adobe Journey Optimizer-Benutzer Journey-Dateien über eine natürliche Sprachschnittstelle erstellen, analysieren und optimieren. Mit Journey Agent können Sie schnell Journey erstellen, Zeitplan- oder Zielgruppenkonflikte erkennen und lösen, Leistungs- und Abfallpunkte analysieren und leistungsstarke Journey ermitteln, die für zukünftige Kampagnen repliziert werden können. Dies hilft Ihnen bei datengesteuerten Entscheidungen, verbessert die Kundeninteraktion und optimiert die Journey-Orchestrierung. | Adobe Journey Optimizer |
-| [Produktsupport-Agent](https://experienceleague.adobe.com/de/docs/experience-platform/ai-assistant/new-features/customer-support) | Der Produktsupport-Agent ist eine Selbstbedienungs-Debugging- und Fehlerbehebungsfunktion, mit der Sie Fehler in Adobe Experience Platform-Funktionen und -Anwendungen beheben können, ohne Ihre Workflows verlassen zu müssen. Support-Administratoren können Support-Tickets mit Kontext aus Ihren KI-Assistenten-Interaktionen erstellen und Sie können Ticket-Aktualisierungen über den KI-Assistenten überprüfen. | <ul><li>Adobe Experience Platform</li><li>Real-Time CDP</li><li>Adobe Journey Optimizer</li><li>Adobe Journey Optimizer B2B edition</li><li>Customer Journey Analytics</li><li>Adobe Experience Manager</li></ul> |
+| [Produktsupport-Agent](product-support.md) | Der Produktsupport-Agent ist eine Selbstbedienungs-Debugging- und Fehlerbehebungsfunktion, mit der Sie Fehler in Adobe Experience Platform-Funktionen und -Anwendungen beheben können, ohne Ihre Workflows verlassen zu müssen. Support-Administratoren können Support-Tickets mit Kontext aus Ihren KI-Assistenten-Interaktionen erstellen und Sie können Ticket-Aktualisierungen über den KI-Assistenten überprüfen. | <ul><li>Adobe Experience Platform</li><li>Real-Time CDP</li><li>Adobe Journey Optimizer</li><li>Adobe Journey Optimizer B2B edition</li><li>Customer Journey Analytics</li><li>Adobe Experience Manager</li></ul> |
 
 Weitere Informationen zur Verfügbarkeit von Agenten in Experience Cloud-Programmen finden Sie in der Dokumentation [Agent-KI in Experience Cloud](https://experienceleague.adobe.com/de/docs/core-services/interface/features/agentic-ai).
 
