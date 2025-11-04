@@ -3,9 +3,9 @@ description: Erfahren Sie, wie Sie Daten mit der Data Insights Agent in Customer
 title: Visualisieren von Daten mit der Data Insights Agent in Customer Journey Analytics
 role: User, Admin
 solution: Customer Journey Analytics
-source-git-commit: 0e366e182cfccf2c081f6e5689c02b650148a7b9
+source-git-commit: 04a73ac0f705cd3a2184fb2f8599aff85b7bb5e5
 workflow-type: tm+mt
-source-wordcount: '2497'
+source-wordcount: '2499'
 ht-degree: 5%
 
 ---
@@ -14,9 +14,9 @@ ht-degree: 5%
 
 >[!AVAILABILITY]
 >
->Data Insights Agent steht berechtigten Kunden für eine begrenzte Zeit zur Verfügung. Der Zugriff auf Data Insights Agent endet am 28. Februar 2026. Um Data Insights Agent ohne Unterbrechung weiter zu verwenden, wenden Sie sich an Ihren Adobe-Kundenbetreuer, um mehr über die Lizenzierung von Data Insights Agent zu erfahren.
+>Data Insights Agent steht berechtigten Kunden für eine begrenzte Zeit zur Verfügung. Der Zugriff auf Data Insights Agent ist bis zum 28. Februar 2026 verfügbar. Wenn Sie Data Insights Agent ohne Unterbrechung weiter verwenden möchten, wenden Sie sich an Ihren Adobe-Kundenbetreuer, um mehr über Lizenzierung und Adobe Experience Platform Agent Orchestrator zu erfahren.
 
-Data Insights Agent, auf das über den [KI-Assistenten](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant) in Customer Journey Analytics zugegriffen werden kann, ist ein generativer KI-Konversationsagent, der Fragen zu Ihren Daten schnell und effizient beantwortet. Er erstellt relevante Visualisierungen in Analysis Workspace mithilfe von Komponenten aus Ihrer Datenansicht und unter Verwendung Ihrer tatsächlichen Daten.
+Data Insights Agent, auf das über den [KI-Assistenten](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant) in Customer Journey Analytics zugegriffen werden kann, ist ein generativer KI-Konversationsagent, der Fragen zu Ihren Daten schnell und effizient beantwortet. Er erstellt relevante Visualisierungen in Analysis Workspace mithilfe von Komponenten aus Ihrer Datenansicht und unter Verwendung Ihrer tatsächlichen Daten.
 
 Die Verwendung von Data Insights Agent zur Beantwortung datenorientierter Fragen in Analysis Workspace kann unzählige Stunden einsparen, die Sie andernfalls möglicherweise damit verbringen würden, Visualisierungen in Analysis Workspace manuell zu erstellen und sich mit Ihren Datenansichtskomponenten vertraut zu machen.
 
@@ -56,7 +56,7 @@ Die folgenden Parameter regeln den Zugriff auf Data Insights Agent in Customer J
 
    1. Wählen Sie in **[!UICONTROL Admin Console]** die Registerkarte **[!UICONTROL Produkte]** aus, um die Seite **[!UICONTROL Alle Produkte und Services]** anzuzeigen.
    1. **[!UICONTROL Customer Journey Analytics]**.
-   1. Wählen Sie auf **[!UICONTROL Registerkarte]** den Titel des Produktprofils aus, für das Sie Zugriff auf den [!UICONTROL KI-Assistenten: Produktkenntnisse“ &#x200B;] möchten.
+   1. Wählen Sie auf **[!UICONTROL Registerkarte]** den Titel des Produktprofils aus, für das Sie Zugriff auf den [!UICONTROL KI-Assistenten: Produktkenntnisse“ ] möchten.
    1. Wählen Sie im jeweiligen Produktprofil die Registerkarte **[!UICONTROL Berechtigungen]** aus.
 
       ![Registerkarte „Berechtigungen“ in Admin Console](images/cja-agent/ai-assistant-permissions-tab.png)
@@ -71,7 +71,7 @@ Die folgenden Parameter regeln den Zugriff auf Data Insights Agent in Customer J
 
    1. Wählen **[!UICONTROL Speichern]**, um die Berechtigungen zu speichern.
 
-  Weitere Informationen zur Zugriffssteuerung finden Sie unter [Zugriffssteuerung](https://experienceleague.adobe.com/de/docs/analytics-platform/using/technotes/access-control#access-control).
+  Weitere Informationen zur Zugriffssteuerung finden Sie unter [Zugriffssteuerung](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/access-control#access-control).
 
 * **Zugriff auf Datenansicht**: Datenansichten müssen für Data Insights Agent aktiviert sein.
 
@@ -166,7 +166,7 @@ Adobe Experience Platform Agent Orchestrator ermöglicht den Zugriff auf die Fun
 
 Agent Orchestrator interpretiert Ihre Anfrage, bestimmt, welche spezialisierten Agenten benötigt werden, und orchestriert sie, um die richtige Antwort zu liefern. Es verfolgt den Kontext über Multi-Turn-Interaktionen hinweg, sodass Sie auf natürliche Weise auf früheren Abfragen aufbauen können.
 
-Weitere Informationen finden Sie unter [Adobe Experience Platform Agent Orchestrator &#x200B;](/help/agents/agent-orchestrator.md).
+Weitere Informationen finden Sie unter [Adobe Experience Platform Agent Orchestrator ](/help/agents/agent-orchestrator.md).
 
 ## Eingabeaufforderungen zur Beispieldatenvisualisierung
 
@@ -254,7 +254,7 @@ Im Folgenden finden Sie Best Practices für Ihre Customer Journey Analytics-Konf
 
 >[!MORELIKETHIS]
 >
->[Komponenteneinstellungen](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-dataviews/component-settings/overview)
->[Datenwörterbuch](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-components/data-dictionary/data-dictionary-overview)
->[Berechnete Metrik genehmigen](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-approving)
->[Segmente freigeben](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-components/segments/seg-share)
+>[Komponenteneinstellungen](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/overview)
+>[Datenwörterbuch](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/data-dictionary/data-dictionary-overview)
+>[Berechnete Metrik genehmigen](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-approving)
+>[Segmente freigeben](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/segments/seg-share)
