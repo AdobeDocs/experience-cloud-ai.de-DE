@@ -1,9 +1,9 @@
 ---
 title: Experimentiermittel
 description: Erfahren Sie, wie Sie den Experimentieragenten verwenden
-source-git-commit: 0069a97bcb35f609019ec32f263175a36525161a
+source-git-commit: 5694f15d82081eed8e762fea8aabc3da1e265b04
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '535'
 ht-degree: 3%
 
 ---
@@ -12,15 +12,21 @@ ht-degree: 3%
 
 >[!AVAILABILITY]
 >
->Der Experimentierungs-Agent steht allen Kunden zur Verfügung, die Zugriff auf den KI-Assistenten haben. Sie benötigen jedoch die folgenden Berechtigungen, um die Funktionen des Experimentationsagenten vollständig nutzen zu können.
+>Der Experimentierungs-Agent steht allen Kunden zur Verfügung, die die kostenpflichtige Journey Optimizer Experimentation Accelerator-Lizenz erworben haben, und lässt sich nahtlos in Adobe Target oder Adobe Journey Optimizer integrieren.
 >
->**Experimente anzeigen**: Mit dieser Berechtigung können Sie den Experimentationsagenten verwenden, um Einblicke in das Experiment direkt im KI-Assistenten anzuzeigen.
->
->**Experiment-Metada verwalten**: Mit dieser Berechtigung können Sie den Experimentationsagenten verwenden, um neue Experimente direkt im KI-Assistenten zu erstellen.
+>[Weitere Informationen zu Journey Optimizer Experimentation Accelerator](https://experienceleague.adobe.com/de/docs/experimentation-accelerator/using/overview)
 
 ## Überblick
 
 Der **Experimentationsagent** ist ein KI-gestütztes Tool, das die Ausführung und Verwaltung digitaler Experimente auf Websites, E-Mails, Push-Nachrichten und Anwendungen modernisiert. Der auf der Adobe Experience Platform-KI-Plattform und den Experimentierwerkzeugen aufbauende **Experimentieragent** hilft Ihnen, Experimente effizienter durchzuführen, Geschäftsziele zu organisieren und umsetzbare Einblicke zu generieren, indem er hervorhebt, was funktioniert hat, was nicht und wo Sie als Nächstes experimentieren können.
+
+Mit den folgenden Berechtigungen können Sie die Funktionen des Experimentationsagenten vollständig nutzen.
+
+* **Experimente anzeigen**: Mit dieser Berechtigung können Sie den Experimentieragenten verwenden, um Einblicke in das Experiment direkt im KI-Assistenten anzuzeigen.
+
+* **Experiment-Metada verwalten**: Mit dieser Berechtigung können Sie den Experimentationsagenten verwenden, um neue Experimente direkt im KI-Assistenten zu erstellen.
+
+➡️ [Weitere Informationen finden Sie in der Dokumentation zu Journey Optimizer Experimentation Accelerator](https://experienceleague.adobe.com/en/docs/experimentation-accelerator/using/get-started/experiment-accelerator-access)
 
 Als Teil der Experimentation Accelerator-Funktion bietet der Agent:
 
