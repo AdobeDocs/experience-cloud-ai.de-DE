@@ -1,9 +1,9 @@
 ---
 title: Audience Agent
 description: Erfahren Sie, wie Sie mit der Audience Agent Zielgruppen erstellen, Zielgruppenänderungen anzeigen, doppelte Zielgruppen erkennen und Zielgruppeneinblicke anzeigen können.
-source-git-commit: f2b5bd1a59055a8ca6785abfc2d0a336eea7fd98
+source-git-commit: ca3766477459fb13170d176057a3ea9fbb791b29
 workflow-type: tm+mt
-source-wordcount: '859'
+source-wordcount: '1204'
 ht-degree: 2%
 
 ---
@@ -34,6 +34,9 @@ Der Audience Agent innerhalb des KI-Assistenten unterstützt die folgenden Anwen
    - Entdecken Sie XDM-Felder, mit denen Sie eine Zielgruppe definieren können
 - Erkennung signifikanter Änderungen der Zielgruppengröße
    - Auf diese Weise können Sie Zielgruppen finden, die plötzlich gewachsen oder geschrumpft sind, sodass Sie potenzielle Marktveränderungen besser analysieren können
+- Erstellung einer Zielgruppe
+   - Mit dieser Fähigkeit können Sie eine Zielgruppe basierend auf den angegebenen Attributen und Ereignissen erstellen
+   - Darüber hinaus können Sie mit dieser Fähigkeit die potenzielle Größe einer Zielgruppe schätzen, bevor Sie die Zielgruppe erstellen, sodass Sie schnell die effektivste Zielgruppe durchlaufen können, bevor sie aktiviert werden kann
 
 <!-- - Find your audience size and detect significant changes in audience size
   - This lets you find audiences that have suddenly grown or shrunk, letting you better analyze potential market changes
@@ -44,12 +47,8 @@ Der Audience Agent innerhalb des KI-Assistenten unterstützt die folgenden Anwen
 - Discover XDM fields you can use to define an audience
   - This skill lets you more easily identify the right fields to use in your audience based on context and relevance -->
 
-Die Audience Agent unterstützt **derzeit** die folgenden Funktionen nicht:
+Die Audience Agent unterstützt **derzeit** folgende Funktion nicht:
 
-- Wissensbasierte Zielgruppenerstellung
-   - Die wissensbasierte Zielgruppenerstellung erstellt eine Zielgruppe basierend auf den angegebenen Attributen und Ereignissen
-   - Darüber hinaus können Sie die potenzielle Größe der Zielgruppe vor der Erstellung der Zielgruppe schätzen. Auf diese Weise können Sie die effektivste Zielgruppe schnell durchlaufen, bevor sie aktiviert werden kann
-   - Die Unterstützung für diese Funktion wird in Kürze verfügbar sein
 - Zielbasierte Zielgruppenexploration
    - Durch die zielbasierte Audience-Exploration können Sie relevante Datensätze und Profile ermitteln, die auf ein Geschäftsziel ausgerichtet sind, indem Sie maschinelle Lernmodelle wie Kaufneigung oder Konversionsneigung anwenden.
 
@@ -178,6 +177,80 @@ Welches ist mein am schnellsten wachsendes Publikum?
 ![Der KI-Assistent gibt den Namen der am schnellsten wachsenden Zielgruppe sowie die aktuelle Größe und den Prozentsatz des Wachstums an.](./images/audience/fastest-growing.png)
 
 +++
+
+### Erstellen einer Zielgruppe
+
+Wenn Sie mit Audience Agent eine Zielgruppe erstellen, führt Sie der KI-Assistent durch einen Plan. Sie können beispielsweise anfordern, „eine Zielgruppe aus Personen zu erstellen, die in Kalifornien leben“. Der KI-Assistent listet dann den Plan auf, den er zur Erstellung der Zielgruppe durchführen wird.
+
++++ Antwort
+
+![Der KI-Assistent zeigt den Plan zur Erstellung einer Zielgruppe an.](./images/audience/audience-create-plan.png)
+
++++
+
+Dieser Plan umfasst drei Schritte:
+
+1. [Identifizieren von Zielgruppeneigenschaften](#identify)
+2. [Zielgruppengröße schätzen](#estimate)
+3. [Erstellen und Beibehalten einer neuen Zielgruppe](#create)
+
+#### Identifizieren von Zielgruppeneigenschaften {#identify}
+
+![Schritt 1 des Plans zur Identifizierung der Merkmale der Zielgruppe.](./images/audience/plan-step-1.png){align="center" width="80%"}
+
+Nachdem Sie den Plan akzeptiert haben, erfasst der KI-Assistent die Eigenschaften der Zielgruppe basierend auf Ihrer ersten Abfrage.
+
++++ Antwort
+
+![Die Zielgruppendefinition, die auf der Benutzerabfrage basiert.](./images/audience/audience-create-definition.png)
+
+Für diese Abfrage generiert der KI-Assistent den entsprechenden Profile Query Language (PQL), der nach Personen sucht, die in Kalifornien leben. In diesem Anwendungsfall würde die PQL-Abfrage wie folgt aussehen:
+
+```sql
+homeAddress.state.equals("California", false)
+```
+
+Weiterführende Informationen zu PQL finden Sie in der Übersicht zu [PQL](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/pql/overview).
+
++++
+
+Wenn die Zielgruppendefinition des KI-Assistenten korrekt ist, können Sie sie genehmigen und mit dem nächsten Schritt fortfahren.
+
+#### Zielgruppengröße schätzen {#estimate}
+
+![Schritt 2 des Plans zur Schätzung der Größe der potenziellen Zielgruppe.](./images/audience/plan-step-2.png){align="center" width="80%"}
+
+Nach Genehmigung der identifizierten Zielgruppeneigenschaften schätzt der KI-Assistent die Größe der potenziellen Zielgruppe und die Details der Zielgruppendefinition.
+
++++ Antwort
+
+![Die Beispielschätzung für die potenzielle Zielgruppe wird angezeigt. Die geschätzte Größe und die Segmentdefinition werden angezeigt.](./images/audience/audience-create-estimate.png)
+
++++
+
+Wenn die geschätzte Größe korrekt aussieht, können Sie sie genehmigen und mit dem nächsten Schritt fortfahren.
+
+#### Neue Zielgruppe erstellen und beibehalten {#create}
+
+![Schritt 3 des Plans, der die Erstellung der Zielgruppe abschließt.](./images/audience/plan-step-3.png){align="center" width="80%"}
+
+Wenn die Eigenschaften und die Zielgruppengröße korrekt aussehen, können Sie die Erstellung der Zielgruppe genehmigen oder ablehnen.
+
++++ Antwort
+
+Zunächst können Sie die vorgeschlagene Zielgruppe über das bereitgestellte Datenraster überprüfen.
+
+![Der Überprüfungsbildschirm wird angezeigt.](./images/audience/audience-create-review.png)
+
+Wenn die Zielgruppe korrekt dargestellt wird, können Sie den Vorschlag akzeptieren, indem Sie auf **[!UICONTROL Erstellen]** klicken, um die Erstellung der Zielgruppe abzuschließen.
+
+![Das vollständige Angebot für die Zielgruppe wird angezeigt.](./images/audience/audience-create-proposal.png)
+
++++
+
+Die Zielgruppe wird jetzt erstellt.
+
+![Der Zielgruppenvorschlag wurde akzeptiert und die Zielgruppe wurde erstellt.](./images/audience/audience-finish-create.png){align="center" width="80%"}
 
 ## Nächste Schritte
 
