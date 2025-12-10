@@ -210,7 +210,7 @@ Für diese Abfrage generiert der KI-Assistent den entsprechenden Profile Query L
 homeAddress.state.equals("California", false)
 ```
 
-Weiterführende Informationen zu PQL finden Sie in der Übersicht zu [PQL](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/pql/overview).
+Weiterführende Informationen zu PQL finden Sie in der Übersicht zu [PQL](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/pql/overview).
 
 +++
 
