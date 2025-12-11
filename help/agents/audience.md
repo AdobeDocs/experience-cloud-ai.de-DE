@@ -1,9 +1,9 @@
 ---
 title: Audience Agent
 description: Erfahren Sie, wie Sie mit der Audience Agent Zielgruppen erstellen, Zielgruppenänderungen anzeigen, doppelte Zielgruppen erkennen und Zielgruppeneinblicke anzeigen können.
-source-git-commit: ca3766477459fb13170d176057a3ea9fbb791b29
+source-git-commit: effd4fe4123953b6af375dfb46fcc669b2e35df1
 workflow-type: tm+mt
-source-wordcount: '1204'
+source-wordcount: '1229'
 ht-degree: 2%
 
 ---
@@ -180,6 +180,10 @@ Welches ist mein am schnellsten wachsendes Publikum?
 
 ### Erstellen einer Zielgruppe
 
+>[!AVAILABILITY]
+>
+>Sie können die Fähigkeit zum Erstellen von Zielgruppen nur verwenden, wenn Sie Teil des Agent Orchestrator Explorer-Programms sind. Weitere Informationen erhalten Sie bei der Adobe-Kundenunterstützung.
+
 Wenn Sie mit Audience Agent eine Zielgruppe erstellen, führt Sie der KI-Assistent durch einen Plan. Sie können beispielsweise anfordern, „eine Zielgruppe aus Personen zu erstellen, die in Kalifornien leben“. Der KI-Assistent listet dann den Plan auf, den er zur Erstellung der Zielgruppe durchführen wird.
 
 +++ Antwort
@@ -210,7 +214,7 @@ Für diese Abfrage generiert der KI-Assistent den entsprechenden Profile Query L
 homeAddress.state.equals("California", false)
 ```
 
-Weiterführende Informationen zu PQL finden Sie in der Übersicht zu [PQL](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/pql/overview).
+Weiterführende Informationen zu PQL finden Sie in der Übersicht zu [PQL](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/pql/overview).
 
 +++
 
