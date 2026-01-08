@@ -5,10 +5,10 @@ user-guide-description: Erfahren Sie, wie Sie mit dem KI-Assistenten Ihren Workf
 description: Erfahren Sie mehr über den KI-Assistenten in Experience Cloud. Erweitern Sie Ihr Produktwissen und gewinnen Sie betriebliche Erkenntnisse mithilfe von KI in Experience Cloud.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: 0161aca8c889654f61f081c2cad4850dd890cf53
+source-git-commit: 864002185f3745ca76180af192f616d1e5da0791
 workflow-type: tm+mt
-source-wordcount: '80'
-ht-degree: 63%
+source-wordcount: '84'
+ht-degree: 60%
 
 ---
 
@@ -26,6 +26,7 @@ ht-degree: 63%
    - [Audience Agent](./agents/audience.md)
    - [Data Insights Agent](./agents/cja-data-insights-agent.md)
    - [Experimentationsagent](./agents/agent-experiment.md)
-   - [Journey Agent](./agents/ajo-agent-analyze.md)
+   - [Journey Analyze Agent](./agents/ajo-agent-analyze.md)
+   - [Journey Create Agent](./agents/ajo-agent-create.md)
    - [Produktsupport-Agent](./agents/product-support.md)
 
