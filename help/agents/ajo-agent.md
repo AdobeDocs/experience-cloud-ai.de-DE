@@ -22,9 +22,9 @@ Journey Agent besteht aus zwei Hauptqualifikationen:
 - **Journey-Erstellungsagent**: Marketing-Journey über natürliche Sprachaufforderungen erstellen und konfigurieren
 - **Journey Analyze Agent**: Analysieren Sie Journey, erkennen Sie Probleme, entdecken Sie Erkenntnisse und optimieren Sie die Kundeninteraktion
 
----
+&#x200B;---
 
-# Journey Create Agent: Skill Overview and User Guide
+&#x200B;# Journey Create Agent: Skill Overview and User Guide
 
 ## Überblick
 
@@ -161,9 +161,9 @@ Wenn ein(e) Benutzende(r) meinen Store-Speicherort betritt, senden Sie eine Will
 - **Planen des Nachrichteninhalts**: Lassen Sie Ihre Messaging-Strategie vor der Erstellung von Journey definieren.
 - **Kundenerlebnis berücksichtigen**: Entwerfen Sie Journey-Flüsse, die Kundenpräferenzen berücksichtigen und Überkommunikation vermeiden.
 
----
+&#x200B;---
 
-# Journey Analyze Agent: Kompetenzübersicht und Benutzerhandbuch
+&#x200B;# Journey Analyze Agent: Kompetenzübersicht und Benutzerhandbuch
 
 ## Überblick
 
@@ -283,8 +283,8 @@ Nutzen Sie diese Prompts, um mögliche Konflikte zwischen Journeys zu analysiere
 - „Identifizieren Sie Konflikttypen für Journey [Journey-Name] im Vergleich zu laufenden Journey.“
 - „Überschneidende Zielgruppen für das Journey von [Journey-Name] und anderen Journey anzeigen.“
 - „Zeitplanüberschneidungen zwischen Journey [Journey-Name] und Live-Journey hervorheben.“
-- „Steht die Ausführung von Journey [Journey]Name} im Konflikt mit einer anderen Journey?“
-- „Bitte Konflikte für [Journey-Name} erkennen und ].“
+- „Steht die Ausführung von Journey [Journey]Name&rbrace; im Konflikt mit einer anderen Journey?“
+- „Bitte Konflikte für [Journey-Name&rbrace; erkennen und ].“
 - „Melden Sie alle Konflikttypen für das Journey [Journey-Name].“
 - „Geben Sie mir eine Konfliktaufschlüsselung (Planung und Zielgruppe) für [Journey-Name].“
 - „Gibt es für [Journey-] Konflikte, die sich auf die Leistung auswirken können?“
@@ -311,7 +311,7 @@ Um die Effektivität der Analysefunktion von Journey Agent zu maximieren, sollte
 - **Überwachen Sie regelmäßig**: Planen Sie regelmäßige Überprüfungen der Journey-Leistung, um Trends und Anomalien zu erkennen.
 - **Optimieren Sie die Segmentierung**: Stellen Sie sicher, dass die Zielgruppensegmentierung ausgewogen ist, um Ermüdungserscheinungen zu vermeiden und Interaktionen zu maximieren.
 
----
+&#x200B;---
 
 ## Folien und Präsentation
 
