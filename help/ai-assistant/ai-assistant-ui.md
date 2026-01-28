@@ -1,7 +1,7 @@
 ---
 title: Handbuch zur Benutzeroberfläche des KI-Assistenten
 description: Erfahren Sie, wie Sie in der Benutzeroberfläche auf den KI-Assistenten zugreifen und ihn verwenden können.
-source-git-commit: a19c891d1a17c9112aff3d9a52daa94ad162a553
+source-git-commit: 0e7306c50fbb6913bfd08d9d31484ec1690be91d
 workflow-type: tm+mt
 source-wordcount: '1843'
 ht-degree: 2%
@@ -72,7 +72,7 @@ Die Leistenansicht bietet schnellen Zugriff auf Chat, Erkennungsaufforderungen, 
 
 Dieser Abschnitt bietet einen Überblick über die wichtigsten Funktionen und Navigationsoptionen in der Benutzeroberfläche des KI-Assistenten. Es wird erläutert, wie auf den KI-Assistenten zugegriffen wird, das Layout und die Steuerelemente sowohl in der Vollbild- als auch in der Leistenansicht beschrieben werden und es werden wichtige Tools wie Unterhaltungen, Eingabefunktionen, automatische Vervollständigung, Kontexteinstellungen und Erkennungsaufforderungen vorgestellt. Die folgenden Abschnitte enthalten detaillierte Anleitungen zur Verwendung dieser Funktionen, um mit dem KI-Assistenten zu interagieren und Ihre Erfahrung optimal zu nutzen.
 
-### Erkennungsaufforderungen
+### Erkennungsaufforderungen {#discovery-prompts}
 
 Mit der Erkennungsfunktion des KI-Assistenten können Sie eine Liste der allgemeinen Themen anzeigen, die von dem KI-Assistenten unterstützt werden, gruppiert in Entitäten. Die Erkennungsaufforderungen unterscheiden sich je nach Ausgangspunkt.
 
