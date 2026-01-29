@@ -23,7 +23,7 @@ ht-degree: 1%
 
 Adobe entscheidet nach eigenem Ermessen über Ihren Anspruch auf die Testversion. Kunden, die derzeit oder zuvor eine Promotion-Lizenz für Adobe Experience Platform Agent Orchestrator oder eine AI-Credits-Lizenz für Experience Platform-Agenten besitzen, sind nicht berechtigt, die Testversion zu nutzen.
 
-Berechtigte Kunden erhalten eine einmalige Erstberechtigung von bis zu 10.000 KI-Credits zur Verwendung für eine beliebige Kombination von Aufträgen (je nach Ihren bestehenden Lizenzen für Experience Cloud-Anwendungen), die in der Tabelle [KI-Kreditnutzung](https://experienceleague.adobe.com/en/docs/core-services/interface/features/ai-credit-consumption) aufgeführt sind. Sie können Ihre KI-Credits über das Lizenznutzungs-Dashboard in der Adobe Experience Platform-Benutzeroberfläche verfolgen. Weitere Informationen finden Sie in der [Dokumentation zum Lizenznutzungs-Dashboard](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage).
+Berechtigte Kunden erhalten eine einmalige Erstberechtigung von bis zu 10.000 KI-Credits zur Verwendung für eine beliebige Kombination von Aufträgen (je nach Ihren bestehenden Lizenzen für Experience Cloud-Anwendungen), die in der Tabelle [KI-Kreditnutzung](https://experienceleague.adobe.com/en/docs/core-services/interface/features/ai-credit-consumption) aufgeführt sind. Sie können Ihre KI-Credits über das Lizenznutzungs-Dashboard in der Adobe Experience Platform-Benutzeroberfläche verfolgen. Weitere Informationen finden Sie in der [Dokumentation zum Lizenznutzungs-Dashboard](https://experienceleague.adobe.com/de/docs/experience-platform/dashboards/guides/license-usage).
 
 >[!IMPORTANT]
 >
