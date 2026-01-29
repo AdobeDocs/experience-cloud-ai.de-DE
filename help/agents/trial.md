@@ -3,9 +3,9 @@ title: Benutzergebundene Testversion für Adobe Experience Platform-Agenten
 description: Erfahren Sie mehr über die kostenlose Testversion für Adobe Experience Platform Agents.
 hide: true
 hidefromtoc: true
-source-git-commit: 79d7fc82d57187be21f013ab600e7f24fa7eb46a
+source-git-commit: d764d3f5ef2b5dcd18fd754298fae5e2b145805f
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '588'
 ht-degree: 1%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 1%
 
 Adobe entscheidet nach eigenem Ermessen über Ihren Anspruch auf die Testversion. Kunden, die derzeit oder zuvor eine Promotion-Lizenz für Adobe Experience Platform Agent Orchestrator oder eine AI-Credits-Lizenz für Experience Platform-Agenten besitzen, sind nicht berechtigt, die Testversion zu nutzen.
 
-Berechtigte Kunden erhalten eine einmalige Erstberechtigung von bis zu 10.000 KI-Credits zur Nutzung für eine beliebige Kombination von Aufträgen (abhängig von Ihren bestehenden Lizenzen für Experience Cloud-Anwendungen), die in der Tabelle KI-Kreditverbrauch aufgeführt sind. Sie können Ihre KI-Credits über das Lizenznutzungs-Dashboard in der Adobe Experience Platform-Benutzeroberfläche verfolgen. Weitere Informationen finden Sie in der [Dokumentation zum Lizenznutzungs-Dashboard](https://experienceleague.adobe.com/de/docs/experience-platform/dashboards/guides/license-usage).
+Berechtigte Kunden erhalten eine einmalige Erstberechtigung von bis zu 10.000 KI-Credits zur Verwendung für eine beliebige Kombination von Aufträgen (je nach Ihren bestehenden Lizenzen für Experience Cloud-Anwendungen), die in der Tabelle [KI-Kreditnutzung](https://experienceleague.adobe.com/en/docs/core-services/interface/features/ai-credit-consumption) aufgeführt sind. Sie können Ihre KI-Credits über das Lizenznutzungs-Dashboard in der Adobe Experience Platform-Benutzeroberfläche verfolgen. Weitere Informationen finden Sie in der [Dokumentation zum Lizenznutzungs-Dashboard](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage).
 
 >[!IMPORTANT]
 >
