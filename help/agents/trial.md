@@ -53,7 +53,7 @@ Mit der nutzungsgebundenen Testversion für Adobe Experience Platform-Agenten k�
 
 ### Welche Agenten sind in dieser Studie enthalten?
 
-Eine vollständige Liste der in [ Testversion enthaltenen Agenten finden Sie ](https://experienceleague.adobe.com/de/docs/core-services/interface/features/agentic-ai) Handbuch unter Agent-KI in Experience Cloud&quot;.
+Eine vollständige Liste der in [&#x200B; Testversion enthaltenen Agenten finden Sie &#x200B;](https://experienceleague.adobe.com/de/docs/core-services/interface/features/agentic-ai) Handbuch unter Agent-KI in Experience Cloud&quot;.
 
 ### Wer kann an dieser Studie teilnehmen?
 
