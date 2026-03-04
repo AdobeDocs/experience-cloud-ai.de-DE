@@ -4,10 +4,10 @@ description: Eine umfassende Anleitung für Journey Agent, die es den Benutzende
 solution: Journey Optimizer
 product: journey optimizer
 role: Admin,User,Developer,Leader
-source-git-commit: 229d349d971ffaba3f2f2fb989e363d96a8d7a70
+source-git-commit: aba0b2f7f819f762c336c4dfeb952326a0814800
 workflow-type: tm+mt
-source-wordcount: '2147'
-ht-degree: 18%
+source-wordcount: '2608'
+ht-degree: 15%
 
 ---
 
@@ -18,19 +18,21 @@ ht-degree: 18%
 
 Journey Agent ermöglicht es Journey Optimizer-Anwendern, Marketing-Journey über eine natürliche Sprachschnittstelle zu erstellen, zu analysieren und zu optimieren. Mit Journey Agent können Marketing-Fachleute Journeys schnell erstellen, Zeitplan- oder Zielgruppenkonflikte erkennen und beheben, die Leistung und Absprungpunkte analysieren und besonders erfolgreiche Journeys identifizieren, um sie in künftigen Kampagnen zu reproduzieren. Es ermöglicht Anwendern, datengesteuerte Entscheidungen zu treffen, die Kundeninteraktion zu verbessern und die Journey-Orchestrierung zu optimieren.
 
-Journey Agent besteht aus zwei Hauptqualifikationen:
-- **Journey-Erstellungsagent**: Marketing-Journey über natürliche Sprachaufforderungen erstellen und konfigurieren
-- **Journey Analyze Agent**: Analysieren Sie Journey, erkennen Sie Probleme, entdecken Sie Erkenntnisse und optimieren Sie die Kundeninteraktion
+Journey Agent umfasst drei Hauptaufgaben:
 
-## Journey Create Agent: Skill Overview and User Guide
+- **Journey-Erstellung**: Erstellen und konfigurieren Sie Marketing-Journeys über natürliche Sprachaufforderungen
+- **Kanalinhalt erstellen**: Generieren, Bearbeiten und Verwalten kanalspezifischer Inhalte (E-Mail, Push, SMS) für Journey mithilfe von KI-gestützter Inhaltserstellung
+- **Journey Analyze**: Analysieren Sie Journey, erkennen Sie Probleme, entdecken Sie Erkenntnisse und optimieren Sie die Kundeninteraktion
+
+## Journey Create: Anwendungsfälle, Agentenkenntnisse und Benutzerhandbuch
 
 ## Überblick
 
-Mit dem Journey Create Agent können Journey Optimizer-Benutzer Marketing-Journey über eine natürliche Sprachschnittstelle erstellen und konfigurieren. Mit Journey Create Agent können Anwender schnell Journey erstellen, indem sie ihre Anforderungen in Gesprächsaufforderungen beschreiben. Der Agent optimiert die Journey-Erstellung, sodass sich Marketing-Experten auf die Strategie und nicht auf die technische Konfiguration konzentrieren können.
+Mit Journey Create können Journey Optimizer-Benutzer Marketing-Journey über eine natürliche Sprachschnittstelle erstellen und konfigurieren. Mit Journey Create können Anwender schnell Journey erstellen, indem sie ihre Anforderungen in Gesprächshinweisen beschreiben. Der Agent optimiert die Journey-Erstellung, sodass sich Marketing-Fachleute auf die Strategie konzentrieren können, statt sich um die technische Konfiguration kümmern zu müssen.
 
 >[!AVAILABILITY]
 >
->Der Journey Create Agent steht allen Kunden zur Verfügung, die Zugriff auf den KI-Assistenten haben. Sie benötigen jedoch die folgenden Berechtigungen, um die Funktionen von Journey Create Agent vollständig nutzen zu können:
+>Journey Create ist für alle Kunden verfügbar, die Zugriff auf den KI-Assistenten haben. Sie benötigen jedoch die folgenden Berechtigungen, um die Funktionen von Journey Create in vollem Umfang nutzen zu können:
 >
 >**Journey** verwalten: Mit dieser Berechtigung können Sie neue Journeys direkt im KI-Assistenten erstellen.
 >
@@ -42,9 +44,9 @@ Mit dem Journey Create Agent können Journey Optimizer-Benutzer Marketing-Journe
 
 ## Anwendungsfälle
 
-### Häufige Anwendungsfälle für Journey Create Agent
+### Häufige Anwendungsfälle für das Erstellen von Journey
 
-Die Journey Create Agent-Kenntnisse bieten Funktionen, die genutzt werden können, um die Marketing-Ausführung zu beschleunigen:
+Journey Create bietet Funktionen, die genutzt werden können, um die Marketing-Ausführung zu beschleunigen:
 
 1. **Ereignisgesteuerte Journey-Erstellung**
 
@@ -78,7 +80,7 @@ Für jeden dieser Anwendungsfälle übersetzt der Agent Anforderungen an natürl
 
 ### **Im Umfang**
 
-Die folgenden Funktionen werden vom Journey Create Agent unterstützt:
+Die folgenden Funktionen werden von Journey Create unterstützt:
 
 - **Erstellung von Journey in natürlicher Sprache**: Ermöglicht Benutzern, den Journey-Fluss in einer Konversationssprache zu beschreiben.
 - **Ereignisbasierte und zielgruppenbasierte Journey**: Unterstützt sowohl Trigger-basierte als auch geplante Journey-Typen sowie die Qualifizierung von Geschäftsereignissen und Zielgruppen.
@@ -95,7 +97,6 @@ Die folgenden Möglichkeiten werden derzeit nicht unterstützt:
 - **Cross-Journey-Orchestrierung**
 - **A/B-Testkonfiguration**
 - **Komplexe Datenumwandlungen**
-- **Erstellung von Inhaltsnachrichten**
 
 ## Eingabeaufforderungen im Beispiel
 
@@ -141,7 +142,7 @@ Der Agent stellt Anleitungen und Beispiele bereit, um Sie bei der Definition Ihr
 
 ### Best Practices bei der Eingabeaufforderung
 
-Um die Effektivität von Journey Create Agent zu maximieren, befolgen Sie die folgenden Best Practices:
+Um die Effektivität von Journey Create zu maximieren, befolgen Sie die folgenden Best Practices:
 
 1. **Spezifisch**: Geben Sie eindeutige Details zu Ihren Journey-Zielen, Ihrer Zielgruppe und den gewünschten Aktionen an. Beinhalten Informationen über Kanäle, Timing und Bedingungen.
 1. **Zeitvorgabe angeben**: Geben Sie eindeutig an, wann die Wartezeiten zwischen Aktionen sein sollen und wann die Journey gestartet werden soll.
@@ -159,13 +160,95 @@ Wenn ein(e) Benutzende(r) meinen Store-Speicherort betritt, senden Sie eine Will
 - **Planen des Nachrichteninhalts**: Lassen Sie Ihre Messaging-Strategie vor der Erstellung von Journey definieren.
 - **Kundenerlebnis berücksichtigen**: Entwerfen Sie Journey-Flüsse, die Kundenpräferenzen berücksichtigen und Überkommunikation vermeiden.
 
-## Journey Analyze Agent: Kompetenzübersicht und Benutzerhandbuch
+## Kanalinhalt erstellen: Anwendungsfälle, Agentenkenntnisse und Benutzerhandbuch
+
+>[!AVAILABILITY]
+>
+>Diese Funktion ist für alle Kunden mit eingeschränkter Verfügbarkeit verfügbar. Wenden Sie sich an den Adobe-Support, um Zugriff zu erhalten.
+
+## Überblick
+
+Mit der Erstellung von Kanalinhalten können Journey Optimizer-Benutzende kanalspezifische Inhalte für Journey generieren, bearbeiten und verwalten, indem sie die KI-gestützte Inhaltserstellung verwenden.
+
+## Anwendungsfälle
+
+### Häufige Anwendungsfälle für die Erstellung von Kanalinhalten
+
+1. **Kanalspezifische Inhaltserstellung**: Generieren von Inhalten für E-Mail, Push-Benachrichtigungen, SMS und andere Kanäle mithilfe von Eingabeaufforderungen in natürlicher Sprache.
+
+1. **Vorlagenbasierte Inhaltserstellung**: Durchsuchen Sie verfügbare Vorlagen mit Vorschaufunktionen und wählen Sie sie aus.
+
+1. **Multi-Channel-Content-**: Generieren und verwalten Sie Inhalte für mehrere Kanäle innerhalb desselben Journey-Workflows.
+
+1. **Kontextbezogene Inhaltsbearbeitung**: Öffnen Sie generierte Inhalte in Content Designer zur Bearbeitung und Verfeinerung.
+
+1. **Inhaltsverfeinerung und Iteration**: Generieren Sie Inhalte mit verschiedenen Tönen oder Stilen mithilfe der Aktion „Regenerieren“ neu.
+
+1. **Integration der Journey-Arbeitsfläche**: Wählen Sie Journey aus dem Inventar aus und zeigen Sie die zugehörigen Kanäle an.
+
+## In Umfang und außerhalb des Umfangs Kenntnisse
+
+### **Im Umfang**
+
+Die folgenden Funktionen werden von der Kanalinhaltserstellung unterstützt:
+
+- **KI-gestützte Inhaltserstellung**: Generieren von Inhalten für E-Mail, Push, SMS und andere Kanäle mithilfe natürlicher Sprachaufforderungen.
+- **Vorlagenverwaltung**: Suchen und wählen Sie aus verfügbaren Vorlagen mit Vorschaufunktionen.
+- **Kontextbezogene Bearbeitung**: Öffnen Sie generierte Inhalte in Content Designer zur Bearbeitung und Anpassung.
+- **Inhaltsregenerierung**: Generieren Sie Inhalte mit verschiedenen Tönen, Stilen oder Nachrichten mithilfe der Aktion „Regenerieren“ neu.
+- **Multi-Channel-Unterstützung**: Generieren und verwalten Sie Inhalte für mehrere Kanäle innerhalb desselben Journey-Workflows.
+- **Journey-Inventarzugriff**: Wählen Sie Journey aus dem Inventar aus und zeigen Sie die zugehörigen Kanäle an.
+
+### **Außerhalb des Bereichs**
+
+Die folgenden Möglichkeiten werden derzeit nicht unterstützt:
+
+- **Prüfung der Markenausrichtung und der Inhaltsqualität**
+- **Inhaltsknoten direkt in die Journey-Arbeitsfläche einfügen**
+- **Vorlagenimport**
+
+## Eingabeaufforderungen im Beispiel
+
+### Inhaltsgenerierung
+
+„Generieren von E-Mail-Inhalt für meinen Willkommens-Journey. Erstellen Sie eine Begrüßungs-E-Mail für neue Kunden mit einem freundlichen Ton und einem Rabattangebot von 10 %.“
+
+„Inhalt für Kanal-E-Mail für meine Begrüßungs-Journey hinzufügen.“
+
+„Push-Benachrichtigung für meinen Store-Besuch erzeugen Journey. Erstellen Sie eine Begrüßungsnachricht, die Kunden ermutigt, einzuchecken und ein spezielles Angebot zu erhalten.“
+
+„Generieren von SMS-Inhalt für meinen ereignisgesteuerten Journey. Erstellen Sie eine Kurznachricht, die Kunden über einen Flash-Verkauf mit einer call-to-action informiert.“
+
+### Vorlagenauswahl
+
+„Zeigen Sie mir verfügbare E-Mail-Vorlagen für meine saisonale Kampagnen-Journey.“
+
+„Wählen Sie eine Vorlage für meine E-Mail mit einem modernen, sauberen Design.“
+
+### Inhaltsbearbeitung und -verfeinerung
+
+„Öffnen Sie den E-Mail-Inhalt in Content Designer, damit ich das Design anpassen kann.“
+
+„Der Inhalt der Push-Benachrichtigung wird in einem lockeren Ton neu generiert.“
+
+„Aktualisieren Sie den E-Mail-Inhalt, um einen Werbe-Code einzuschließen.“
+
+## Best Practices
+
+### Best Practices bei der Eingabeaufforderung
+
+1. **Spezifisch**: Geben Sie klare Details zum Inhaltstyp, zum Ton, zur Zielgruppe und zum wichtigsten Messaging an.
+1. **Kanal angeben**: Geben Sie klar an, für welchen Kanal Sie Inhalte erstellen (E-Mail, Push, SMS).
+1. **Ton definieren**: Geben Sie den gewünschten Ton an (freundlich, formell, ungezwungen, dringend).
+1. **Iterieren und verfeinern**: Verwenden Sie die Aktion „Neu generieren“, um Inhalte zu verfeinern, bis sie Ihren Anforderungen entsprechen.
+
+## Journey Analyze: Anwendungsfälle, Agentenkenntnisse und Benutzerhandbuch
 
 ## Überblick
 
 Journey Agent ermöglicht es Journey Optimizer-Anwendern, Journey mithilfe einer natürlichen Sprachschnittstelle zu analysieren und zu optimieren. Mit Journey Agent können Anwendende Zeitplankonflikte und/oder Zielgruppenkonflikte schnell identifizieren und lösen, Punkte der Benutzerkündigung in einer Journey erkennen und Einblicke oder Empfehlungen liefern. Er unterstützt Marketing-Fachleute dabei, datengestützte Entscheidungen zu treffen, die Kundeninteraktion zu verbessern und die Journey-Orchestrierung zu optimieren.
 
-Erfahren Sie mehr und entdecken Sie den Agenten auf einen Blick in dieser [Übersicht](https://experienceleague.adobe.com/de/slides/journey-agent-overview).
+Erfahren Sie mehr und entdecken Sie den Agenten auf einen Blick in dieser [Übersicht](https://experienceleague.adobe.com/en/slides/journey-agent-overview).
 
 >[!AVAILABILITY]
 >
@@ -183,9 +266,9 @@ Erfahren Sie mehr und entdecken Sie den Agenten auf einen Blick in dieser [Über
 
 ## Anwendungsfälle
 
-### Wichtige Anwendungsfälle für die Analysefunktion von Journey Agent
+### Häufige Anwendungsfälle für das Journey Analyze
 
-Die Analysefunktion von Journey Agent bietet vielfältige Möglichkeiten zur Optimierung von Marketing-Maßnahmen:
+Journey Analyze bietet eine Reihe von Funktionen, mit denen Marketing-Maßnahmen optimiert werden können:
 
 1. **Journey-Fallout-Analyse**
 
@@ -215,7 +298,7 @@ Bei jeder dieser Analysen erkennt der Agent nicht nur Probleme, sondern gibt auc
 
 ### **Unterstützte Funktionen**
 
-Die folgenden Möglichkeiten werden von der Analysefunktion von Journey Agent unterstützt:
+Journey Analyze unterstützt die folgenden Funktionen:
 
 - **Reaktive Abfragen**: Mit dieser Funktion können Benutzende gezielte Fragen zur Leistung der Journey, zur Nutzung durch die Zielgruppe und zu Zeitplankonflikten stellen.
 - **Integration mit anderen Agents**: Zusammenarbeit mit Audience Agent und Data Insights Agent für eine tiefergehende Analyse.
@@ -246,7 +329,7 @@ Im Folgenden finden Sie Beispiele für praktische Prompts, die Benutzende verwen
 
 ### Fragen zu Journey-Ressourcen
 
-- „Wie viele lebende Journey habe ich?“
+- „Wie viele Live-Journeys habe ich?“
 - „Geben Sie mir eine Liste aller geplanten wiederkehrenden Journey und ihrer erwarteten Laufzeiten.“
 
 ### Erkenntnisse zu Zielgruppen und Journeys
@@ -279,8 +362,8 @@ Nutzen Sie diese Prompts, um mögliche Konflikte zwischen Journeys zu analysiere
 - „Identifizieren Sie Konflikttypen für Journey [Journey-Name] im Vergleich zu laufenden Journey.“
 - „Überschneidende Zielgruppen für das Journey von [Journey-Name] und anderen Journey anzeigen.“
 - „Zeitplanüberschneidungen zwischen Journey [Journey-Name] und Live-Journey hervorheben.“
-- „Steht die Ausführung von Journey [Journey]Name&rbrace; im Konflikt mit einer anderen Journey?“
-- „Bitte Konflikte für [Journey-Name&rbrace; erkennen und ].“
+- „Steht die Ausführung von Journey [Journey]Name} im Konflikt mit einer anderen Journey?“
+- „Bitte Konflikte für [Journey-Name} erkennen und ].“
 - „Melden Sie alle Konflikttypen für das Journey [Journey-Name].“
 - „Geben Sie mir eine Konfliktaufschlüsselung (Planung und Zielgruppe) für [Journey-Name].“
 - „Gibt es für [Journey-] Konflikte, die sich auf die Leistung auswirken können?“
@@ -295,7 +378,7 @@ Nutzen Sie diese Prompts, um mögliche Konflikte zwischen Journeys zu analysiere
 
 ### Best Practices für das Prompting
 
-Um die Effektivität der Analysefunktion von Journey Agent zu maximieren, sollten Sie diese Best Practices befolgen:
+Befolgen Sie die folgenden Best Practices, um die Effektivität von Journey Analyze zu maximieren:
 
 1. **Seien Sie präzise**: Verwenden Sie klare und prägnante Prompts, um zielgerichtete Erkenntnisse zu erhalten. Anstatt beispielsweise zu fragen: „Was sind meine Journey?“, geben Sie „Alle im letzten Monat erstellten Journey auflisten“ an.
 1. **Kombinieren Sie Erkenntnisse**: Integrieren Sie Erkenntnisse aus Audience Agent und Data Insights Agent, um eine ganzheitliche Sicht auf die Leistung der Journey zu erhalten.
