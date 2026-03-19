@@ -1,18 +1,14 @@
 ---
 title: Produktsupport-Agent
 description: Erfahren Sie, wie Sie den Product Support Agent im KI-Assistenten verwenden können, um die Fehlerbehebung sowie die Einreichung von Kunden-Support-Tickets zu vereinfachen.
-source-git-commit: adf65e0d4c623fbd74645006939702b64b0c1fdd
+source-git-commit: 57e123e7fed24c26403adbc637814ca6a9ccf68e
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: '365'
 ht-degree: 5%
 
 ---
 
 # Produktsupport-Agent
-
->[!AVAILABILITY]
->
->Der Produktsupport-Agent steht berechtigten Kunden für eine begrenzte Zeit zur Verfügung. Der Zugriff auf den Product Support Agent endet am 28. Februar 2026. Wenden Sie sich an Ihren Adobe-Kundenbetreuer, um weitere Informationen zur Lizenzierung von Adobe Experience Platform Agenten Orchestrator zu erhalten, wenn Sie den Produktsupport-Agenten auch nach diesem Datum ohne Unterbrechung weiter verwenden möchten.
 
 Der Produktsupport-Agent ist eine Selbstbedienungs-Debugging- und Fehlerbehebungsfunktion des KI-Assistenten, die Sie für Adobe Experience Platform-Funktionen und -Programme verwenden können.
 
@@ -61,5 +57,5 @@ Sobald Sie diese Schritte abgeschlossen haben, können alle Support-Administrato
 
 Weiterführende Informationen dazu, wie Sie mit dem Produktsupport-Agenten eine nahtlose Fehlerbehebung durchführen können, ohne Ihre Workflows verlassen zu müssen, finden Sie im folgenden Video.
 
->[!VIDEO](https://video.tv.adobe.com/v/3443192?captions=ger&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443183?learn=on)
 
