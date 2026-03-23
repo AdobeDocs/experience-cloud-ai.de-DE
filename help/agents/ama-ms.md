@@ -150,7 +150,7 @@ Bevor Sie externe Agenten bereitstellen können, muss die Richtlinie Ihrer Organ
 Normalerweise finden Sie externe Agenten im [[!DNL Microsoft Commercial Marketplace]](https://appsource.microsoft.com/).
 
 - **Vom Marketplace**: Suchen Sie den gewünschten Agenten und wählen Sie **Jetzt abrufen**. Dadurch werden Sie oft zurück zur Seite „Integrierte Apps **Ihres Admin Centers**.
-- **Berechtigungen überprüfen**: Wählen Sie in der Liste [Integrierte ](https://learn.microsoft.com/en-us/microsoft-365/admin/manage/manage-deployment-of-add-ins?view=o365-worldwide)&quot; den externen Agenten aus.
+- **Berechtigungen überprüfen**: Wählen Sie in der Liste [Integrierte &#x200B;](https://learn.microsoft.com/en-us/microsoft-365/admin/manage/manage-deployment-of-add-ins?view=o365-worldwide)&quot; den externen Agenten aus.
 - Überprüfen Sie die **Daten und Tools** und **Sicherheit und**), um zu sehen, auf welche Daten der externe Anbieter zugreifen wird.
 - Wählen Sie **Genehmigen** oder **Aktivieren** aus, um es in das Inventar Ihrer Organisation zu verschieben.
 
@@ -158,7 +158,7 @@ Normalerweise finden Sie externe Agenten im [[!DNL Microsoft Commercial Marketpl
 
 Nach der Genehmigung können Sie genau steuern, wer den Agenten in der Seitenleiste des Copiloten sehen kann.
 
-- Navigieren [[!DNL Microsoft 365]  im ](https://admin.microsoft.com/) zu **Agenten** > **Alle Agenten**.
+- Navigieren [[!DNL Microsoft 365]  im &#x200B;](https://admin.microsoft.com/) zu **Agenten** > **Alle Agenten**.
 - Wählen Sie den externen Agenten aus der Liste aus.
 - Wählen **Bereitstellen** (oder **Zuweisung bearbeiten**) aus.
 - Wählen Sie **Spezifische Benutzer/Gruppen** und suchen Sie nach den Einzelpersonen oder [!DNL Entra ID] Gruppen, die es haben sollen.
