@@ -1,10 +1,10 @@
 ---
 title: Handbuch zur Benutzeroberfläche des KI-Assistenten
 description: Erfahren Sie, wie Sie in der Benutzeroberfläche auf den KI-Assistenten zugreifen und ihn nutzen können.
-source-git-commit: 434f438eca130ca76e5303ac7040082daaf46bc8
+source-git-commit: ec03f46b5d80558b683f6cd4330f51258b7378a1
 workflow-type: tm+mt
-source-wordcount: '2093'
-ht-degree: 2%
+source-wordcount: '2162'
+ht-degree: 3%
 
 ---
 
@@ -20,9 +20,9 @@ In der folgenden Tabelle finden Sie einen Vergleich von KI-Assistent (veraltet) 
 | --- | --- | --- |
 | Benutzererlebnis | Der KI-Assistent (veraltet) ist nur in einem Bereich der rechten Leiste verfügbar. | Der KI-Assistent (der nächsten Generation) ist sowohl im Bereich der rechten Leiste als auch im immersiven Vollbilderlebnis verfügbar. |
 | Funktionsumfang | Sie können den KI-Assistenten (frühere Version) sowohl für Produktkenntnisse als auch für betriebliche Einblicke verwenden. | Sie können den KI-Assistenten (der nächsten Generation) für Produktkenntnisse, operative Einblicke sowie erweiterte agentische Fähigkeiten und die Ausführung mehrstufiger Aufgaben verwenden. |
-| Architektur von Platform | Der KI-Assistent (veraltet) wurde nicht auf dem Agent Orchestrator-Stack erstellt. | Der KI-Assistent (der nächsten Generation) wird von [Adobe Experience Platform Agent Orchestrator &#x200B;](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator) unterstützt und ermöglicht Erweiterbarkeit und erweiterte Koordinierung über Funktionen hinweg. |
+| Architektur von Platform | Der KI-Assistent (veraltet) wurde nicht auf dem Agent Orchestrator-Stack erstellt. | Der KI-Assistent (der nächsten Generation) wird von [Adobe Experience Platform Agent Orchestrator ](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator) unterstützt und ermöglicht Erweiterbarkeit und erweiterte Koordinierung über Funktionen hinweg. |
 | Anwendungsbereich | Der KI-Assistent (veraltet) ist eine anwendungsspezifische Implementierung. | Sie können den KI-Assistenten (der nächsten Generation) für ein einheitliches KI-Assistentenerlebnis in allen Adobe Experience Cloud-Programmen verwenden. |
-| Zugriffs- und Berechtigungsmodell | Auf einzelne Produktgrenzen abgestimmtes Zugriffsmodell für die Anwendung. | Alle Benutzer erhalten Zugriff auf den KI-Assistenten (der nächsten Generation) und die zugehörigen Experience Platform-Agenten. **Hinweis**: <ul><li>**Adobe Experience Manager**: Ihr Administrator muss Ihnen über die [Adobe Admin Console](https://helpx.adobe.com/de/enterprise/using/admin-console.html) die Berechtigung für den Zugriff auf den KI-Assistenten (der nächsten Generation) erteilen.</li><li>**Customer Journey Analytics**: Ihr Administrator muss Ihnen die Berechtigung für den Zugriff auf den KI-Assistenten über die [Customer Journey Analytics-Zugriffssteuerung](https://experienceleague.adobe.com/de/docs/analytics-platform/using/technotes/access-control?lang=en) erteilen. Auf diese Weise können Sie Fragen zu Produktwissen und Dateneinblicken stellen. |
+| Zugriffs- und Berechtigungsmodell | Auf einzelne Produktgrenzen abgestimmtes Zugriffsmodell für die Anwendung. | Alle Benutzer erhalten Zugriff auf den KI-Assistenten (der nächsten Generation) und die zugehörigen Experience Platform-Agenten. **Hinweis**: <ul><li>**Adobe Experience Manager**: Ihr Administrator muss Ihnen über die [Adobe Admin Console](https://helpx.adobe.com/de/enterprise/using/admin-console.html) die Berechtigung für den Zugriff auf den KI-Assistenten (der nächsten Generation) erteilen.</li><li>**Customer Journey Analytics**: Ihr Administrator muss Ihnen die Berechtigung für den Zugriff auf den KI-Assistenten über die [Customer Journey Analytics-Zugriffssteuerung](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/access-control?lang=en) erteilen. Auf diese Weise können Sie Fragen zu Produktwissen und Dateneinblicken stellen. |
 
 AI Assistant ist ein interaktives, generatives KI-Tool, das die Produktivität steigert und die Arbeit in Adobe Experience Platform-basierten Anwendungen neu definiert. Sie können den KI-Assistenten verwenden, um auf Adobe Experience Platform-Agenten und andere KI-Funktionen zuzugreifen.
 
@@ -210,7 +210,7 @@ Das *[!UICONTROL Antwort von…]* Popup-Fenster wird angezeigt. Verwenden Sie di
 | --- | --- | --- |
 | App | Die Experience Cloud-Anwendung, zu der Ihre Abfrage gehört. | Experience Platform, Journey Optimizer, Customer Journey Analytics usw. |
 | Sandbox | Die Sandbox, die die Datensätze oder Informationen enthält, auf die sich Ihre Abfrage bezieht. | Prod (VA7), Dev. |
-| Datenansicht | Wenn Sie den KI-Assistenten mit Customer Journey Analytics verwenden, hilft Ihnen die Datenansichtseinstellung beim Verständnis von Data Insights Agent: <ul><li>Zu abfragende Datensätze</li><li>Welche Datenkomponenten verfügbar sind</li><li>Strukturieren von Antworten auf Ihre Daten</li><li>Welche Visualisierungen in Analysis Workspace erstellt werden sollen</li></ul> |
+| Datenansicht | Wenn Sie den KI-Assistenten mit Customer Journey Analytics verwenden, hilft Ihnen die Datenansichtseinstellung beim Verständnis von Data Insights Agent: <ul><li>Zu abfragende Datensätze</li><li>Welche Datenkomponenten verfügbar sind</li><li>Strukturieren von Antworten auf Ihre Daten</li><li>Welche Visualisierungen in Analysis Workspace erstellt werden sollen</li></ul> | |
 
 ![Das Bedienfeld „Antwort von“, in dem Informationsquellen konfiguriert werden können.](./images/ai-assistant/inputs/answer-from.png)
 
