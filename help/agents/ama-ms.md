@@ -1,9 +1,9 @@
 ---
 title: Adobe Marketing Agent for Microsoft 365 Copilot
 description: Erfahren Sie, wie Sie die Adobe Marketing Agent for Microsoft 365 Copilot verwenden können.
-source-git-commit: 5cf5e42c727cd5e48b1b817e150fb9862fc80c82
+source-git-commit: c3cb327bb7625ee81f784a1fad740b7b4cbdfb71
 workflow-type: tm+mt
-source-wordcount: '1793'
+source-wordcount: '1843'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Bevor Sie Adobe Marketing Agent für [!DNL Microsoft 365 Copilot] verwenden kön
 
 ## Aktivieren des Agenten für Ihre Organisation {#enable-the-agent-for-your-organization}
 
-Endbenutzer können die Adobe Marketing Agent erst verwenden, nachdem sie in Ihrem [!DNL Microsoft 365]-Mandanten zur Verfügung gestellt wurde. **Arbeiten Sie mit Ihrem [!DNL Microsoft 365] Copilot-Administrator** oder einem entsprechenden Administrator für Copilot-Agenten in Ihrer Organisation) zusammen, um den Zugriff zu aktivieren und den Agenten nach Bedarf Ihrer Organisation zuzuweisen.
+Endbenutzer können die Adobe Marketing Agent erst verwenden, nachdem sie in Ihrem [!DNL Microsoft 365]-Mandanten zur Verfügung gestellt wurde. **Wenden Sie sich an Ihren [!DNL Microsoft 365] Copilot-Administrator** (oder einen entsprechenden Administrator für Copilot-Agenten in Ihrer Organisation), um den Zugriff zu aktivieren und den Agenten nach Bedarf Ihrer Organisation zuzuweisen.
 
 Typische Ergebnisse nach der Admin-Einrichtung sind:
 
@@ -123,6 +123,10 @@ Der Agent soll schreibgeschützte Einblicke zurückgeben und ändert Ihre Kunden
 
 Die erste Version ist als englischsprachige Version verfügbar. Die Funktionen sind auf schreibgeschützte Einblicke beschränkt. Der Agent erstellt oder aktualisiert keine Marketing-Assets oder -Konfigurationen.
 
+>[!IMPORTANT]
+>
+>Die Adobe Marketing Agent ruft je nach den gesendeten Eingabeaufforderungen verschiedene Adobe-Agenten und -Aufträge auf. Dieser zugrunde liegende Adobe-Agent, der aufgerufen wird, verwendet KI-Credits, wie auf der Seite [Vorgänge für Adobe Experience Platform-Agenten und Nutzung von KI-](https://experienceleague.adobe.com/en/docs/core-services/interface/features/ai-credit-consumption) angegeben.
+
 ## Anhang
 
 Weitere Informationen zu Adobe Marketing Agent für [!DNL Microsoft 365 Copilot] finden Sie im Folgenden.
@@ -148,7 +152,7 @@ Bevor Sie externe Agenten bereitstellen können, muss die Richtlinie Ihrer Organ
 Normalerweise finden Sie externe Agenten im [[!DNL Microsoft Commercial Marketplace]](https://appsource.microsoft.com/).
 
 - **Vom Marketplace**: Suchen Sie den gewünschten Agenten und wählen Sie **Jetzt abrufen**. Dadurch werden Sie oft zurück zur Seite „Integrierte Apps **Ihres Admin Centers**.
-- **Berechtigungen überprüfen**: Wählen Sie in der Liste [Integrierte &#x200B;](https://learn.microsoft.com/en-us/microsoft-365/admin/manage/manage-deployment-of-add-ins?view=o365-worldwide)&quot; den externen Agenten aus.
+- **Berechtigungen überprüfen**: Wählen Sie in der Liste [Integrierte ](https://learn.microsoft.com/en-us/microsoft-365/admin/manage/manage-deployment-of-add-ins?view=o365-worldwide)&quot; den externen Agenten aus.
 - Überprüfen Sie die **Daten und Tools** und **Sicherheit und**), um zu sehen, auf welche Daten der externe Anbieter zugreifen wird.
 - Wählen Sie **Genehmigen** oder **Aktivieren** aus, um es in das Inventar Ihrer Organisation zu verschieben.
 
@@ -156,7 +160,7 @@ Normalerweise finden Sie externe Agenten im [[!DNL Microsoft Commercial Marketpl
 
 Nach der Genehmigung können Sie genau steuern, wer den Agenten in der Seitenleiste des Copiloten sehen kann.
 
-- Navigieren [[!DNL Microsoft 365]  im &#x200B;](https://admin.microsoft.com/) zu **Agenten** > **Alle Agenten**.
+- Navigieren [[!DNL Microsoft 365]  im ](https://admin.microsoft.com/) zu **Agenten** > **Alle Agenten**.
 - Wählen Sie den externen Agenten aus der Liste aus.
 - Wählen **Bereitstellen** (oder **Zuweisung bearbeiten**) aus.
 - Wählen Sie **Spezifische Benutzer/Gruppen** und suchen Sie nach den Einzelpersonen oder [!DNL Entra ID] Gruppen, die es haben sollen.
