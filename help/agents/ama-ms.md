@@ -125,7 +125,7 @@ Die erste Version ist als englischsprachige Version verfügbar. Die Funktionen s
 
 >[!IMPORTANT]
 >
->Die Adobe Marketing Agent ruft je nach den gesendeten Eingabeaufforderungen verschiedene Adobe-Agenten und -Aufträge auf. Dieser zugrunde liegende Adobe-Agent, der aufgerufen wird, verwendet KI-Credits, wie auf der Seite [Vorgänge für Adobe Experience Platform-Agenten und Nutzung von KI-](https://experienceleague.adobe.com/en/docs/core-services/interface/features/ai-credit-consumption) angegeben.
+>Die Adobe Marketing Agent ruft je nach den gesendeten Eingabeaufforderungen verschiedene Adobe-Agenten und -Aufträge auf. Dieser zugrunde liegende Adobe-Agent, der aufgerufen wird, verwendet KI-Credits, wie auf der Seite [Vorgänge für Adobe Experience Platform-Agenten und Nutzung von KI-](https://experienceleague.adobe.com/de/docs/core-services/interface/features/ai-credit-consumption) angegeben.
 
 ## Anhang
 
