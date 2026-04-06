@@ -23,4 +23,4 @@ Lesen Sie dieses Dokument, um mehr über die auf das Kundenvertrauen fokussierte
 * Der KI-Assistent basiert auf Sandbox-spezifischen Daten und der öffentlichen Adobe-Dokumentation, wenn auf Benutzeraufforderungen reagiert wird. Daten werden nicht über Sandboxes hinweg freigegeben.
 * Eingabeaufforderungen, die Sie an den KI-Assistenten senden, werden nicht an andere Kunden weitergegeben.
 
-&amp;ast; *Dies bedeutet, dass es bis zu 24 Stunden dauern kann, bis neue Kennzeichnungen zu Feldern und Objekten hinzugefügt oder neue Richtlinien erstellt werden. Während dieser 24 Stunden können Benutzer mit neu eingeschränktem Zugriff weiterhin auf diese Felder und Objekte zugreifen.*
+&ast; *Dies bedeutet, dass es bis zu 24 Stunden dauern kann, bis neue Kennzeichnungen zu Feldern und Objekten hinzugefügt oder neue Richtlinien erstellt werden. Während dieser 24 Stunden können Benutzer mit neu eingeschränktem Zugriff weiterhin auf diese Felder und Objekte zugreifen.*
