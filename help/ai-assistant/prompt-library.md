@@ -1,10 +1,22 @@
 ---
 title: Bibliothek mit Eingabeaufforderungen des KI-Assistenten
 description: Erfahren Sie mehr über die verschiedenen Arten von Eingabeaufforderungen und Eingabeaufforderungsmustern, die Sie bei der Abfrage des KI-Assistenten verwenden können.
-source-git-commit: 4bb6da3fe1abee98446df62c94730274e0931493
+TQID: https://experienceleague.adobe.com/QICjh9cNBT3XeKObkXqSDEGQT26zpv86V36L0tqvSgo
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: dd7883d8eccab3b0f006d55a850248e1c347d7e7
 workflow-type: tm+mt
-source-wordcount: '811'
-ht-degree: 3%
+source-wordcount: 813
+ht-degree: 17%
 
 ---
 
@@ -69,7 +81,7 @@ Die folgenden Beispielaufforderungen können mit der Journey Agent verwendet wer
 
 ### Fragen zu Journey-Ressourcen
 
-- „Wie viele lebende Journey habe ich?“
+- „Wie viele Live-Journeys habe ich?“
 - „Geben Sie mir eine Liste aller geplanten wiederkehrenden Journey und ihrer erwarteten Laufzeiten.“
 
 ### Erkenntnisse zu Zielgruppen und Journeys

@@ -4,13 +4,37 @@ description: Eine umfassende Anleitung für Journey Agent, die es den Benutzende
 solution: Journey Optimizer
 product: journey optimizer
 role: Admin,User,Developer,Leader
-source-git-commit: aba0b2f7f819f762c336c4dfeb952326a0814800
+TQID: https://experienceleague.adobe.com/7Bamc-q4rDOB9i0oxwixdmtdU8lrx3btpvMfAsjGnig
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9
+  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
+  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+source-git-commit: dd7883d8eccab3b0f006d55a850248e1c347d7e7
 workflow-type: tm+mt
-source-wordcount: '2608'
+source-wordcount: 2655
 ht-degree: 15%
 
 ---
-
 
 # Journey Agent: Übersicht und Benutzerhandbuch
 
@@ -52,115 +76,115 @@ Journey Create bietet Funktionen, die genutzt werden können, um die Marketing-A
 
    - Erstellen Sie Journey, die basierend auf bestimmten Kundenereignissen aktiviert werden.
    - Entwerfen Sie automatisierte Antworten auf Kundenaktionen in Echtzeit.
-   - Erstellen personalisierter Kommunikationsflüsse basierend auf dem Kundenverhalten.
+   - Build personalized communication flows based on customer behavior.
 
-1. **Zielgruppen-orientierte Journey-Erstellung**
+1. **Audience-targeted journey creation**
 
-   - Erstellen Sie Journey für bestimmte Zielgruppensegmente.
-   - Entwerfen Sie mehrstufige Kommunikationssequenzen mit strategischem Timing.
+   - Build journeys targeting specific audience segments.
+   - Design multi-step communication sequences with strategic timing.
 
-1. **Erstellung von durch Geschäftsereignisse ausgelösten Journey**
+1. **Business-event triggered journey creation**
 
-   - Erstellen Sie Journey, die basierend auf einem bestimmten Geschäftsereignis aktiviert werden und eine bestimmte Zielgruppe ansprechen (z. B. „Produkt wieder auf Lager“ oder „Spielwertänderung„).
-   - Erstellen personalisierter Kommunikationsflüsse basierend auf dem Kundenverhalten.
+   - Create journeys that activate based on a particular business event and target a specified audience (e.g. product back in stock or game score change)
+   - Build personalized communication flows based on customer behavior.
 
-1. **Erstellung von Journey zur Zielgruppenqualifizierung**
+1. **Audience qualification journey creation**
 
-   - Erstellen Sie Journey, die aktiviert werden, wenn Profile in eine Zielgruppensegmentdefinition eintreten oder diese verlassen.
-   - Erstellen personalisierter Kommunikationsflüsse basierend auf dem Kundenverhalten.
+   - Create journeys that activate as profiles enter or exit an audience segment definition.
+   - Build personalized communication flows based on customer behavior.
 
-1. **Bedingte Journey-Flüsse**
+1. **Conditional journey flows**
 
-   - Erstellen Sie Entscheidungszweige basierend auf Kundenattributen.
-   - Entwerfen Sie Split-Pfade, die sich an die Kundenpräferenzen anpassen.
+   - Create decision branches based on customer attributes.
+   - Design split paths that adapt to customer preferences.
 
-Für jeden dieser Anwendungsfälle übersetzt der Agent Anforderungen an natürliche Sprachen in strukturierte Journey-Konfigurationen.
+For each of these use cases, the agent translates natural language requirements into structured journey configurations.
 
-## In Umfang und außerhalb des Umfangs Kenntnisse
+## In scope and out of scope skills
 
-### **Im Umfang**
+### **In scope**
 
-Die folgenden Funktionen werden von Journey Create unterstützt:
+The following capabilities are supported by Journey Create:
 
-- **Erstellung von Journey in natürlicher Sprache**: Ermöglicht Benutzern, den Journey-Fluss in einer Konversationssprache zu beschreiben.
-- **Ereignisbasierte und zielgruppenbasierte Journey**: Unterstützt sowohl Trigger-basierte als auch geplante Journey-Typen sowie die Qualifizierung von Geschäftsereignissen und Zielgruppen.
-- **Bedingte Logik**: Verarbeitet Entscheidungsaufteilungen und Verzweigungen basierend auf Kundenattributen.
-- **Multi-Channel-Messaging**: Unterstützt Push-Benachrichtigungen, E-Mail- und SMS-Kanäle.
-- **Journey-Planung**: Konfiguriert Startdaten und -zeiten für geplante Journeys.
+- **Natural language journey creation**: Allows users to describe journey flow in conversational language.
+- **Event-based and audience-based journeys**: Supports both trigger-based and scheduled journey types, also business event and audience qualification.
+- **Conditional logic**: Handles decision splits and branching based on customer attributes.
+- **Multi-channel messaging**: Supports push notifications, email, and SMS channels.
+- **Journey scheduling**: Configures start dates and timing for scheduled journeys.
 
-### **Außerhalb des Bereichs**
+### **Out of scope**
 
 Die folgenden Möglichkeiten werden derzeit nicht unterstützt:
 
-- **Erweiterte Journey-**
-- **Echtzeit-Journey-Änderungen**
-- **Cross-Journey-Orchestrierung**
-- **A/B-Testkonfiguration**
-- **Komplexe Datenumwandlungen**
+- **Advanced journey analytics**
+- **Real-time journey modifications**
+- **Cross-journey orchestration**
+- **A/B testing configuration**
+- **Complex data transformations**
 
-## Eingabeaufforderungen im Beispiel
+## Sample prompts
 
-### Häufige Eingabeaufforderungen für die Journey-Erstellung
+### Common prompts for journey creation
 
-Im Folgenden finden Sie Beispiele für wertvolle Eingabeaufforderungen, die Benutzende zum Erstellen von Journey verwenden können.
+Here are examples of valuable prompts users can leverage to create journeys.
 
-### Ereignisgesteuerte Journey-Eingabeaufforderungen
+### Event-triggered journey prompts
 
-**Besuch speichern Journey:**
+**Store visit journey:**
 
-„Erstellen Sie eine Journey, die gestartet wird, wenn ein Benutzer meinen Speicherort eingibt. Senden Sie eine Push-Benachrichtigung, um Benutzer im Store willkommen zu heißen. Warten Sie 2 Tage und überprüfen Sie, ob der Benutzer über eine gültige E-Mail-Adresse verfügt. Wenn der Benutzer über eine gültige E-Mail-Adresse verfügt, senden Sie eine E-Mail-Umfrage, um ihn nach seinem Store-Erlebnis zu fragen. Wenn der Benutzer keine gültige E-Mail-Adresse hat, senden Sie eine Push-Benachrichtigung, um ihn zur Registrierung aufzufordern.“
+&quot;Create a journey that starts when a user enters my store location. Send a push notification to welcome users to the store. Wait 2 days and check to see if the user has a valid email address. If the user has a valid email address, send an email survey to ask about their store experience. If the user does not have a valid email address, send a push notification to prompt for registration.&quot;
 
-**Nach dem Kauf Journey:**
+**Post-purchase journey:**
 
-„Erstellen Sie eine Journey, die startet, wenn ein Kunde einen Online-Kauf tätigt. Senden Sie eine Push-Benachrichtigung, um sich für den Kauf zu bedanken. Überprüfen Sie anschließend, ob es sich um Mitglieder des Treueprogramms handelt. Wenn der Benutzer Mitglied des Treueprämien-Programms ist, senden Sie eine zweite Push-Benachrichtigung mit einem Rabattcode von 10 %. Wenn der Benutzer kein Mitglied des Treueprämien-Programms ist, senden Sie eine Push-Benachrichtigung, mit der er aufgefordert wird, sich für das Treueprogramm anzumelden. Warten Sie zwei Tage und senden Sie eine Follow-up-Push-Benachrichtigung mit einer Umfrage zu ihrem Kauferlebnis.“
+&quot;Create a journey that starts when a customer makes a purchase online. Send a push notification to thank them for their purchase. Next, check to see if they are loyalty members. If the user is a loyalty rewards member, send a second push notification with a 10% discount code. If the user is not a loyalty rewards member, send a push inviting them to sign up for the loyalty program. Wait 2 days and send a follow-up push with a survey about their purchase experience.&quot;
 
-**Ereignisbasierte Promotion:**
+**Event-based promotion:**
 
-„Erstellen Sie eine Journey, die ausgelöst wird, wenn der Spielstand 50 erreicht. Senden Sie eine SMS-Nachricht an Mitglieder des Treueprämien-Teams, in der sie darauf hingewiesen werden, dass sie für ein kostenloses Stück Pizza vom Partner-Sponsor infrage kommen.“
+&quot;Create a journey triggered when the game score reaches 50. Send an SMS message to loyalty reward members saying that they are eligible for a free slice of pizza from the partner sponsor.&quot;
 
-### Zielgruppen-orientierte Journey-Eingabeaufforderungen
+### Audience-targeted journey prompts
 
-**Saisonkampagne:**
+**Seasonal campaign:**
 
-„Ich möchte eine Journey erstellen, die sich an ein Publikum von Tageswanderern richtet. Ich möchte eine E-Mail senden, die diese Zielgruppe auf meinen bevorstehenden Weihnachtsverkauf hinweist, der eine Vielzahl von Wander-Essentials enthält. Warten Sie 3 Tage nach dem Versand der ersten E-Mail und senden Sie eine zweite E-Mail, die einen 15%-Coupon mit kostenlosem Versand enthält. Warten Sie 1 Woche und senden Sie dann eine dritte E-Mail-Nachricht, um unsere neue Schlafsack- und Zeltkollektion zu zeigen. Planen Sie den Start der Journey am 20.12.20.“
+&quot;I want to create a journey targeting an audience of day hikers. I want to send an email alerting this audience to my upcoming holiday sale that includes a variety of hiking essentials. Wait 3 days after sending the first email and send a second email that has a 15% coupon with free shipping. Wait 1 week and then send a 3rd email message to show our new sleeping bag and tent collection. Schedule the journey to start on 12/20.&quot;
 
-**Wertschätzung der Treue:**
+**Loyalty appreciation:**
 
-„Erstellen Sie eine Treueprogramm-Wertungs-Journey für SUV-Besitzer, einschließlich einer Dankes-Push-Benachrichtigung mit einem kostenlosen Autowaschangebot und einer Folge-Push-Benachrichtigung, wenn die erste Benachrichtigung nicht innerhalb eines Tages interagiert wird.“
+&quot;Build a loyalty appreciation journey for SUV owners, including a thank you push notification with a free carwash offer and a follow-up push notification reminder if the first notification is not interacted with within 1 day.&quot;
 
-### Eingabeaufforderungen mit offenem Ende
+### Open-ended prompts
 
-Für Benutzer, die ohne eine bestimmte Journey beginnen:
+For users starting without a specific journey in mind:
 
-- „Ich möchte eine Journey erstellen“
-- „Helfen Sie mir, eine Journey zu erstellen“
-- „Create me a Journey&quot;
+- &quot;I&#39;d like to create a journey&quot;
+- &quot;Help me create a journey&quot;
+- &quot;Create me a journey&quot;
 
-Der Agent stellt Anleitungen und Beispiele bereit, um Sie bei der Definition Ihrer Journey-Anforderungen zu unterstützen.
+The agent will provide guidance and examples to help you define your journey requirements.
 
 ## Best Practices
 
-### Best Practices bei der Eingabeaufforderung
+### Prompting best practices
 
-Um die Effektivität von Journey Create zu maximieren, befolgen Sie die folgenden Best Practices:
+To maximize the effectiveness of Journey Create, follow these best practices:
 
-1. **Spezifisch**: Geben Sie eindeutige Details zu Ihren Journey-Zielen, Ihrer Zielgruppe und den gewünschten Aktionen an. Beinhalten Informationen über Kanäle, Timing und Bedingungen.
-1. **Zeitvorgabe angeben**: Geben Sie eindeutig an, wann die Wartezeiten zwischen Aktionen sein sollen und wann die Journey gestartet werden soll.
-1. **Bedingungen definieren**: Bei Verwendung der bedingten Logik müssen Sie die Kriterien für jeden Verzweigungspfad erläutern.
-1. **Kanäle einschließen**: Geben Sie an, welche Kommunikationskanäle Sie verwenden möchten (Push, E-Mail, SMS).
-1. **Erwähnung Planung**: Geben Sie für geplante Journey das gewünschte Startdatum und die gewünschte Startzeit an.
-1. **Benutzerdefinierte Aktionen**: Wenn Sie benutzerdefinierte Aktionen in Ihrem Workflow verwenden, müssen Sie angeben, dass Sie eine benutzerdefinierte Aktion zusammen mit dem genauen Namen der benutzerdefinierten Aktion verwenden. Beispiel:
-Wenn ein(e) Benutzende(r) meinen Store-Speicherort betritt, senden Sie eine Willkommensnachricht mit der benutzerdefinierten Aktion „ExternalPush“. Warten Sie 2 Tage und senden Sie dann eine Folgenachricht mit benutzerdefinierter Aktion ExternalEmail mit einer Umfrage zu ihrem Besuch.
-1. **Ausdrücke überprüfen** Überprüfen und validieren Sie alle Ausdrücke, die von Journey Agent erstellt werden, um sicherzustellen, dass die richtigen Felder und Werte verwendet werden.
+1. **Be Specific**: Provide clear details about your journey goals, target audience, and desired actions. Include information about channels, timing, and conditions.
+1. **Specify Timing**: Clearly indicate wait periods between actions and when the journey should start.
+1. **Define Conditions**: When using conditional logic, explain the criteria for each branch path.
+1. **Include Channels**: Specify which communication channels you want to use (push, email, SMS).
+1. **Mention Scheduling**: For scheduled journeys, provide the desired start date and time.
+1. **Custom Actions**: If you are using custom actions in your workflow you need to specify that you are using a custom action along with the exact name of the custom action. Beispiel:
+When a user enters my store location send a welcome message using custom action ExternalPush. Wait 2 days and then send a follow up message using custom action ExternalEmail with a survey on their visit.
+1. **Validate Expressions**: Make sure to check and validate any expressions that Journey Agent creates to ensure that the correct fields and values are used.
 
-### Best Practices für die Einrichtung
+### Setup best practices
 
-- **Definieren Sie klare Ziele** Bevor Sie Journey erstellen, definieren Sie klare Ziele (Verbesserung der Kundenbindung, Förderung von Konversionen, Steigerung der Interaktion).
-- **Zielgruppen vorbereiten**: Stellen Sie sicher, dass Ihre Zielgruppen bereits erstellt und ordnungsgemäß segmentiert sind.
-- **Planen des Nachrichteninhalts**: Lassen Sie Ihre Messaging-Strategie vor der Erstellung von Journey definieren.
-- **Kundenerlebnis berücksichtigen**: Entwerfen Sie Journey-Flüsse, die Kundenpräferenzen berücksichtigen und Überkommunikation vermeiden.
+- **Define Clear Objectives**: Before creating journeys, establish clear goals (improving retention, driving conversions, increasing engagement).
+- **Prepare Audiences**: Ensure your target audiences are already created and properly segmented.
+- **Plan Message Content**: Have your messaging strategy defined before journey creation.
+- **Consider Customer Experience**: Design journey flows that respect customer preferences and avoid over-communication.
 
-## Kanalinhalt erstellen: Anwendungsfälle, Agentenkenntnisse und Benutzerhandbuch
+## Channel Content Create: Use Cases, Agentic Skills and User Guide
 
 >[!AVAILABILITY]
 >
@@ -168,107 +192,107 @@ Wenn ein(e) Benutzende(r) meinen Store-Speicherort betritt, senden Sie eine Will
 
 ## Überblick
 
-Mit der Erstellung von Kanalinhalten können Journey Optimizer-Benutzende kanalspezifische Inhalte für Journey generieren, bearbeiten und verwalten, indem sie die KI-gestützte Inhaltserstellung verwenden.
+Channel Content Create enables Journey Optimizer users to generate, edit, and manage channel-specific content for journeys using AI-powered content generation.
 
 ## Anwendungsfälle
 
-### Häufige Anwendungsfälle für die Erstellung von Kanalinhalten
+### Key use cases for Channel Content Create
 
-1. **Kanalspezifische Inhaltserstellung**: Generieren von Inhalten für E-Mail, Push-Benachrichtigungen, SMS und andere Kanäle mithilfe von Eingabeaufforderungen in natürlicher Sprache.
+1. **Channel-specific content generation**: Generate content for email, push notifications, SMS, and other channels using natural language prompts.
 
-1. **Vorlagenbasierte Inhaltserstellung**: Durchsuchen Sie verfügbare Vorlagen mit Vorschaufunktionen und wählen Sie sie aus.
+1. **Template-based content creation**: Browse and select from available templates with preview capabilities.
 
-1. **Multi-Channel-Content-**: Generieren und verwalten Sie Inhalte für mehrere Kanäle innerhalb desselben Journey-Workflows.
+1. **Multi-channel content management**: Generate and manage content for multiple channels within the same journey workflow.
 
-1. **Kontextbezogene Inhaltsbearbeitung**: Öffnen Sie generierte Inhalte in Content Designer zur Bearbeitung und Verfeinerung.
+1. **In-context content editing**: Open generated content in Content Designer for editing and refinement.
 
-1. **Inhaltsverfeinerung und Iteration**: Generieren Sie Inhalte mit verschiedenen Tönen oder Stilen mithilfe der Aktion „Regenerieren“ neu.
+1. **Content refinement and iteration**: Regenerate content with different tones or styles using the Regenerate action.
 
-1. **Integration der Journey-Arbeitsfläche**: Wählen Sie Journey aus dem Inventar aus und zeigen Sie die zugehörigen Kanäle an.
+1. **Journey canvas integration**: Select journeys from inventory and view associated channels.
 
-## In Umfang und außerhalb des Umfangs Kenntnisse
+## In scope and out of scope skills
 
-### **Im Umfang**
+### **In scope**
 
-Die folgenden Funktionen werden von der Kanalinhaltserstellung unterstützt:
+The following capabilities are supported by Channel Content Create:
 
-- **KI-gestützte Inhaltserstellung**: Generieren von Inhalten für E-Mail, Push, SMS und andere Kanäle mithilfe natürlicher Sprachaufforderungen.
-- **Vorlagenverwaltung**: Suchen und wählen Sie aus verfügbaren Vorlagen mit Vorschaufunktionen.
-- **Kontextbezogene Bearbeitung**: Öffnen Sie generierte Inhalte in Content Designer zur Bearbeitung und Anpassung.
-- **Inhaltsregenerierung**: Generieren Sie Inhalte mit verschiedenen Tönen, Stilen oder Nachrichten mithilfe der Aktion „Regenerieren“ neu.
-- **Multi-Channel-Unterstützung**: Generieren und verwalten Sie Inhalte für mehrere Kanäle innerhalb desselben Journey-Workflows.
-- **Journey-Inventarzugriff**: Wählen Sie Journey aus dem Inventar aus und zeigen Sie die zugehörigen Kanäle an.
+- **AI-powered content generation**: Generate content for email, push, SMS, and other channels using natural language prompts.
+- **Template management**: Browse and select from available templates with preview capabilities.
+- **In-context editing**: Open generated content in Content Designer for editing and refinement.
+- **Content regeneration**: Regenerate content with different tones, styles, or messaging using the Regenerate action.
+- **Multi-channel support**: Generate and manage content for multiple channels within the same journey workflow.
+- **Journey inventory access**: Select journeys from inventory and view associated channels.
 
-### **Außerhalb des Bereichs**
+### **Out of scope**
 
 Die folgenden Möglichkeiten werden derzeit nicht unterstützt:
 
-- **Prüfung der Markenausrichtung und der Inhaltsqualität**
-- **Inhaltsknoten direkt in die Journey-Arbeitsfläche einfügen**
-- **Vorlagenimport**
+- **Brand alignment and content quality checks**
+- **Insert content nodes directly into journey canvas**
+- **Template import**
 
-## Eingabeaufforderungen im Beispiel
+## Sample prompts
 
-### Inhaltsgenerierung
+### Content generation
 
-„Generieren von E-Mail-Inhalt für meinen Willkommens-Journey. Erstellen Sie eine Begrüßungs-E-Mail für neue Kunden mit einem freundlichen Ton und einem Rabattangebot von 10 %.“
+&quot;Generate email content for my welcome journey. Create a welcome email for new customers with a friendly tone and include a 10% discount offer.&quot;
 
-„Inhalt für Kanal-E-Mail für meine Begrüßungs-Journey hinzufügen.“
+&quot;Add content for channel email for my welcome journey.&quot;
 
-„Push-Benachrichtigung für meinen Store-Besuch erzeugen Journey. Erstellen Sie eine Begrüßungsnachricht, die Kunden ermutigt, einzuchecken und ein spezielles Angebot zu erhalten.“
+&quot;Generate a push notification for my store visit journey. Create a welcome message that encourages customers to check in and receive a special offer.&quot;
 
-„Generieren von SMS-Inhalt für meinen ereignisgesteuerten Journey. Erstellen Sie eine Kurznachricht, die Kunden über einen Flash-Verkauf mit einer call-to-action informiert.“
+&quot;Generate SMS content for my event-triggered journey. Create a short message notifying customers about a flash sale with a call-to-action.&quot;
 
-### Vorlagenauswahl
+### Template selection
 
-„Zeigen Sie mir verfügbare E-Mail-Vorlagen für meine saisonale Kampagnen-Journey.“
+&quot;Show me available email templates for my seasonal campaign journey.&quot;
 
-„Wählen Sie eine Vorlage für meine E-Mail mit einem modernen, sauberen Design.“
+&quot;Select a template for my email that has a modern, clean design.&quot;
 
-### Inhaltsbearbeitung und -verfeinerung
+### Content editing and refinement
 
-„Öffnen Sie den E-Mail-Inhalt in Content Designer, damit ich das Design anpassen kann.“
+&quot;Open the email content in Content Designer so I can customize the design.&quot;
 
-„Der Inhalt der Push-Benachrichtigung wird in einem lockeren Ton neu generiert.“
+&quot;Regenerate the push notification content with a more casual tone.&quot;
 
-„Aktualisieren Sie den E-Mail-Inhalt, um einen Werbe-Code einzuschließen.“
+&quot;Update the email content to include a promotional code.&quot;
 
 ## Best Practices
 
-### Best Practices bei der Eingabeaufforderung
+### Prompting best practices
 
-1. **Spezifisch**: Geben Sie klare Details zum Inhaltstyp, zum Ton, zur Zielgruppe und zum wichtigsten Messaging an.
-1. **Kanal angeben**: Geben Sie klar an, für welchen Kanal Sie Inhalte erstellen (E-Mail, Push, SMS).
-1. **Ton definieren**: Geben Sie den gewünschten Ton an (freundlich, formell, ungezwungen, dringend).
-1. **Iterieren und verfeinern**: Verwenden Sie die Aktion „Neu generieren“, um Inhalte zu verfeinern, bis sie Ihren Anforderungen entsprechen.
+1. **Be Specific**: Provide clear details about the content type, tone, target audience, and key messaging.
+1. **Specify Channel**: Clearly indicate which channel you are creating content for (email, push, SMS).
+1. **Define Tone**: Specify the desired tone (friendly, formal, casual, urgent).
+1. **Iterate and Refine**: Use the regenerate action to refine content until it meets your requirements.
 
-## Journey Analyze: Anwendungsfälle, Agentenkenntnisse und Benutzerhandbuch
+## Journey Analyze: Use Cases, Agentic Skills and User Guide
 
 ## Überblick
 
-Journey Agent ermöglicht es Journey Optimizer-Anwendern, Journey mithilfe einer natürlichen Sprachschnittstelle zu analysieren und zu optimieren. Mit Journey Agent können Anwendende Zeitplankonflikte und/oder Zielgruppenkonflikte schnell identifizieren und lösen, Punkte der Benutzerkündigung in einer Journey erkennen und Einblicke oder Empfehlungen liefern. Er unterstützt Marketing-Fachleute dabei, datengestützte Entscheidungen zu treffen, die Kundeninteraktion zu verbessern und die Journey-Orchestrierung zu optimieren.
+Journey Agent will enable Journey Optimizer users to analyze, and optimize journeys using a natural language interface. With Journey Agent, practitioners can quickly identify and resolve schedule and/or audience conflicts, detect points of user abandonment in a journey and provide insights or recommendations. Er unterstützt Marketing-Fachleute dabei, datengestützte Entscheidungen zu treffen, die Kundeninteraktion zu verbessern und die Journey-Orchestrierung zu optimieren.
 
-Erfahren Sie mehr und entdecken Sie den Agenten auf einen Blick in dieser [Übersicht](https://experienceleague.adobe.com/de/slides/journey-agent-overview).
+Learn more and discover the agent at a glance in this [overview](https://experienceleague.adobe.com/de/slides/journey-agent-overview).
 
 >[!AVAILABILITY]
 >
->Die Journey Agent steht allen Kunden zur Verfügung, die Zugriff auf den KI-Assistenten haben. Sie benötigen jedoch die folgenden Berechtigungen, um die Funktionen von Journey Agent vollständig nutzen zu können:
+>The Journey Agent is available for all customers who have access to AI Assistant. However, you will need the following permissions in order to fully use the Journey Agent features:
 >
->**Journey anzeigen**: Mit dieser Berechtigung können Sie Einblicke in die Journey direkt im KI-Assistenten anzeigen.
+>**View Journeys**: This permission lets you view insights into the journey directly in AI Assistant.
 >
->**Journey verwalten**: Mit der Berechtigung „Bis“ können Sie neue Journeys direkt im KI-Assistenten erstellen.
+>**Manage Journeys**: To permission lets you create new journeys directly in AI Assistant.
 >
->**Segmente anzeigen**: Mit dieser Berechtigung können Sie Einblicke in die Zielgruppen direkt im KI-Assistenten anzeigen.
+>**View Segments**: This permission lets you view insights into the audiences directly in AI Assistant.
 >
->**Segmente verwalten**: Mit der Berechtigung „Bis“ können Sie neue Zielgruppen direkt im KI-Assistenten erstellen.
+>**Manage Segments**: To permission lets you create new audiences directly in AI Assistant.
 
-![Beispiel für AJO Agent](./images/ajo-agent/ajo-agent-sample.png)
+![Sample for AJO Agent](./images/ajo-agent/ajo-agent-sample.png)
 
 ## Anwendungsfälle
 
-### Häufige Anwendungsfälle für das Journey Analyze
+### Key Use Cases for Journey Analyze
 
-Journey Analyze bietet eine Reihe von Funktionen, mit denen Marketing-Maßnahmen optimiert werden können:
+Journey Analyze offers a range of functionalities that can be leveraged to optimize marketing efforts:
 
 1. **Journey-Fallout-Analyse**
 
@@ -290,19 +314,19 @@ Journey Analyze bietet eine Reihe von Funktionen, mit denen Marketing-Maßnahmen
 
 1. **Betriebliche Erkenntnisse**
 
-   - Prompt-basierte Journey-Einblicke - Erhalten Sie operative Einblicke über Journey, d. h. „Zeige mir alle Live-Journey&quot;.
+   - Prompt-based Journey Insights – Surface operational insights about journeys , i.e. &quot;show me all live journeys.&quot;
 
-Bei jeder dieser Analysen erkennt der Agent nicht nur Probleme, sondern gibt auch **umsetzbare Empfehlungen zur Lösung dieser Probleme**.
+For each of these analyses, the agent not only detects issues but also provides **actionable recommendations to resolve them**.
 
 ## Leistungsumfang
 
 ### **Unterstützte Funktionen**
 
-Journey Analyze unterstützt die folgenden Funktionen:
+The following capabilities are supported by Journey Analyze:
 
 - **Reaktive Abfragen**: Mit dieser Funktion können Benutzende gezielte Fragen zur Leistung der Journey, zur Nutzung durch die Zielgruppe und zu Zeitplankonflikten stellen.
 - **Integration mit anderen Agents**: Zusammenarbeit mit Audience Agent und Data Insights Agent für eine tiefergehende Analyse.
-- **Struktur der Agent-**: Argumentation (Erläuterung der Logik), Zusammenfassung der Analyse (Hervorhebung der Schlüsselpunkte), Problemdetails (Beschreibung des Problems) und Empfehlung (Vorschlag der nächsten Schritte).
+- **Agent response structuration**: reasoning (explain the logic), analysis summary (highlight key points), issue details (describe the problem), and recommendation (propose next steps).
 
 ### **Nicht unterstützte Funktionen**
 
@@ -323,54 +347,54 @@ Im Folgenden finden Sie Beispiele für praktische Prompts, die Benutzende verwen
 
 ### Fragen zum Journey-Lebenszyklus
 
-- „Wann wurde [Journey-Name] veröffentlicht?“
-- „Wann wurde [Journey-Name] angehalten?“
-- „Alle Journey auflisten, die sich derzeit im Testmodus befinden“
+- &quot;When was [Journey Name] published?&quot;
+- &quot;When was [Journey Name] stopped?&quot;
+- &quot;List all journeys currently in test mode&quot;
 
 ### Fragen zu Journey-Ressourcen
 
 - „Wie viele Live-Journeys habe ich?“
-- „Geben Sie mir eine Liste aller geplanten wiederkehrenden Journey und ihrer erwarteten Laufzeiten.“
+- &quot;Give me a list of all scheduled recurring journeys and their expected run times.&quot;
 
 ### Erkenntnisse zu Zielgruppen und Journeys
 
-- „Welche Zielgruppen werden in mehr als X Journey verwendet?“
-- „Listen Sie alle Journey mit der [Zielgruppenname] Zielgruppe auf.“
+- &quot;Which audiences are used in more than X journeys?&quot;
+- &quot;List all journeys using the [audience name] audience.&quot;
 
-### Fallout-Analyse
+### Fallout analysis
 
-- „Ich möchte den Fallout nach Knoten für das Journey der Kampagne vom 4. Juli analysieren.“
-- „Führen Sie eine Fallout-Analyse für das Journey der Kampagne vom 4. Juli durch.“
-- „Was bedeutet Profilverlust im Verlauf des Journey der Kampagne vom 4. Juli?“
-- „Anzeigen, wo Benutzer in der Journey der Kampagne vom 4. Juli abbrechen.“
+- &quot;I want to analyze the fallout by node for journey Fourth of July Campaign.&quot;
+- &quot;Perform a fallout analysis for journey Fourth of July Campaign.&quot;
+- &quot;What is profile loss over the course of journey Fourth of July Campaign?&quot;
+- &quot;Show where users are dropping off in journey Fourth of July Campaign.&quot;
 
 ### Prompts zur Konfliktanalyse
 
 Nutzen Sie diese Prompts, um mögliche Konflikte zwischen Journeys zu analysieren, einschließlich Überschneidungen bei der Zeitplanung und der Zielgruppe:
 
-- „Können Sie eine umfassende Konfliktanalyse für unsere Journey [Journey-Name] mit Informationen zum Konflikttyp (Planung/Zielgruppe) mit Live-/laufenden Journey-Dateien durchführen?“
-- „Bitte planen Sie eine Konfliktanalyse für Journey [Journey-Name] mit Informationen zum Konflikttyp.“
-- „Führen Sie eine Analyse zur Zielgruppenüberschneidung für das Journey von [Journey-] mit Informationen zum Konflikttyp durch.“
-- „Gibt es Planungskonflikte für Journey [Journey-Name]?“
-- „Konflikte bei Zielgruppenüberschneidungen für Journey [Journey-Name anzeigen]&quot;
-- „Analysieren Sie alle Konflikte für das Journey [Journey-Name] mit anderen Live-Journey.“
-- „Was sind die aktuellen Konflikte beim Journey [Journey-Name]?“
-- „Überprüfen, ob der Journey [Journey-Name] Zielgruppenkonflikte mit anderen Journey aufweist.“
-- „Prüfen Sie, ob Planungskonflikte beim Journey [Journey-Name] vorliegen.“
-- „Ich möchte mehr über alle Journey-Konflikte für [Journey-Name] erfahren.“
-- „Kollidieren Live-Journey mit [Journey-Name] nach Zeitplan oder Zielgruppe?“
-- „Identifizieren Sie Konflikttypen für Journey [Journey-Name] im Vergleich zu laufenden Journey.“
-- „Überschneidende Zielgruppen für das Journey von [Journey-Name] und anderen Journey anzeigen.“
-- „Zeitplanüberschneidungen zwischen Journey [Journey-Name] und Live-Journey hervorheben.“
-- „Steht die Ausführung von Journey [Journey]Name&rbrace; im Konflikt mit einer anderen Journey?“
-- „Bitte Konflikte für [Journey-Name&rbrace; erkennen und ].“
-- „Melden Sie alle Konflikttypen für das Journey [Journey-Name].“
-- „Geben Sie mir eine Konfliktaufschlüsselung (Planung und Zielgruppe) für [Journey-Name].“
-- „Gibt es für [Journey-] Konflikte, die sich auf die Leistung auswirken können?“
-- „Gibt es aktive Konflikte, die sich auf [Journey-Name] auswirken?“
-- &quot;Journey auflisten, die mit [Journey-Name] in Konflikt stehen, nach Zeitplan oder Zielgruppe.“
-- „Hat Journey [Journey-Name] Konflikte ausgelöst?“
-- „Finden Sie potenzielle Zielgruppenkonflikte für Journey [Journey-Name].“
+- &quot;Can you do a comprehensive analysis of conflicts for our journey [Journey Name] with conflict type (scheduling/audience) information with live/running journeys?&quot;
+- &quot;Please do a scheduling conflict analysis for journey [Journey Name] with conflict type information.&quot;
+- &quot;Please do an audience overlap analysis for journey [Journey Name] with conflict type information.&quot;
+- &quot;Are there any scheduling conflicts for journey [Journey Name]?&quot;
+- &quot;Show me audience overlap conflicts for journey [Journey Name].&quot;
+- &quot;Analyze all conflicts for journey [Journey Name] with other live journeys.&quot;
+- &quot;What are the current conflicts for journey [Journey Name]?&quot;
+- &quot;Check if journey [Journey Name] has audience conflicts with other journeys.&quot;
+- &quot;Check for scheduling conflicts involving journey [Journey Name].&quot;
+- &quot;I want to know about all journey conflicts for [Journey Name].&quot;
+- &quot;Do any live journeys conflict with [Journey Name] by schedule or audience?&quot;
+- &quot;Identify conflict types for journey [Journey Name] compared to running journeys.&quot;
+- &quot;Show overlapping audiences for journey [Journey Name] and other journeys.&quot;
+- &quot;Highlight scheduling overlaps between journey [Journey Name] and live journeys.&quot;
+- &quot;Is journey [Journey Name] running in conflict with any other journey?&quot;
+- &quot;Please detect and list conflicts for [Journey Name].&quot;
+- &quot;Report all types of conflicts for journey [Journey Name].&quot;
+- &quot;Give me a conflict breakdown (scheduling and audience) for [Journey Name].&quot;
+- &quot;Does [Journey Name] have any conflicts that may impact performance?&quot;
+- &quot;Are there any active conflicts affecting [Journey Name]?&quot;
+- &quot;List journeys in conflict with [Journey Name] by schedule or audience.&quot;
+- &quot;Has journey [Journey Name] triggered any conflict alerts?&quot;
+- &quot;Find potential audience conflicts for journey [Journey Name].&quot;
 - „Analysieren des Konfliktrisikos für Journey [Journey-Name].“
 - „Stellen Sie eine Konfliktdiagnose für [Journey-Name] bereit.“
 
