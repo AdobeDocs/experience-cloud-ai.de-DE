@@ -1,32 +1,36 @@
 ---
-title: Experimentiermittel
-description: Erfahren Sie, wie Sie den Experimentieragenten verwenden
-source-git-commit: 5694f15d82081eed8e762fea8aabc3da1e265b04
+title: Experimentation Agent
+description: Erfahren Sie, wie Sie Experimentation Agent verwenden
+TQID: https://experienceleague.adobe.com/ARh16ylmUDrp---g8KuYNyewIv54IQ53pxoE2g700o0
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: dd7883d8eccab3b0f006d55a850248e1c347d7e7
 workflow-type: tm+mt
-source-wordcount: '535'
-ht-degree: 3%
+source-wordcount: 555
+ht-degree: 5%
 
 ---
 
-# Experimentiermittel
+# Experimentation Agent
 
 >[!AVAILABILITY]
 >
->Der Experimentierungs-Agent steht allen Kunden zur Verfügung, die die kostenpflichtige Journey Optimizer Experimentation Accelerator-Lizenz erworben haben, und lässt sich nahtlos in Adobe Target oder Adobe Journey Optimizer integrieren.
+>Der Experimentation Agent steht allen Kunden zur Verfügung, die die kostenpflichtige Journey Optimizer Experimentation Accelerator-Lizenz erworben haben, und lässt sich nahtlos in Adobe Target oder Adobe Journey Optimizer integrieren.
 >
 >[Weitere Informationen zu Journey Optimizer Experimentation Accelerator](https://experienceleague.adobe.com/de/docs/experimentation-accelerator/using/overview)
 
 ## Überblick
 
-Der **Experimentationsagent** ist ein KI-gestütztes Tool, das die Ausführung und Verwaltung digitaler Experimente auf Websites, E-Mails, Push-Nachrichten und Anwendungen modernisiert. Der auf der Adobe Experience Platform-KI-Plattform und den Experimentierwerkzeugen aufbauende **Experimentieragent** hilft Ihnen, Experimente effizienter durchzuführen, Geschäftsziele zu organisieren und umsetzbare Einblicke zu generieren, indem er hervorhebt, was funktioniert hat, was nicht und wo Sie als Nächstes experimentieren können.
+**Experimentation Agent** ist ein KI-gestütztes Tool, das die Ausführung und Verwaltung digitaler Experimente auf Websites, E-Mails, Push-Nachrichten und Anwendungen modernisiert. Die auf der Adobe Experience Platform-KI-Plattform und den Experimentier-Tools aufbauende **Experimentation Agent** hilft Ihnen, Experimente effizienter durchzuführen, Geschäftsziele zu organisieren und umsetzbare Einblicke zu generieren, wobei hervorgehoben wird, was funktioniert hat, was nicht und wo als Nächstes experimentiert werden sollte.
 
-Mit den folgenden Berechtigungen können Sie die Funktionen des Experimentationsagenten vollständig nutzen.
+Die folgenden Berechtigungen dienen dazu, die Funktionen von Experimentation Agent vollständig zu nutzen.
 
-* **Experimente anzeigen**: Mit dieser Berechtigung können Sie den Experimentieragenten verwenden, um Einblicke in das Experiment direkt im KI-Assistenten anzuzeigen.
+* **Experimente anzeigen**: Mit dieser Berechtigung können Sie die Experimentation Agent verwenden, um Einblicke in das Experiment direkt im KI-Assistenten anzuzeigen.
 
-* **Experiment-Metada verwalten**: Mit dieser Berechtigung können Sie den Experimentationsagenten verwenden, um neue Experimente direkt im KI-Assistenten zu erstellen.
+* **Experiment-Metada verwalten**: Mit dieser Berechtigung können Sie die Experimentation Agent verwenden, um neue Experimente direkt im KI-Assistenten zu erstellen.
 
-➡️ [Weitere Informationen finden Sie in der Dokumentation zu Journey Optimizer Experimentation Accelerator](https://experienceleague.adobe.com/de/docs/experimentation-accelerator/using/get-started/experiment-accelerator-access)
+➡️ [Weitere Informationen finden Sie in der Dokumentation zu Journey Optimizer Experimentation Accelerator](https://experienceleague.adobe.com/en/docs/experimentation-accelerator/using/get-started/experiment-accelerator-access)
 
 Als Teil der Experimentation Accelerator-Funktion bietet der Agent:
 
@@ -36,11 +40,11 @@ Als Teil der Experimentation Accelerator-Funktion bietet der Agent:
 
 * **Opportunities**: Anleitung für die nächsten zu ergreifenden Maßnahmen
 
-![Beispiel für den Experimentieragenten](./images/experiment/experiment-agent.png)
+![Beispiel für Experimentation Agent](./images/experiment/experiment-agent.png)
 
 ## Anwendungsfälle
 
-Der Experimentieragent verbessert jede Phase des Experimentier-Workflows, indem er Ergebnisse analysiert, Inhalte interpretiert und nächste Schritte vorschlägt.
+Experimentation Agent verbessert jede Phase des Experimentier-Workflows, indem Ergebnisse analysiert, Inhalte interpretiert und nächste Schritte vorgeschlagen werden.
 
 Seine Funktionen lassen sich in fünf Hauptfunktionen unterteilen:
 
@@ -83,7 +87,7 @@ Die folgenden Möglichkeiten werden derzeit nicht unterstützt:
 
 ## Eingabeaufforderungen
 
-Im Folgenden finden Sie eine Liste von Beispielen mit Eingabeaufforderungen, die Ihnen bei den ersten Schritten mit dem Experimentieragenten helfen:
+Im Folgenden finden Sie eine Liste mit Beispielen für Eingabeaufforderungen, die Ihnen bei den ersten Schritten mit Experimentation Agent helfen:
 
 ### Allgemeine Fragen
 
@@ -110,7 +114,7 @@ Im Folgenden finden Sie eine Liste von Beispielen mit Eingabeaufforderungen, die
 
 | Eingabeaufforderungen |
 |-|
-| Was sind `<experiment name>`? |
+| Was ist `<experiment name>`? ? |
 | Was haben wir von der `<experiment name>` gelernt? |
 | Können Sie mir sagen, warum Behandlung A gewonnen hat? |
 | Welche Themen liegen in den erfolgreichsten Varianten im Trend? |

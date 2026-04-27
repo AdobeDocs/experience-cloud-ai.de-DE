@@ -3,9 +3,15 @@ description: Erfahren Sie, wie Sie Daten mit der Data Insights Agent in Customer
 title: Visualisieren von Daten mit der Data Insights Agent in Customer Journey Analytics
 role: User, Admin
 solution: Customer Journey Analytics
-source-git-commit: 73e912386f409762d3e0b89f474b83032e720fcc
+TQID: https://experienceleague.adobe.com/UtKIDlN2x7MOAiHNRRQ8b5OO4fIwzV74r1fnfMwblcQ
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2: id: b743a5d9-dc51-41ed-8b2f-86a1f8de430fid: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2: id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: bc7a5a86-1a70-451f-985c-037b65f091d1id: df7fb1db-aa1b-4314-98ac-59dbfcc3044fid: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: dd7883d8eccab3b0f006d55a850248e1c347d7e7
 workflow-type: tm+mt
-source-wordcount: '2690'
+source-wordcount: 2690
 ht-degree: 4%
 
 ---
@@ -26,9 +32,9 @@ Die Verwendung von Data Insights Agent zur Beantwortung datenorientierter Fragen
 
 | Funktion | Im Umfang | Außerhalb des Geltungsbereichs |
 | --- | --- | --- |
-| **Visualisierungstypen** | <ul><li>Zeile</li><li>Mehrzeilig</li><li>Freiformtabelle</li><li>Balken</li><li>Ringdiagramm</li><li>Zusammenfassungszahl</li></ul> | <ul><li>Fluss</li><li>Fallout</li><li>Kohortentabelle</li><li>Bereich, Bereich gestapelt</li><li>Balken gestapelt</li><li>Horizontales Säulendiagramm</li><li>Combo</li><li>Histogramm</li><li>Horizontalbalken, Horizontalbalken gestapelt</li><li>Zusammenfassung einer Schlüsselmetrik</li><li>Streuung</li><li>Zusammenfassungsänderung</li><li>Text</li><li>Treemap</li><li>Venn</li><li>Geführte Analyse: Aktives Wachstum, Konversionstrends, Interaktion, Auswirkung auf die erste Verwendung, Häufigkeit, Funnel, Nettowachstum, Auswirkungen auf die Veröffentlichung, Kundenbindung, Zeitleiste, Trends</li></ul> |
-| **Workspace-Aktionen und Agentenfunktionen** | <ul><li>Erstellen und Aktualisieren von Visualisierungen<p>Erzeugt eine Freiformtabelle und eine dazugehörige Visualisierung (z. B. Linie, Balken, Ringdiagramm usw.).</p><p>Beispiel: *Was ist der Gewinn für alle SKUs von Februar bis Mai?*</p></li><li>Stellen von Folgefragen<p>Reagieren Sie auf eine Eingabeaufforderung im Kontext von allen vorherigen Eingabeaufforderungen. Beispiel:</p> <ul><li>Eingabeaufforderung 1: *Trendereignisse ab März.*</li><li>Eingabeaufforderung 2: *Zeigen Sie mir stattdessen die Daten von März bis April*</li></ul> </li><li>Prompterkennung außerhalb des Geltungsbereichs<p>Wenn Sie eine Eingabeaufforderung übermitteln, die außerhalb des Gültigkeitsbereichs liegt, z. B. *Dieses Projekt exportieren*, informiert Data Insights Agent Sie darüber, dass die Frage außerhalb des Gültigkeitsbereichs liegt.</p></li></ul> | <ul><li>Freigeben</li><li>Exportieren</li><li>Herunterladen</li><li>Benutzereinstellungen verwalten</li><li>Datenansicht verwalten</li><li>Analytics Dashboards App</li><li>Attribution</li><li>Inline-Zusammenfassung oder -Antwort<p>Data Insights Agent kann in der Chat-Leiste nicht mit einer zusammenfassenden Antwort auf eine Benutzeraufforderung antworten. Beispiele für Eingabeaufforderungen außerhalb des Projektumfangs sind: *Geben Sie mir eine Zusammenfassung der Einblicke aus meiner letzten Eingabeaufforderung* und *Fassen Sie die Highlights aus der Linienvisualisierung zusammen.*</p></li></ul> |
-| **Fragen klären** | Wenn Sie eine Frage stellen, die nicht genügend Kontext für eine Antwort von Data Insights Agent hat oder zu generisch ist, antwortet Data Insights Agent mit einer klärenden Frage oder empfohlenen Optionen. <p>Die folgenden klärenden Fragen sind Beispiele für komponentenbezogene Fragen:</p><ul><li>Metrik: *Welche „Umsatz“-Metrik meinten Sie?*</li><li>Dimension: *Auf welche der folgenden „Regionen“ möchten Sie sich konzentrieren?*</li><li>Segment: *Welches „Konto“-Segment wollten Sie anwenden?*</li><li>Datumsbereich: *Mit „letztem Monat“ meinen Sie den letzten vollen Monat oder die letzten 30 Tage?*</li></ul><p>Die folgende klärende Frage ist ein Beispiel für eine Frage im Zusammenhang mit Dimensionselementen:</p> <ul><li>Welchen „Namen des Geschäfts“ meinten Sie? (Beispiel: #5274, #2949 usw.)</li></ul> | Die Klärung von Fragen beschränkt sich auf Komponenten und Dimensionselemente. Data Insights Agent kann Dinge wie Datenansichten, Visualisierungen, Datengranularität, Vergleich und Umfang nicht verdeutlichen. Wenn Klärungsfragen nicht verwendet werden können, verwendet der Agent standardmäßig das, was Sie am wahrscheinlichsten anfordern. Wenn eine unerwartete Visualisierung oder Datengranularität zurückgegeben wird, können Sie eine Folgefrage stellen oder die Visualisierung und Daten anpassen. |
+| **Visualisierungstypen** | <ul><li>Zeile</li><li>Mehrzeilig</li><li>Freiformtabelle</li><li>Balken</li><li>Ringdiagramm</li><li>Zusammenfassungszahl</li></ul> | <ul><li>Fluss</li><li>Fallout</li><li>Kohortentabelle</li><li>Bereich, Bereich gestapelt</li><li>Bar Stacked</li><li>Horizontales Säulendiagramm</li><li>Combo</li><li>Histogramm</li><li>Horizontal Bar, Horizontal Bar Stacked</li><li>Key Metric Summary</li><li>Streuung</li><li>Summary Change</li><li>Text</li><li>Treemap</li><li>Venn</li><li>Guided analysis: Active growth, Conversion trends, Engagement, First use impact, Frequency, Funnel, Net growth, Release impact, Retention, Timeline, Trends</li></ul> |
+| **Workspace actions and agent capabilities** | <ul><li>Build and update visualizations<p>Generates a freeform table and associated visualization (such as a line, bar, donut, and so forth).</p><p>For example, *What is the profit across SKUs from February to May?*</p></li><li>Ask follow-up questions<p>Respond to a prompt in the context from any prior prompts. Beispiel:</p> <ul><li>Prompt 1: *Trend events from March.*</li><li>Prompt 2: *Show me the data from March to April instead*</li></ul> </li><li>Out-of-scope prompt detection<p>If you submit a prompt that is out of scope, such as *Export this project*, Data Insights Agent responds by informing you that the question is out of scope.</p></li></ul> | <ul><li>Freigeben</li><li>Exportieren</li><li>Herunterladen</li><li>Manage user preferences</li><li>Manage data view</li><li>Analytics Dashboards app</li><li>Attribution</li><li>In-line summary or response<p>Data Insights Agent cannot respond in-line in the chat rail with a summary answer of a user prompt. Examples of out-of-scope prompts are, *Give me a summary of the insights from my last prompt* and *Summarize the highlights from the line visualization.*</p></li></ul> |
+| **Clarifying questions** | If you ask a question that does not have enough context for Data Insights Agent to answer, or is too generic, Data Insights Agent responds with a clarifying question or suggested options. <p>The following clarifying questions are examples of component-related questions:</p><ul><li>Metric: *Which &quot;revenue&quot; metric did you mean?*</li><li>Dimension: *Auf welche der folgenden „Regionen“ möchten Sie sich konzentrieren?*</li><li>Segment: *Welches „Konto“-Segment wollten Sie anwenden?*</li><li>Datumsbereich: *Mit „letztem Monat“ meinen Sie den letzten vollen Monat oder die letzten 30 Tage?*</li></ul><p>Die folgende klärende Frage ist ein Beispiel für eine Frage im Zusammenhang mit Dimensionselementen:</p> <ul><li>Welchen „Namen des Geschäfts“ meinten Sie? (Beispiel: #5274, #2949 usw.)</li></ul> | Die Klärung von Fragen beschränkt sich auf Komponenten und Dimensionselemente. Data Insights Agent kann Dinge wie Datenansichten, Visualisierungen, Datengranularität, Vergleich und Umfang nicht verdeutlichen. Wenn Klärungsfragen nicht verwendet werden können, verwendet der Agent standardmäßig das, was Sie am wahrscheinlichsten anfordern. Wenn eine unerwartete Visualisierung oder Datengranularität zurückgegeben wird, können Sie eine Folgefrage stellen oder die Visualisierung und Daten anpassen. |
 | **Datenverifizierbarkeit und -richtigkeit** | Die Datenverifizierbarkeit und -richtigkeit können durch die Anzeige der generierten Freiformtabelle und Datenvisualisierung bestätigt werden. <p>Wenn Sie Data Insights Agent beispielsweise auffordern, *Bestellungen im letzten Monat* anzugeben, können Sie bestätigen, dass im neu generierten Bedienfeld, in der Datenvisualisierung und in der Freiformtabelle die richtige Metrik („Bestellungen„) und der richtige Datumsbereich („letzter Monat„) ausgewählt wurden.</p> | Data Insights Agent informiert Sie nicht darüber, welche Komponenten oder Visualisierungen hinzugefügt wurden. |
 | **Feedback-Mechanismen** | <ul><li>Daumen hoch</li><li>Daumen runter</li><li>Markieren</li></ul> |  |
 
@@ -53,47 +59,47 @@ Die folgenden Parameter regeln den Zugriff auf Data Insights Agent in Customer J
 * **Berechtigungen**: Die erforderlichen Berechtigungen müssen in der [!UICONTROL Adobe Admin Console gewährt werden] bevor Benutzerinnen und Benutzer auf Data Insights Agent zugreifen können.
 
   Um Berechtigungen zu erteilen, muss [Produktprofil-Administrator](https://helpx.adobe.com/de/enterprise/using/manage-product-profiles.html) in der [!UICONTROL Admin Console die folgenden Schritte ausführen]:
-   1. Wählen Sie in **[!UICONTROL Admin Console]** die Registerkarte **[!UICONTROL Produkte]** aus, um die Seite **[!UICONTROL Alle Produkte und Services]** anzuzeigen.
-   1. **[!UICONTROL Customer Journey Analytics]**.
-   1. Wählen Sie auf **[!UICONTROL Registerkarte]** den Titel des Produktprofils aus, für das Sie Zugriff auf den [!UICONTROL KI-Assistenten: Produktkenntnisse“ &#x200B;] möchten.
-   1. Wählen Sie im jeweiligen Produktprofil die Registerkarte **[!UICONTROL Berechtigungen]** aus.
+   1. In the **[!UICONTROL Admin Console]**, select the **[!UICONTROL Products]** tab to view the **[!UICONTROL All products and services]** page.
+   1. Select **[!UICONTROL Customer Journey Analytics]**.
+   1. On the **[!UICONTROL Product Profiles]** tab, select the title of the product profile for which you want to provide access to [!UICONTROL AI Assistant: Product Knowledge].
+   1. In the specific product profile, select the **[!UICONTROL Permissions]** tab.
 
-      ![Registerkarte „Berechtigungen“ in Admin Console](/help/agents/images/cja-agent/ai-assistant-permissions-tab.png)
+      ![Permissions tab in Admin Console](/help/agents/images/cja-agent/ai-assistant-permissions-tab.png)
 
-   1. Wählen Sie in **[!UICONTROL Zeile „Reporting]** Tools“ in der angegebenen Tabelle das Bearbeitungssymbol ![Bearbeiten](/help/agents/images/cja-agent/Edit.svg).
-   1. Scrollen Sie zu oder suchen Sie nach **[!UICONTROL KI-Assistent:]** Produktkenntnisse“ und klicken Sie dann auf das Pluszeichen ![AddCircle](/help/agents/images/cja-agent/AddCircle.svg) neben dieser Berechtigung.
-   1. Scrollen Sie zu oder suchen Sie nach **[!UICONTROL Data Insights Agent]** und wählen Sie dann das Pluszeichen ![AddCircle](/help/agents/images/cja-agent/AddCircle.svg) neben dieser Berechtigung aus.
+   1. In the **[!UICONTROL Reporting Tools]** row in the provided table, select the edit icon ![Edit](/help/agents/images/cja-agent/Edit.svg).
+   1. Scroll to or search for **[!UICONTROL AI Assistant: Product Knowledge]**, then select the plus icon ![AddCircle](/help/agents/images/cja-agent/AddCircle.svg) next to this permission.
+   1. Scroll to or search for **[!UICONTROL Data Insights Agent]**, then select the plus icon ![AddCircle](/help/agents/images/cja-agent/AddCircle.svg) next to this permission.
 
-      Die Berechtigung **[!UICONTROL KI-Assistent: Produktwissen]** und die Berechtigung **[!UICONTROL Data Insights Agent]** werden der Spalte **[!UICONTROL Enthaltene Berechtigungselemente]** hinzugefügt.
+      The **[!UICONTROL AI Assistant: Product Knowledge]** permission and the **[!UICONTROL Data Insights Agent]** permission are added to the **[!UICONTROL Included permission items]** column.
 
-      ![Berechtigung hinzufügen](/help/agents/images/cja-agent/ai-assistant-permissions.png).
+      ![Add permission](/help/agents/images/cja-agent/ai-assistant-permissions.png).
 
-   1. Wählen **[!UICONTROL Speichern]**, um die Berechtigungen zu speichern.
+   1. Select **[!UICONTROL Save]** to save the permissions.
 
-  Weitere Informationen zur Zugriffssteuerung finden Sie unter [Zugriffssteuerung](https://experienceleague.adobe.com/de/docs/analytics-platform/using/technotes/access-control#access-control).
+  For additional information about access control, see [Access control](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/access-control#access-control).
 
-* **Zugriff auf Datenansicht**: Datenansichten müssen für Data Insights Agent aktiviert sein.
+* **Data view access**: Data views must be enabled for Data Insights Agent.
 
   >[!IMPORTANT]
   >
-  >Beachten Sie beim Aktivieren von Datenansichten Folgendes:
-  >* Sie können maximal 50 Datenansichten pro IMS-Organisation aktivieren. Wenn Sie für ein Unternehmen mehr als 50 Datenansichten für alle Produktprofile aktivieren, verwendet die Data Insights Agent die 50 am häufigsten verwendeten Datenansichten.
-  >  Sie können die [Info in der Spalte &quot;Data Insights Agent&quot; in Datenansichten verwenden](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-dataviews/manage-dataviews#manage-data-views) um die Anzahl der Datenansichten anzuzeigen, die für Data Insights Agent in Ihrer IMS-Organisation aktiviert sind.
-  >* Die Data Insights Agent kann die enthaltenen Datenansichten an einem Tag referenzieren, an dem Sie sie aktivieren.
+  >Consider the following when enabling data views:
+  >* You can enable a maximum of 50 data views per IMS organization. If you enable more than 50 data views across all product profiles for a given organization, the Data Insights Agent will use the 50 most-used data views.
+  >  You can use the [info on the Data Insights Agent column in Data views](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/manage-dataviews#manage-data-views) to view the number of data views that are enabled for Data Insights Agent in your IMS organization.
+  >* The Data Insights Agent can reference the included data views sometime during the same day that you enable them.
 
-  So aktivieren Sie Datenansichten für Data Insights Agent:
+  To enable data views for Data Insights Agent:
 
-   1. Wählen Sie in Customer Journey Analytics **[!UICONTROL Daten-Management]** > **[!UICONTROL Datenansichten]**.
+   1. In Customer Journey Analytics, select **[!UICONTROL Data Management]** > **[!UICONTROL Data views]**.
 
-   1. Wählen Sie eine oder mehrere Datenansichten aus, die Sie für Data Insights Agent aktivieren möchten, und wählen Sie dann **[!UICONTROL Für Data Insights Agent aktivieren]**.
+   1. Select one or more data views that you want to enable for Data Insights Agent, then select **[!UICONTROL Enable for Data Insights Agent]**.
 
-      ![Aktivieren von Datenansichten für Data Insights Agent](/help/agents/images/cja-agent/data-view-enable-dia.png)
+      ![Enable data views for Data Insights Agent](/help/agents/images/cja-agent/data-view-enable-dia.png)
 
-      Weitere Informationen zur Aktivierung von Datenansichten für Data Insights Agent finden Sie unter [KI-Einstellungen für eine Datenansicht](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-dataviews/create-dataview#ai-settings/help/data-views/create-dataview.md #ai-settings).
+      For more information about enabling data views for Data Insights Agent, see the [AI Settings for a data view](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview#ai-settings/help/data-views/create-dataview.md #ai-settings).
 
-  So zeigen Sie die Anzahl der Datenansichten an, die für Data Insights Agent in Ihrer IMS-Organisation aktiviert sind:
+  To view the number of data views that are enabled for Data Insights Agent in your IMS organization:
 
-   1. Wählen Sie in Customer Journey Analytics **[!UICONTROL Daten-Management]** > **[!UICONTROL Datenansichten]**.
+   1. In Customer Journey Analytics, select **[!UICONTROL Data Management]** > **[!UICONTROL Data views]**.
 
    1. Wählen Sie das Informationssymbol oben in der Spalte **[!UICONTROL Data Insights Agent]** aus.
 
@@ -146,49 +152,49 @@ Als Nächstes möchten Sie sehen, wie Ihr Umsatz nach Region verglichen wird.
 
 **Prompt:** Geben Sie im Eingabeaufforderungsfenster *„Umsatz nach Region anzeigen“ ein*
 
-**Antwort:** Data Insights Agent versteht, dass Sie mit „Region“ „Kundenregion“ meinen. Es wird ein Balkendiagramm erstellt, das den Umsatz am besten nach Region zeigt:
+**Antwort:** Data Insights Agent versteht, dass Sie mit „Region“ „Kundenregion“ meinen. It produces a bar chart that best shows revenue by region:
 
-![Balkendiagramm](/help/agents/images/cja-agent/ai-asst-result2.png)
+![Bar chart](/help/agents/images/cja-agent/ai-asst-result2.png)
 
 ### Beispiel 3
 
-Als Nächstes möchten Sie nicht nur den Umsatz nach Region verstehen, sondern auch Daten für den Gewinn nach Region anzeigen. Anstatt die vorherige Eingabeaufforderung zu wiederholen, können Sie Data Insights Agent bitten, die neueste Visualisierungs- und Freiformtabelle zu aktualisieren.
+Next, in addition to understanding revenue by region, you also want to see data for profit by region. Instead of repeating the previous prompt, you can ask Data Insights Agent to update the most recent visualization and freeform table.
 
-**Prompt:** Geben Sie im Eingabeaufforderungsfenster „Gewinn hinzufügen *ein*
+**Prompt:** In the prompt window, type *&quot;Add profit.&quot;*
 
-**Antwort:** Das **[!UICONTROL Balkendiagramm]** bietet weiterhin die prägnanteste Antwort, aber die Gewinnmetrik wurde als Spalte in der Freiformtabelle hinzugefügt:
+**Response:** The **[!UICONTROL Bar]** chart still provides the most concise answer, but the profit metric has been added as a column in the freeform table:
 
-![Balkendiagramm](/help/agents/images/cja-agent/ai-asst-result4.png)
+![Bar chart](/help/agents/images/cja-agent/ai-asst-result4.png)
 
 ### Beispiel 4
 
-Sehen wir uns abschließend den Umsatz nach Produktkategorie an.
+Finally, let&#39;s look at the revenue by product category.
 
-**Eingabeaufforderung:** Geben Sie im Eingabeaufforderungsfenster *„Umsatzanteil nach Produktkategorie“ ein*
+**Prompt:** In the prompt window, enter *&quot;Proportion of revenue by product category.&quot;*
 
-**Antwort** Auch hier wählt Data Insights Agent die am besten geeignete Visualisierung aus, in diesem Fall die **[!UICONTROL Ringdiagramm]**-Visualisierung, um die Frage zu beantworten.
+**Response:** Again, Data Insights Agent picks the most appropriate visualization, in this case the **[!UICONTROL Donut]** visualization, to answer the question.
 
 ![Ringdiagramm](/help/agents/images/cja-agent/ai-asst-result3.png)
 
-## Zugriff auf Data Insights Agent über Experience Cloud-Anwendungen hinweg
+## Access Data Insights Agent across Experience Cloud applications
 
-Adobe Experience Platform Agent Orchestrator ermöglicht den Zugriff auf die Funktionen von Data Insights Agent in mehreren Adobe Experience Cloud-Anwendungen, z. B. Adobe Journey Optimizer und Real-Time CDP.
+Adobe Experience Platform Agent Orchestrator allows you to access the functionality of Data Insights Agent in multiple Adobe Experience Cloud applications, such as Adobe Journey Optimizer and Real-Time CDP.
 
-Agent Orchestrator interpretiert Ihre Anfrage, bestimmt, welche spezialisierten Agenten benötigt werden, und orchestriert sie, um die richtige Antwort zu liefern. Es verfolgt den Kontext über Multi-Turn-Interaktionen hinweg, sodass Sie auf natürliche Weise auf früheren Abfragen aufbauen können.
+Agent Orchestrator interprets your request, determines which specialized agents are needed, and orchestrates them to deliver the right response. It keeps track of context across multi-turn interactions, so you can build on prior queries naturally.
 
-Weitere Informationen finden Sie unter [Adobe Experience Platform Agent Orchestrator &#x200B;](https://business.adobe.com/de/products/experience-platform/agent-orchestrator.html).
+For more information, see [Adobe Experience Platform Agent Orchestrator](https://business.adobe.com/products/experience-platform/agent-orchestrator.html).
 
-## Eingabeaufforderungen zur Beispieldatenvisualisierung
+## Example data visualization prompts
 
-Im Folgenden finden Sie einige Beispiele für häufige Eingabeaufforderungen und die Visualisierungen, die von Data Insights Agent verwendet werden, um auf diese Eingabeaufforderungen zu reagieren.
+The following are some examples of common prompts and the visualizations used by Data Insights Agent to respond to those prompts.
 
-| Beispiel-Eingabeaufforderung | Erwartete Visualisierung |
+| Beispiel-Eingabeaufforderung | Expected visualization |
 | --- | --- |
-| Gewinne anzeigen in [Monat] | Zeile<p>Wenn Sie innerhalb eines bestimmten Zeitbereichs nach einem Trend oder einer Metrik fragen, wird standardmäßig eine Linienvisualisierung zurückgegeben. |
-| Trend der Bestellungen in [Monat] | Zeile |
-| Umsatz nach Region anzeigen in [Monat] | Balken |
-| Umsatzanteil nach Produktkategorie | Ringdiagramm |
-| Bestellungen nach Wochentag von Januar bis Mai | Balken |
+| Show me profits in [Month] | Zeile<p>Asking for a trend or metric within a certain time range by default returns a line visualization. |
+| Trend orders in [Month] | Zeile |
+| Show revenue by region in [Month] | Balken |
+| Share of revenue by product category | Ringdiagramm |
+| Orders by day of week, from January to May | Balken |
 | Bestellungen nach Geschlecht anzeigen, von März bis Juni | Balken |
 | Wie hoch ist der Gewinn aller SKUs von Februar bis Mai? | Balken |
 | Umsatz nach Filialname in [Monat] | Balken |
@@ -266,7 +272,7 @@ Im Folgenden finden Sie Best Practices für Ihre Customer Journey Analytics-Konf
 
 >[!MORELIKETHIS]
 >
->[Komponenteneinstellungen](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-dataviews/component-settings/overview)
->[Datenwörterbuch](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-components/data-dictionary/data-dictionary-overview)
->[Berechnete Metrik genehmigen](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-approving)
->[Segmente freigeben](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-components/segments/seg-share)
+>[Komponenteneinstellungen](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/overview)
+>[Datenwörterbuch](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/data-dictionary/data-dictionary-overview)
+>[Berechnete Metrik genehmigen](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-approving)
+>[Segmente freigeben](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/segments/seg-share)

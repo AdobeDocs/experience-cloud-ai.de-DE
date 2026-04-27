@@ -1,9 +1,13 @@
 ---
 title: Handbuch zur Benutzeroberfläche des KI-Assistenten
 description: Erfahren Sie, wie Sie in der Benutzeroberfläche auf den KI-Assistenten zugreifen und ihn nutzen können.
-source-git-commit: ec03f46b5d80558b683f6cd4330f51258b7378a1
+TQID: https://experienceleague.adobe.com/MWhVCqUFt5Qze4mQp-G85OF81Mk1OL4xY8Jygm-B4PI
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: dd7883d8eccab3b0f006d55a850248e1c347d7e7
 workflow-type: tm+mt
-source-wordcount: '2162'
+source-wordcount: 2162
 ht-degree: 3%
 
 ---
@@ -20,9 +24,9 @@ In der folgenden Tabelle finden Sie einen Vergleich von KI-Assistent (veraltet) 
 | --- | --- | --- |
 | Benutzererlebnis | Der KI-Assistent (veraltet) ist nur in einem Bereich der rechten Leiste verfügbar. | Der KI-Assistent (der nächsten Generation) ist sowohl im Bereich der rechten Leiste als auch im immersiven Vollbilderlebnis verfügbar. |
 | Funktionsumfang | Sie können den KI-Assistenten (frühere Version) sowohl für Produktkenntnisse als auch für betriebliche Einblicke verwenden. | Sie können den KI-Assistenten (der nächsten Generation) für Produktkenntnisse, operative Einblicke sowie erweiterte agentische Fähigkeiten und die Ausführung mehrstufiger Aufgaben verwenden. |
-| Architektur von Platform | Der KI-Assistent (veraltet) wurde nicht auf dem Agent Orchestrator-Stack erstellt. | Der KI-Assistent (der nächsten Generation) wird von [Adobe Experience Platform Agent Orchestrator &#x200B;](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator) unterstützt und ermöglicht Erweiterbarkeit und erweiterte Koordinierung über Funktionen hinweg. |
+| Architektur von Platform | Der KI-Assistent (veraltet) wurde nicht auf dem Agent Orchestrator-Stack erstellt. | Der KI-Assistent (der nächsten Generation) wird von [Adobe Experience Platform Agent Orchestrator ](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator) unterstützt und ermöglicht Erweiterbarkeit und erweiterte Koordinierung über Funktionen hinweg. |
 | Anwendungsbereich | Der KI-Assistent (veraltet) ist eine anwendungsspezifische Implementierung. | Sie können den KI-Assistenten (der nächsten Generation) für ein einheitliches KI-Assistentenerlebnis in allen Adobe Experience Cloud-Programmen verwenden. |
-| Zugriffs- und Berechtigungsmodell | Auf einzelne Produktgrenzen abgestimmtes Zugriffsmodell für die Anwendung. | Alle Benutzer erhalten Zugriff auf den KI-Assistenten (der nächsten Generation) und die zugehörigen Experience Platform-Agenten. **Hinweis**: <ul><li>**Adobe Experience Manager**: Ihr Administrator muss Ihnen über die [Adobe Admin Console](https://helpx.adobe.com/de/enterprise/using/admin-console.html) die Berechtigung für den Zugriff auf den KI-Assistenten (der nächsten Generation) erteilen.</li><li>**Customer Journey Analytics**: Ihr Administrator muss Ihnen die Berechtigung für den Zugriff auf den KI-Assistenten über die [Customer Journey Analytics-Zugriffssteuerung](https://experienceleague.adobe.com/de/docs/analytics-platform/using/technotes/access-control?lang=en) erteilen. Auf diese Weise können Sie Fragen zu Produktwissen und Dateneinblicken stellen. |
+| Zugriffs- und Berechtigungsmodell | Auf einzelne Produktgrenzen abgestimmtes Zugriffsmodell für die Anwendung. | Alle Benutzer erhalten Zugriff auf den KI-Assistenten (der nächsten Generation) und die zugehörigen Experience Platform-Agenten. **Hinweis**: <ul><li>**Adobe Experience Manager**: Ihr Administrator muss Ihnen über die [Adobe Admin Console](https://helpx.adobe.com/de/enterprise/using/admin-console.html) die Berechtigung für den Zugriff auf den KI-Assistenten (der nächsten Generation) erteilen.</li><li>**Customer Journey Analytics**: Ihr Administrator muss Ihnen die Berechtigung für den Zugriff auf den KI-Assistenten über die [Customer Journey Analytics-Zugriffssteuerung](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/access-control?lang=en) erteilen. Auf diese Weise können Sie Fragen zu Produktwissen und Dateneinblicken stellen. |
 
 AI Assistant ist ein interaktives, generatives KI-Tool, das die Produktivität steigert und die Arbeit in Adobe Experience Platform-basierten Anwendungen neu definiert. Sie können den KI-Assistenten verwenden, um auf Adobe Experience Platform-Agenten und andere KI-Funktionen zuzugreifen.
 
@@ -88,49 +92,49 @@ Dieser Abschnitt bietet einen Überblick über die wichtigsten Funktionen und Na
 
 ### Erkennungsaufforderungen {#discovery-prompts}
 
-Mit der Erkennungsfunktion des KI-Assistenten können Sie eine Liste der allgemeinen Themen anzeigen, die von dem KI-Assistenten unterstützt werden, gruppiert in Entitäten. Die Erkennungsaufforderungen unterscheiden sich je nach Ausgangspunkt.
+You can use AI Assistant&#39;s discovery feature to view a list of the general subjects, grouped into entities, that AI Assistant supports. Discovery prompts are different depending on your starting point.
 
 >[!BEGINTABS]
 
->[!TAB Verwenden der Erkennung in der Vollbildansicht]
+>[!TAB Use discovery from the full screen view]
 
-Im Vollbildmodus sind Erkennungsaufforderungen in drei Kategorien unterteilt: **[!UICONTROL Lernen]**, **[!UICONTROL Analysieren]** und **[!UICONTROL Optimieren]**.
+From the full screen view, discovery prompts are grouped into three categories: **[!UICONTROL Learn]**, **[!UICONTROL Analyze]**, and **[!UICONTROL Optimize]**.
 
-Um die Erkennungsaufforderungen zum Erweitern des Produktwissens zu verwenden, wählen Sie **[!UICONTROL Lernen]** und dann im angezeigten Dropdown-Fenster eine Eingabeaufforderung aus.
+To use discovery prompts to advance product knowledge, select **[!UICONTROL Learn]** and then select a prompt from the dropdown window that appears.
 
-![Die Auswahl der Erkennungsaufforderung in der Vollbildansicht.](./images/ai-assistant/inputs/discover.png)
+![The discovery prompt selection from the full screen view.](./images/ai-assistant/inputs/discover.png)
 
->[!TAB Verwenden Sie Discover in der Leistenansicht]
+>[!TAB Use discover from the rail view]
 
-Wählen Sie **[!UICONTROL Discovery]** in der Leistenansicht aus, um auf eine umfassende Liste von Erkennungsaufforderungen zuzugreifen, die Sie verwenden können, um zu beginnen und Ihren Chat mit dem KI-Assistenten zu füllen.
+Select **[!UICONTROL Discovery]** from the rail view to access an extensive list of discovery prompts that you can use to get started and populate your chat with AI Assistant.
 
-![Das Discovery-Bedienfeld in der Leistenansicht.](./images/ai-assistant/inputs/discover-rail.png)
+![The discovery panel from the rail view.](./images/ai-assistant/inputs/discover-rail.png)
 
 >[!ENDTABS]
 
-Wählen Sie eine Eingabeaufforderung aus, um das Eingabefeld zu füllen. Von hier aus können Sie die Eingabeaufforderung entsprechend Ihrem jeweiligen Anwendungsfall bearbeiten. Wenn Sie bereit sind, klicken Sie auf das Symbol Senden rechts, um Ihre Abfrage zu senden.
+Select a prompt to populate the input box. From here, you can edit the prompt to fit your particular use case. When ready, select the send icon on the right to submit your query.
 
-![Die Erkennungsaufforderung im Eingabefeld.](./images/ai-assistant/inputs/question-input.png)
+![The discover prompt in the input box.](./images/ai-assistant/inputs/question-input.png)
 
-## Interagieren mit Antworten
+## Interacting with responses
 
-### Auf Logik prüfen {#reasoning}
+### Check for reasoning process {#reasoning}
 
-Der KI-Assistent fragt dann seine Wissensdatenbank ab und berechnet eine Antwort. Nach einigen Augenblicken gibt der KI-Assistent eine Antwort zurück, einschließlich Optionen, um tiefer in den Argumentationsprozess, zugehörige Vorschläge, Informationsquellen und Feedback-Tools einzutauchen.
+AI Assistant then queries its knowledge base and computes an answer. After a few moments, AI Assistant returns an answer, including options to dive deeper into its reasoning process, related suggestions, information sources, and feedback tools.
 
-Um den zugrunde liegenden Argumentationsprozess besser zu verstehen, wählen Sie **[!UICONTROL Argumentation abgeschlossen]** aus.
+To better understand the underlying reasoning process, select **[!UICONTROL Reasoning complete]**.
 
-![Die Antwort des KI-Assistenten.](./images/ai-assistant/inputs/answer.png)
+![The AI Assistant response.](./images/ai-assistant/inputs/answer.png)
 
-Das *[!UICONTROL Reasoning complete]* wird erweitert und zeigt eine Zusammenfassung Ihrer Anfrage und Details zur Erstellung der Antwort an.
+The *[!UICONTROL Reasoning complete]* window expands to display a summary of your request and details on how the response was crafted.
 
-![Das erweiterte Argumentationsbedienfeld in einer Antwort des KI-Assistenten.](./images/ai-assistant/inputs/reasoning-complete.png)
+![The expanded reasoning panel in an AI Assistant response.](./images/ai-assistant/inputs/reasoning-complete.png)
 
-### Verwandte Vorschläge verwenden
+### Use related suggestions
 
-Navigieren Sie dann nach unten zum Ende der Antwort und wählen Sie **[!UICONTROL Verknüpfte Vorschläge]** aus, um eine Liste mit Eingabeaufforderungen bezüglich Ihrer ursprünglichen Abfrage zu erhalten. Sie können diese Eingabeaufforderungen verwenden, um Ihr Gespräch mit dem KI-Assistenten fortzusetzen.
+Next, navigate down to the bottom of the response and select **[!UICONTROL Related suggestions]** to receive a list of prompts relating to your initial query. You can use these prompts to further continue your conversation with AI Assistant.
 
-![Das Fenster mit den zugehörigen Vorschlägen im KI-Assistenten.](./images/ai-assistant/inputs/related-suggestions.png)
+![The related suggestions window in AI Assistant.](./images/ai-assistant/inputs/related-suggestions.png)
 
 ### Quellen anzeigen
 
@@ -190,33 +194,33 @@ Sie können das Bedienfeld *[!UICONTROL Alle Konversationen]* verwenden, um Konv
 
 ![Das Fenster „Konversationen“ im KI-Assistenten.](./images/ai-assistant/conversations/select-conversations.png)
 
-Um eine frühere Konversation erneut aufzurufen, wählen Sie das Konversationsthema aus der bereitgestellten Liste aus.
+To revisit a previous conversation, select the conversation topic from the list provided.
 
-![Die Liste der früheren Konversationen, die im KI-Assistenten aufgezeichnet wurden.](./images/ai-assistant/conversations/revisit-conversation.png)
+![The list of previous conversations recorded on AI Assistant.](./images/ai-assistant/conversations/revisit-conversation.png)
 
-Um eine neue Unterhaltung zu beginnen, wählen Sie **[!UICONTROL Neue Unterhaltung]** aus.
+To start a new conversation, select **[!UICONTROL New conversation]**.
 
-![Die Option „Neue Konversation“ ist ausgewählt.](./images/ai-assistant/conversations/new-conversation.png)
+![The &quot;new conversation&quot; option selected.](./images/ai-assistant/conversations/new-conversation.png)
 
-### Kontexteinstellung {#context-setting}
+### Context setting {#context-setting}
 
-Verwenden Sie die Kontexteinstellungsfunktion des KI-Assistenten, um die **Anwendung**, **Sandbox** und **Datenansicht** zu konfigurieren, auf die der KI-Assistent zur Beantwortung Ihrer Abfrage verweist. Um auf die Kontexteinstellung zuzugreifen, wählen Sie **[!UICONTROL Symbol „Kontexteinstellung]** aus dem Eingabefeld aus.
+Use the context setting feature of AI Assistant to configure the **application**, **sandbox**, and **dataview** that AI Assistant references to answer your query. To access context setting, select the **[!UICONTROL Context setting]** icon from the input box.
 
-![Das Symbol für die Kontexteinstellung ist ausgewählt.](./images/ai-assistant/inputs/context-selection.png)
+![The context setting icon selected.](./images/ai-assistant/inputs/context-selection.png)
 
-Das *[!UICONTROL Antwort von…]* Popup-Fenster wird angezeigt. Verwenden Sie dieses Fenster, um die Informationsquellen zu konfigurieren, die Sie verwenden möchten, und wählen Sie dann **[!UICONTROL Kontext festlegen]**.
+The *[!UICONTROL Answer from...]* pop-up window appears. Use this window to configure the information sources that you want to use and then select **[!UICONTROL Set context]**.
 
-| Informationsquelle | Beschreibung | Beispiele |
+| Information source | Beschreibung | Beispiele |
 | --- | --- | --- |
-| App | Die Experience Cloud-Anwendung, zu der Ihre Abfrage gehört. | Experience Platform, Journey Optimizer, Customer Journey Analytics usw. |
-| Sandbox | Die Sandbox, die die Datensätze oder Informationen enthält, auf die sich Ihre Abfrage bezieht. | Prod (VA7), Dev. |
-| Datenansicht | Wenn Sie den KI-Assistenten mit Customer Journey Analytics verwenden, hilft Ihnen die Datenansichtseinstellung beim Verständnis von Data Insights Agent: <ul><li>Zu abfragende Datensätze</li><li>Welche Datenkomponenten verfügbar sind</li><li>Strukturieren von Antworten auf Ihre Daten</li><li>Welche Visualisierungen in Analysis Workspace erstellt werden sollen</li></ul> | |
+| App | The Experience Cloud application that your query pertains to. | Experience Platform, Journey Optimizer, Customer Journey Analytics, etc. |
+| Sandbox | The sandbox that contains the dataset(s) or information that your query pertains to. | Prod (VA7), Dev. |
+| Dataview | When you&#39;re using AI Assistant with Customer Journey Analytics, the dataview setting helps the Data Insights Agent understand: <ul><li>Which datasets to query</li><li>What data components are available</li><li>How to structure responses about your data</li><li>Which visualizations to create in Analysis Workspace</li></ul> | |
 
-![Das Bedienfeld „Antwort von“, in dem Informationsquellen konfiguriert werden können.](./images/ai-assistant/inputs/answer-from.png)
+![The &quot;Answer from&quot; panel where information sources can be configured.](./images/ai-assistant/inputs/answer-from.png)
 
-### Daten und Objekt automatisch vervollständigen
+### Data and object autocomplete
 
-Sie können die Funktion zur automatischen Vervollständigung verwenden, um eine Liste von Datenobjekten zu erhalten, die in Ihrer Sandbox vorhanden sind. Um die automatische Vervollständigung zu verwenden, geben Sie in Ihrer Abfrage das Pluszeichen (+) ein. Alternativ können Sie auch das Pluszeichen (+) unten im Texteingabefeld auswählen. Es wird ein Fenster mit einer Liste empfohlener Datenobjekte aus Ihrer Sandbox angezeigt.
+You can use the autocomplete function to receive a list of data objects that exist in your sandbox. Um die automatische Vervollständigung zu verwenden, geben Sie in Ihrer Abfrage das Pluszeichen (+) ein. Alternativ können Sie auch das Pluszeichen (+) unten im Texteingabefeld auswählen. Es wird ein Fenster mit einer Liste empfohlener Datenobjekte aus Ihrer Sandbox angezeigt.
 
 ![Die Schaltfläche zur automatischen Vervollständigung von Daten und Objekt wurde ausgewählt.](./images/ai-assistant/autocomplete/autocomplete.png)
 

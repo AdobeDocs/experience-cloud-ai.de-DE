@@ -1,10 +1,14 @@
 ---
 title: Adobe Experience Platform Agents-Testversion
 description: Erfahren Sie mehr über die kostenlose Testversion für Adobe Experience Platform Agents.
-source-git-commit: 268098d64d80d25d390743cf2b888a0aea429a0d
+TQID: https://experienceleague.adobe.com/3ar5j-6IYEk2w6oyvR6JCuaw2Zrrp2DxUri5EvI0QN0
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: dd7883d8eccab3b0f006d55a850248e1c347d7e7
 workflow-type: tm+mt
-source-wordcount: '1033'
-ht-degree: 1%
+source-wordcount: 1107
+ht-degree: 4%
 
 ---
 
@@ -16,7 +20,7 @@ ht-degree: 1%
 
 Das folgende Video soll Ihnen dabei helfen, die Testversion für Adobe Experience Platform-Agenten zu verstehen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3480237?captions=ger&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3480228?learn=on)
 
 ## Was mit der Testversion verfügbar ist
 
@@ -27,7 +31,7 @@ Das folgende Video soll Ihnen dabei helfen, die Testversion für Adobe Experienc
 
 Adobe entscheidet nach eigenem Ermessen über Ihren Anspruch auf die Testversion. Kunden, die derzeit oder zuvor eine Promotion-Lizenz für Adobe Experience Platform Agent Orchestrator oder eine AI-Credits-Lizenz für Experience Platform-Agenten besitzen, sind nicht berechtigt, die Testversion zu nutzen.
 
-Berechtigte Kunden erhalten eine einmalige Erstberechtigung von bis zu 10.000 KI-Credits zur Verwendung für eine beliebige Kombination von Aufträgen (je nach Ihren bestehenden Lizenzen für Experience Cloud-Anwendungen), die in der Tabelle [KI-Kreditnutzung](https://experienceleague.adobe.com/de/docs/core-services/interface/features/ai-credit-consumption) aufgeführt sind. Sie können Ihre KI-Credits über das Lizenznutzungs-Dashboard in der Adobe Experience Platform-Benutzeroberfläche verfolgen. Weitere Informationen finden Sie in der [Dokumentation zum Lizenznutzungs-Dashboard](https://experienceleague.adobe.com/de/docs/experience-platform/dashboards/guides/license-usage).
+Berechtigte Kunden erhalten eine einmalige Erstberechtigung von bis zu 10.000 KI-Credits zur Verwendung für eine beliebige Kombination von Aufträgen (je nach Ihren bestehenden Lizenzen für Experience Cloud-Anwendungen), die in der Tabelle [KI-Kreditnutzung](https://experienceleague.adobe.com/en/docs/core-services/interface/features/ai-credit-consumption) aufgeführt sind. Sie können Ihre KI-Credits über das Lizenznutzungs-Dashboard in der Adobe Experience Platform-Benutzeroberfläche verfolgen. Weitere Informationen finden Sie in der [Dokumentation zum Lizenznutzungs-Dashboard](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage).
 
 >[!IMPORTANT]
 >
@@ -57,7 +61,7 @@ Mit der Adobe Experience Platform Agents-Testversion können berechtigte Kunden 
 
 ### Welche Agenten sind in dieser Studie enthalten?
 
-Eine vollständige Liste der in [&#x200B; Testversion enthaltenen Agenten finden Sie &#x200B;](https://experienceleague.adobe.com/de/docs/core-services/interface/features/agentic-ai) Handbuch unter Agent-KI in Experience Cloud&quot;.
+Eine vollständige Liste der in [ Testversion enthaltenen Agenten finden Sie ](https://experienceleague.adobe.com/de/docs/core-services/interface/features/agentic-ai) Handbuch unter Agent-KI in Experience Cloud&quot;.
 
 ### Wer kann an dieser Studie teilnehmen?
 
@@ -65,7 +69,7 @@ Die Testversion wird schrittweise für bestimmte berechtigte Adobe Experience Cl
 
 ### Wie viele KI-Credits erhalte ich und was passiert, wenn diese KI-Credits verwendet werden?
 
-Berechtigte Kunden erhalten bis zu 10.000 KI-Credits für die Testversion, die als Agenten für die Ausführung von Aufträgen genutzt werden. Bitte beachten Sie, dass diese KI-Credits nur für die Dauer des Testerlebnisses existieren und nicht verlängert werden können, wenn Sie zusätzliche KI-Credits lizenzieren, bevor Sie die vollständigen 10.000 KI-Credits verwenden. Weitere Informationen zur Verwendung von KI-Krediten finden Sie im [Handbuch zu Agentenvorgängen und KI-Kreditkonsum](https://experienceleague.adobe.com/de/docs/core-services/interface/features/ai-credit-consumption).
+Berechtigte Kunden erhalten bis zu 10.000 KI-Credits für die Testversion, die als Agenten für die Ausführung von Aufträgen genutzt werden. Bitte beachten Sie, dass diese KI-Credits nur für die Dauer des Testerlebnisses existieren und nicht verlängert werden können, wenn Sie zusätzliche KI-Credits lizenzieren, bevor Sie die vollständigen 10.000 KI-Credits verwenden. Weitere Informationen zur Verwendung von KI-Krediten finden Sie im [Handbuch zu Agentenvorgängen und KI-Kreditkonsum](https://experienceleague.adobe.com/en/docs/core-services/interface/features/ai-credit-consumption).
 
 ### Kostet das irgendetwas?
 
@@ -73,7 +77,7 @@ Für die Testversion ist kein zusätzlicher Kauf erforderlich. Es findet keine a
 
 ### Wer kann die Nutzung sehen und wie?
 
-Sie können Ihre KI-Credits über das Lizenznutzungs-Dashboard in der Adobe Experience Platform-Benutzeroberfläche verfolgen. Weitere Informationen finden Sie in der [Dokumentation zum Lizenznutzungs-Dashboard](https://experienceleague.adobe.com/de/docs/experience-platform/dashboards/guides/license-usage).
+Sie können Ihre KI-Credits über das Lizenznutzungs-Dashboard in der Adobe Experience Platform-Benutzeroberfläche verfolgen. Weitere Informationen finden Sie in der [Dokumentation zum Lizenznutzungs-Dashboard](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage).
 
 Verwenden Sie das Dashboard, um Ihre KI-Guthaben-Nutzung und -Berichte anzuzeigen. Nur Administratoren und Benutzer mit den entsprechenden Berechtigungen können Ihre Nutzungsinformationen anzeigen.
 
