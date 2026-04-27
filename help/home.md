@@ -2,9 +2,19 @@
 title: KI in Experience Cloud-Anwendungen
 description: Erfahren Sie, wie Experience Cloud-Anwendungen generative KI (GenAI), den KI-Assistenten und Agent-basierte KI einsetzen.
 TQID: https://experienceleague.adobe.com/heALjEZbowNaygG24oOM2HSlHa9oYVI5ViUNZDr19Ds
-product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: dd7883d8eccab3b0f006d55a850248e1c347d7e7
 workflow-type: tm+mt
 source-wordcount: 846
@@ -33,7 +43,7 @@ Willkommen beim umfassenden Handbuch für KI-Funktionen in allen Adobe Experienc
 
 ### Agent Orchestrator
 
-[Adobe Experience Platform Agent Orchestrator ](./agents/agent-orchestrator.md) ist die neue Agentenschicht in Adobe Experience Platform. Experience Platform Agent Orchestrator wurde entwickelt, um die umfangreichen Daten und das Kundenwissen der Plattform zu nutzen. Es unterstützt die Intelligenz und das Denken der speziell entwickelten Adobe Experience Platform-Experten und ermöglicht es ihnen, komplexe Entscheidungsfindungs- und Problemlösungsaufgaben schnell und skaliert auszuführen - alles unter menschlicher Aufsicht. Wenn Sie Fragen stellen oder Hilfe über eine natürliche Sprache in einer Gesprächsoberfläche wie dem KI-Assistenten anfordern, ruft Agent Orchestrator automatisch spezialisierte Agenten auf, um die richtigen Antworten zu erhalten. Agent Orchestrator speichert Ihren Gesprächsverlauf, sodass Sie auf natürliche Weise auf früheren Fragen aufbauen können, ohne den Kontext zu wiederholen, und kombiniert Einblicke aus mehreren Agenten, um Ihnen klare, einheitliche Antworten zu bieten.
+[Adobe Experience Platform Agent Orchestrator &#x200B;](./agents/agent-orchestrator.md) ist die neue Agentenschicht in Adobe Experience Platform. Experience Platform Agent Orchestrator wurde entwickelt, um die umfangreichen Daten und das Kundenwissen der Plattform zu nutzen. Es unterstützt die Intelligenz und das Denken der speziell entwickelten Adobe Experience Platform-Experten und ermöglicht es ihnen, komplexe Entscheidungsfindungs- und Problemlösungsaufgaben schnell und skaliert auszuführen - alles unter menschlicher Aufsicht. Wenn Sie Fragen stellen oder Hilfe über eine natürliche Sprache in einer Gesprächsoberfläche wie dem KI-Assistenten anfordern, ruft Agent Orchestrator automatisch spezialisierte Agenten auf, um die richtigen Antworten zu erhalten. Agent Orchestrator speichert Ihren Gesprächsverlauf, sodass Sie auf natürliche Weise auf früheren Fragen aufbauen können, ohne den Kontext zu wiederholen, und kombiniert Einblicke aus mehreren Agenten, um Ihnen klare, einheitliche Antworten zu bieten.
 
 **Kernkomponenten:**
 
@@ -52,7 +62,7 @@ Die Audience Agent bietet Einblicke in Zielgruppen, darunter:
 - Durchsuchen des Zielgruppeninventars.
 - Abrufen der Zielgruppengrößen.
 
-Weitere Informationen finden Sie in der Dokumentation ](./agents/audience.md) [Audience Agent .
+Weitere Informationen finden Sie in der Dokumentation [&#128279;](./agents/audience.md) Audience Agent .
 
 #### Data Insights Agent
 
@@ -70,7 +80,7 @@ Der Journey Analyze Agent ermöglicht Adobe Journey Optimizer-Benutzenden Folgen
 - Konflikte mit Zeitplänen oder Zielgruppen erkennen und lösen.
 - Analyse der Performance und der Abfallpunkte.
 
-Weitere Informationen finden Sie in der Dokumentation ](./agents/ajo-agent.md) [Journey Agent .
+Weitere Informationen finden Sie in der Dokumentation [&#128279;](./agents/ajo-agent.md) Journey Agent .
 
 #### Produktsupport-Agent
 
@@ -80,7 +90,7 @@ Verwenden Sie den Produktsupport-Agenten für das Self-Service-Debugging und die
 - Erstellen Sie Support-Tickets mit Kontext aus KI-Assistenten-Interaktionen.
 - Überprüfen Sie Ticketaktualisierungen über den KI-Assistenten.
 
-Weitere Informationen finden [ in der ](./agents/product-support.md) zum Product Support Agent .
+Weitere Informationen finden [&#x200B; in der &#x200B;](./agents/product-support.md) zum Product Support Agent .
 
 <!--
 #### Adobe Marketing Agent for [!DNL Microsoft 365 Copilot]
