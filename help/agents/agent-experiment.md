@@ -41,7 +41,7 @@ Die folgenden Berechtigungen dienen dazu, die Funktionen von Experimentation Age
 
 * **Experiment-Metada verwalten**: Mit dieser Berechtigung können Sie die Experimentation Agent verwenden, um neue Experimente direkt im KI-Assistenten zu erstellen.
 
-➡️ [Weitere Informationen finden Sie in der Dokumentation zu Journey Optimizer Experimentation Accelerator](https://experienceleague.adobe.com/en/docs/experimentation-accelerator/using/get-started/experiment-accelerator-access)
+➡️ [Weitere Informationen finden Sie in der Dokumentation zu Journey Optimizer Experimentation Accelerator](https://experienceleague.adobe.com/de/docs/experimentation-accelerator/using/get-started/experiment-accelerator-access)
 
 Als Teil der Experimentation Accelerator-Funktion bietet der Agent:
 

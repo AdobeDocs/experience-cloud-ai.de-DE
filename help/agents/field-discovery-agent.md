@@ -31,7 +31,7 @@ Um den Field Discovery Agent zu verwenden, benötigen Sie Folgendes:
 - Die richtige Organisation und Sandbox
 - Zugriff auf die Schemata und Datensätze, die Sie abfragen möchten
 
-Eine grundlegende Vertrautheit mit XDM-Schemata und der Verwendung von Feldern in Segmentierungs- oder Daten-Workflows kann Ihnen dabei helfen, die Ergebnisse effektiver zu interpretieren. Weitere Informationen finden Sie unter [XDM-Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/home) und [Dokumentation zum Schema-Editor](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/create-schema-ui).
+Eine grundlegende Vertrautheit mit XDM-Schemata und der Verwendung von Feldern in Segmentierungs- oder Daten-Workflows kann Ihnen dabei helfen, die Ergebnisse effektiver zu interpretieren. Weitere Informationen finden Sie unter [XDM-Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/home) und [Dokumentation zum Schema-Editor](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/tutorials/create-schema-ui).
 
 Anweisungen zum Aktivieren des Zugriffs auf den KI-Assistenten und zum Gewähren der erforderlichen Berechtigungen finden Sie im [Agent Orchestrator-Zugriffshandbuch](./agent-orchestrator.md#access).
 
@@ -81,7 +81,7 @@ Neben jedem Feldvorschlag zeigt der Felderkennungs-Agent Beispielwerte an, die a
 >
 >Beispielwerte können personenbezogene Daten enthalten. Geben Sie sie nicht außerhalb sicherer interner Workflows frei.
 
-Beispielwerte sind nur für Felder innerhalb Ihrer Datensatzzugriffsberechtigungen sichtbar. Informationen zu Data Governance und Nutzungsbeschränkungen in Experience Platform finden Sie unter [Data Governance - Übersicht](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home).
+Beispielwerte sind nur für Felder innerhalb Ihrer Datensatzzugriffsberechtigungen sichtbar. Informationen zu Data Governance und Nutzungsbeschränkungen in Experience Platform finden Sie unter [Data Governance - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/data-governance/home).
 
 Wenn für ein Feld keine Beispielwerte angezeigt werden, kann das Feld in der aktuellen Sandbox leer sein oder Ihre Berechtigungen umfassen möglicherweise nicht den Zugriff auf den zugrunde liegenden Datensatz. Felder mit hoher Kardinalität (z. B. Kennungs- oder UUID-Felder) geben möglicherweise auch keine repräsentativen Beispielwerte zurück. Die Beispielwerte werden aggregiert und sind frequenzbasiert und nicht auf einzelne Profile zurückzuführen.
 
