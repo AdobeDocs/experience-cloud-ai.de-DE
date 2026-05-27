@@ -31,7 +31,7 @@ Um den Field Discovery Agent zu verwenden, benötigen Sie Folgendes:
 - Die richtige Organisation und Sandbox
 - Zugriff auf die Schemata und Datensätze, die Sie abfragen möchten
 
-Eine grundlegende Vertrautheit mit XDM-Schemata und der Verwendung von Feldern in Segmentierungs- oder Daten-Workflows kann Ihnen dabei helfen, die Ergebnisse effektiver zu interpretieren. Weitere Informationen finden Sie unter [XDM-Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/home) und [Dokumentation zum Schema-Editor](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/tutorials/create-schema-ui).
+Eine grundlegende Vertrautheit mit XDM-Schemata und der Verwendung von Feldern in Segmentierungs- oder Daten-Workflows kann Ihnen dabei helfen, die Ergebnisse effektiver zu interpretieren. Weitere Informationen finden Sie unter [XDM-Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/home) und [Dokumentation zum Schema-Editor](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/create-schema-ui).
 
 Anweisungen zum Aktivieren des Zugriffs auf den KI-Assistenten und zum Gewähren der erforderlichen Berechtigungen finden Sie im [Agent Orchestrator-Zugriffshandbuch](./agent-orchestrator.md#access).
 
@@ -81,7 +81,7 @@ Neben jedem Feldvorschlag zeigt der Felderkennungs-Agent Beispielwerte an, die a
 >
 >Beispielwerte können personenbezogene Daten enthalten. Geben Sie sie nicht außerhalb sicherer interner Workflows frei.
 
-Beispielwerte sind nur für Felder innerhalb Ihrer Datensatzzugriffsberechtigungen sichtbar. Informationen zu Data Governance und Nutzungsbeschränkungen in Experience Platform finden Sie unter [Data Governance - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/data-governance/home).
+Beispielwerte sind nur für Felder innerhalb Ihrer Datensatzzugriffsberechtigungen sichtbar. Informationen zu Data Governance und Nutzungsbeschränkungen in Experience Platform finden Sie unter [Data Governance - Übersicht](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home).
 
 Wenn für ein Feld keine Beispielwerte angezeigt werden, kann das Feld in der aktuellen Sandbox leer sein oder Ihre Berechtigungen umfassen möglicherweise nicht den Zugriff auf den zugrunde liegenden Datensatz. Felder mit hoher Kardinalität (z. B. Kennungs- oder UUID-Felder) geben möglicherweise auch keine repräsentativen Beispielwerte zurück. Die Beispielwerte werden aggregiert und sind frequenzbasiert und nicht auf einzelne Profile zurückzuführen.
 
@@ -132,7 +132,7 @@ Eine Anleitung zur Benutzeroberfläche des KI-Assistenten finden Sie im [Handbuc
 
 ## Unterstützte Anwendungsfälle {#supported-use-cases}
 
-In den folgenden Abschnitten werden die drei Funktionen des Field Discovery Agents mit repräsentativen Szenarien und Beispielaufforderungen beschrieben. Zu den Ergebnissen gehören Relevanzkennzeichnungen und Nutzungskontext, die bei der Bewertung von Feldern hilfreich sind. Informationen zur Interpretation der Ergebnisse finden [&#x200B; unter „Wissenswertes zu Ergebnissen](#understand-your-results). Der Felderkennungs-Agent gibt nur Feldinformationen zurück: Er erstellt keine Zielgruppen, führt keine Abfragen aus und überträgt keine Daten in andere Tools. Nachdem Sie ein Feld identifiziert haben, lesen Sie seinen XDM-Pfad aus der Spalte **[!UICONTROL Feldname]** und verwenden Sie ihn in Ihrem nachgelagerten Workflow.
+In den folgenden Abschnitten werden die drei Funktionen des Field Discovery Agents mit repräsentativen Szenarien und Beispielaufforderungen beschrieben. Zu den Ergebnissen gehören Relevanzkennzeichnungen und Nutzungskontext, die bei der Bewertung von Feldern hilfreich sind. Informationen zur Interpretation der Ergebnisse finden [ unter „Wissenswertes zu Ergebnissen](#understand-your-results). Der Felderkennungs-Agent gibt nur Feldinformationen zurück: Er erstellt keine Zielgruppen, führt keine Abfragen aus und überträgt keine Daten in andere Tools. Nachdem Sie ein Feld identifiziert haben, lesen Sie seinen XDM-Pfad aus der Spalte **[!UICONTROL Feldname]** und verwenden Sie ihn in Ihrem nachgelagerten Workflow.
 
 ### Identifizieren von Feldern für ein Geschäftskonzept
 
@@ -227,7 +227,7 @@ Beispielwerte werden von denselben Berechtigungen auf Datensatzebene gesteuert. 
 
 Verwenden Sie die folgenden Anleitungen, um genaue, verwertbare Ergebnisse vom Field Discovery Agent zu erhalten.
 
-- **Geben Sie nicht nur den Feldtyp an, sondern das Konzept** Eine Eingabeaufforderung wie „Nach einem Bundesland suchen“ liefert schlechtere Ergebnisse als „Nach dem Feld suchen, das den US-Bundesstaat einer Kundin oder eines Kunden für die geografische Segmentierung enthält“. Durch die Spezifität erhält der Agent ein stärkeres Signal, das mit Ihren Metadaten abgeglichen werden kann. Warum [&#x200B; wichtig ist, erfahren Sie &#x200B;](#how-field-discovery-agent-works) „Funktionsweise des Field Discovery Agent“.
+- **Geben Sie nicht nur den Feldtyp an, sondern das Konzept** Eine Eingabeaufforderung wie „Nach einem Bundesland suchen“ liefert schlechtere Ergebnisse als „Nach dem Feld suchen, das den US-Bundesstaat einer Kundin oder eines Kunden für die geografische Segmentierung enthält“. Durch die Spezifität erhält der Agent ein stärkeres Signal, das mit Ihren Metadaten abgeglichen werden kann. Warum [ wichtig ist, erfahren Sie ](#how-field-discovery-agent-works) „Funktionsweise des Field Discovery Agent“.
 - **Verwenden Sie die Terminologie, die Ihren Schemadateien entspricht.** Wenn Ihre Schemata den Begriff „Transaktion“ anstelle von „Kauf“ verwenden, verwenden Sie in Ihren Eingabeaufforderungen „Transaktion“. Der Agent gleicht tatsächliche Feldnamen und Beschreibungen ab, nicht nur allgemeine Konzepte.
 - **Felder vor dem Commit überprüfen.** Nachdem Sie mögliche Felder gefunden haben, fragen Sie nach einem bestimmten Feld anhand des Namens oder Pfads, um dessen Beispielwerte und den Nutzungskontext zu überprüfen, bevor Sie es in einem Segment oder einer Abfrage verwenden. Dadurch verringert sich das Risiko, das falsche Feld auszuwählen.
 - **Iterieren Sie, wenn die Ergebnisse eher mäßig relevant oder relevant als hoch relevant sind.** Formulieren Sie Ihre Abfrage mit einer anderen Terminologie oder fügen Sie mehr Kontext zu Ihrem Anwendungsfall hinzu. Eine zweite, spezifischere Abfrage taucht oft als bessere Kandidaten auf.
