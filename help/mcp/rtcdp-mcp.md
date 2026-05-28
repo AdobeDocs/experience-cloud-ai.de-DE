@@ -290,7 +290,7 @@ Der Real-Time CDP MCP-Server funktioniert mit jedem Client, der Remote-MCP-Serve
 
 +++Wie erhalte ich Zugriff?
 
-Der Zugriff erfolgt nur auf Einladung während der Beta. Wenden Sie sich an Ihren Adobe-Kundenbetreuer (Customer Success Manager, Technical Account Manager oder Account Executive), um eine Registrierung anzufordern. Der Adobe-Support koordiniert sich mit dem Produkt-Team, um Ihr Unternehmen zu unterstützen. Weitere Informationen [ Sie unter ](#mcp-access) und Aktivierung .
+Der Zugriff erfolgt nur auf Einladung während der Beta. Wenden Sie sich an Ihren Adobe-Kundenbetreuer (Customer Success Manager, Technical Account Manager oder Account Executive), um eine Registrierung anzufordern. Der Adobe-Support koordiniert sich mit dem Produkt-Team, um Ihr Unternehmen zu unterstützen. Weitere Informationen [&#x200B; Sie unter &#x200B;](#mcp-access) und Aktivierung .
 +++
 
 +++Wie funktioniert die Authentifizierung?
