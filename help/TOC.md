@@ -5,10 +5,10 @@ user-guide-description: Erfahren Sie, wie Sie mit dem KI-Assistenten Ihren Workf
 description: Erfahren Sie mehr über den KI-Assistenten in Experience Cloud. Erweitern Sie Ihr Produktwissen und gewinnen Sie betriebliche Erkenntnisse mithilfe von KI in Experience Cloud.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: ba2c78d3c5e48155f6b2290ad59261a161fb107d
+source-git-commit: 7f87755d70bde2399f5c747479891ae8a36a3bf2
 workflow-type: tm+mt
-source-wordcount: '103'
-ht-degree: 53%
+source-wordcount: '105'
+ht-degree: 52%
 
 ---
 
@@ -31,6 +31,7 @@ ht-degree: 53%
    - [Produktsupport-Agent](./agents/product-support.md)
    - [Adobe Marketing Agent for Microsoft 365 Copilot](./agents/ama-ms.md)
    - [Agenten-Testversion](./agents/trial.md)
+   - [Benachrichtigungsagent](./agents/notifications.md)
    - Data Engineering {#data-engineering}
       - {hide-from-toc}[Data Engineering Agent](./agents/data-engineering/overview.md)
 - MCP {#mcp}
