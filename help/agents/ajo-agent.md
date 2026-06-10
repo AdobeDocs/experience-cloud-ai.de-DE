@@ -53,7 +53,7 @@ Journey Agent umfasst vier Hauptaufgaben, die zu erfüllen sind:
 - **Kanalinhalt erstellen**: Generieren, Bearbeiten und Verwalten kanalspezifischer Inhalte (E-Mail, Push, SMS) für Journey mithilfe von KI-gestützter Inhaltserstellung
 - **Journey Analyze**: Analysieren Sie Journey, erkennen Sie Probleme, entdecken Sie Erkenntnisse und optimieren Sie die Kundeninteraktion
 
-Darüber hinaus ist **Journey Simulation** eine Journey Optimizer-Funktion, die [Journey Simulate](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs), eine produktinterne agentische Fähigkeit, die nicht konversativ ist, mit drei Funktionen umfasst:
+Darüber hinaus ist **Journey Simulation** eine Journey Optimizer-Funktion, die [Journey Simulate](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs), eine produktinterne agentische Fähigkeit, die nicht konversativ ist, mit drei Funktionen umfasst:
 
 - Generieren simulierter Benutzer
 - Generieren von Ereigniswerten
@@ -503,4 +503,4 @@ Darüber hinaus werden die folgenden Funktionen von der Fähigkeit zum Journey-S
 
 Die Simulation unterstützt möglicherweise nicht alle Aktivitäten, Kanäle oder Integrationen, die der Testmodus oder eine Live-Journey unterstützt, und das Verhalten kann sich mit zunehmender Reife der Funktion ändern.
 
-➡️ Weitere Informationen zu [Simulationsbeschränkungen](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs#limitations) finden Sie in der Dokumentation zu Journey Optimizer.
+➡️ Weitere Informationen zu [Simulationsbeschränkungen](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs#limitations) finden Sie in der Dokumentation zu Journey Optimizer.
