@@ -27,7 +27,7 @@ ht-degree: 4%
 
 Das folgende Video soll Ihnen dabei helfen, die Testversion für Adobe Experience Platform-Agenten zu verstehen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3480228?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3480237?captions=ger&learn=on)
 
 ## Was mit der Testversion verfügbar ist
 
