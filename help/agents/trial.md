@@ -2,19 +2,12 @@
 title: Adobe Experience Platform Agents-Testversion
 description: Erfahren Sie mehr über die kostenlose Testversion für Adobe Experience Platform Agents.
 TQID: https://experienceleague.adobe.com/3ar5j-6IYEk2w6oyvR6JCuaw2Zrrp2DxUri5EvI0QN0
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: dd7883d8eccab3b0f006d55a850248e1c347d7e7
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: e385f60b8c55779b636dcc494fced27bc63d1eb3
 workflow-type: tm+mt
-source-wordcount: 1107
+source-wordcount: 1243
 ht-degree: 4%
 
 ---
@@ -27,18 +20,18 @@ ht-degree: 4%
 
 Das folgende Video soll Ihnen dabei helfen, die Testversion für Adobe Experience Platform-Agenten zu verstehen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3480237?captions=ger&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3480228?learn=on)
 
 ## Was mit der Testversion verfügbar ist
 
-- **KI-Assistent**: Eine ganzseitige, interaktive Gesprächsoberfläche, die von Agent Orchestrator unterstützt wird und produktübergreifend funktioniert. Dadurch können Anwender, die Experience Cloud-Produkte mit aktivierter Technologie verwenden, GenAI- und AgentAI-Funktionen nutzen. Weitere Informationen finden Sie im [Handbuch zur Benutzeroberfläche des KI-Assistenten](../ai-assistant/ai-assistant-ui.md).
-- **Adobe Experience Platform-Agenten**: Spezifische KI-Agenten, die in der Lage sind, gängige Aufträge über Kategorien von Customer Experience Domains hinweg bereitzustellen. Sie können Agenten nutzen, um Ihre Kapazität zu erweitern und Erlebnisse schneller und mit größerer Wirkung zu erstellen und bereitzustellen, wodurch Produktivität und Effizienz der nächsten Ebene erreicht werden. Um zu verstehen, welche Agenten mit jeder Experience Cloud-Anwendung genutzt werden können, lesen Sie die Dokumentation unter [Agent AI in Experience Cloud](https://experienceleague.adobe.com/de/docs/core-services/interface/features/agentic-ai).
+- **KI-Assistent**: Eine ganzseitige, interaktive Gesprächsoberfläche, die von Agent Orchestrator unterstützt wird und produktübergreifend funktioniert. Dadurch können Anwender, die aktivierte Experience Cloud-Produkte verwenden, GenAI- und AgentAI-Funktionen nutzen. Weitere Informationen finden Sie im [Handbuch zur Benutzeroberfläche des KI-Assistenten](../ai-assistant/ai-assistant-ui.md).
+- **Adobe Experience Platform-Agenten**: Spezifische KI-Agenten, die in der Lage sind, gängige Aufträge über Kategorien von Customer Experience Domains hinweg bereitzustellen. Sie können Agenten nutzen, um Ihre Kapazität zu erweitern und Erlebnisse schneller und mit größerer Wirkung zu erstellen und bereitzustellen, wodurch Produktivität und Effizienz der nächsten Ebene erreicht werden. Um zu verstehen, welche Agenten mit den einzelnen Experience Cloud-Programmen genutzt werden können, lesen Sie die Dokumentation unter [Agent-KI in Experience Cloud](https://experienceleague.adobe.com/de/docs/core-services/interface/features/agentic-ai).
 
 ## Details zum Testprogramm
 
 Adobe entscheidet nach eigenem Ermessen über Ihren Anspruch auf die Testversion. Kunden, die derzeit oder zuvor eine Promotion-Lizenz für Adobe Experience Platform Agent Orchestrator oder eine AI-Credits-Lizenz für Experience Platform-Agenten besitzen, sind nicht berechtigt, die Testversion zu nutzen.
 
-Berechtigte Kunden erhalten eine einmalige Erstberechtigung von bis zu 10.000 KI-Credits zur Verwendung für eine beliebige Kombination von Aufträgen (je nach Ihren bestehenden Lizenzen für Experience Cloud-Anwendungen), die in der Tabelle [KI-Kreditnutzung](https://experienceleague.adobe.com/de/docs/core-services/interface/features/ai-credit-consumption) aufgeführt sind. Sie können Ihre KI-Credits über das Lizenznutzungs-Dashboard in der Adobe Experience Platform-Benutzeroberfläche verfolgen. Weitere Informationen finden Sie in der [Dokumentation zum Lizenznutzungs-Dashboard](https://experienceleague.adobe.com/de/docs/experience-platform/dashboards/guides/license-usage).
+Berechtigte Kundinnen und Kunden erhalten eine einmalige Erstberechtigung von bis zu 10.000 KI-Credits zur Verwendung für eine beliebige Kombination von Aufträgen (abhängig von Ihren bestehenden Lizenzen für Experience Cloud-Programme), die in der Tabelle [KI-Kreditnutzung](https://experienceleague.adobe.com/en/docs/core-services/interface/features/ai-credit-consumption) aufgeführt sind. Sie können Ihre KI-Credits über das Lizenznutzungs-Dashboard in der Adobe Experience Platform-Benutzeroberfläche verfolgen. Weitere Informationen finden Sie in der [Dokumentation zum Lizenznutzungs-Dashboard](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage).
 
 >[!IMPORTANT]
 >
@@ -48,9 +41,11 @@ Die Testversion endet, sobald Sie die ursprüngliche einmalige Berechtigung von 
 
 ## Zugreifen auf und Beginnen mit dem von Agent Orchestrator unterstützten KI-Assistenten
 
-Benutzer zugelassener Kundinnen und Kunden haben im Rahmen der Testversion Zugriff auf KI-Assistenten und -Agenten, sodass keine Aktion erforderlich ist. Experience Platform-Agenten orientieren sich an der Benutzereingabe und der Aufsicht. Agenten berücksichtigen auch zuvor definierte Zugriffssteuerungen auf Produktebene, sodass Benutzende nur Aufträge ausführen oder Aktionen ausführen können, für die sie über Berechtigungen in den entsprechenden zugrunde liegenden Experience Cloud-Produkten verfügen. Wenn Sie den Zugriff auf diese Funktionen von Agent deaktivieren und den Testzugriff deaktivieren möchten, senden Sie eine Anfrage an [aep-agents-trial-support@adobe.com](mailto:aep-agents-trial-support@adobe.com).
+Benutzer zugelassener Kundinnen und Kunden haben im Rahmen der Testversion Zugriff auf KI-Assistenten und -Agenten, sodass keine Aktion erforderlich ist. Experience Platform-Agenten orientieren sich an der Benutzereingabe und der Aufsicht. Agenten berücksichtigen auch zuvor definierte Zugriffssteuerungen auf Produktebene, sodass Benutzer nur Aufträge ausführen oder Aktionen ausführen können, für die sie über Berechtigungen in den entsprechenden zugrunde liegenden Experience Cloud-Produkten verfügen. Wenn Sie den Zugriff auf diese Funktionen von Agent deaktivieren und den Testzugriff deaktivieren möchten, senden Sie eine Anfrage an [aep-agents-trial-support@adobe.com](mailto:aep-agents-trial-support@adobe.com).
 
-Sobald Sie Zugriff haben, navigieren Sie zur Startseite von Adobe Experience Cloud, um mit dem KI-Assistenten zu beginnen. Sie können die [Erkennungsaufforderungen“ verwenden](../ai-assistant/ai-assistant-ui.md#discovery-prompts) um Vorschläge für Aufforderungen und allgemeine Workflows anzuzeigen. Verwenden Sie diese Funktion, um das Onboarding mit dem KI-Assistenten zu beschleunigen. Lesen Sie außerdem die [Eingabeaufforderungsbibliothek](../ai-assistant/prompt-library.md), um eine Vielzahl von Eingabeaufforderungen anzuzeigen, die Sie mit verschiedenen Agenten verwenden können. Ausführlichere Informationen finden Sie im Handbuch [Benutzeroberfläche des KI-Assistenten](../ai-assistant/ai-assistant-ui.md).
+Sobald Sie Zugriff haben, navigieren Sie zur Startseite von Adobe Experience Cloud , um mit dem KI-Assistenten zu beginnen. Sie können die [Erkennungsaufforderungen“ verwenden](../ai-assistant/ai-assistant-ui.md#discovery-prompts) um Vorschläge für Aufforderungen und allgemeine Workflows anzuzeigen. Verwenden Sie diese Funktion, um das Onboarding mit dem KI-Assistenten zu beschleunigen. Lesen Sie außerdem die [Eingabeaufforderungsbibliothek](../ai-assistant/prompt-library.md), um eine Vielzahl von Eingabeaufforderungen anzuzeigen, die Sie mit verschiedenen Agenten verwenden können. Ausführlichere Informationen finden Sie im Handbuch [Benutzeroberfläche des KI-Assistenten](../ai-assistant/ai-assistant-ui.md).
+
+Das Dashboard für die Überwachung der Agent-KI bietet einen klaren Überblick darüber, wie Agent-KI in Ihrer gesamten Organisation übernommen und verwendet wird. Als autorisierter Benutzer können Sie Interaktionen einfach verfolgen, Feedback einholen, die KI-Kreditnutzung überwachen und Schlüsselmetriken überprüfen. Nutzen Sie diese Einblicke, um Optimierungsmöglichkeiten zu entdecken und Ihre Governance- und Adoptionsbemühungen zu unterstützen. Weitere Informationen finden Sie im [Handbuch zur Überwachung der Nutzung von Agent AI](https://experienceleague.adobe.com/en/docs/core-services/interface/features/monitoring).
 
 Informationen zu den verfügbaren Agenten finden Sie in der [Übersicht über Agent Orchestrator](agent-orchestrator.md).
 
@@ -68,7 +63,7 @@ Mit der Adobe Experience Platform Agents-Testversion können berechtigte Kunden 
 
 ### Welche Agenten sind in dieser Studie enthalten?
 
-Eine vollständige Liste der in [&#x200B; Testversion enthaltenen Agenten finden Sie &#x200B;](https://experienceleague.adobe.com/de/docs/core-services/interface/features/agentic-ai) Handbuch unter Agent-KI in Experience Cloud&quot;.
+Eine vollständige Liste der in [ Testversion enthaltenen Agenten finden Sie im Handbuch ](https://experienceleague.adobe.com/de/docs/core-services/interface/features/agentic-ai)Agent-KI in Experience Cloud“.
 
 ### Wer kann an dieser Studie teilnehmen?
 
@@ -76,7 +71,7 @@ Die Testversion wird schrittweise für bestimmte berechtigte Adobe Experience Cl
 
 ### Wie viele KI-Credits erhalte ich und was passiert, wenn diese KI-Credits verwendet werden?
 
-Berechtigte Kunden erhalten bis zu 10.000 KI-Credits für die Testversion, die als Agenten für die Ausführung von Aufträgen genutzt werden. Bitte beachten Sie, dass diese KI-Credits nur für die Dauer des Testerlebnisses existieren und nicht verlängert werden können, wenn Sie zusätzliche KI-Credits lizenzieren, bevor Sie die vollständigen 10.000 KI-Credits verwenden. Weitere Informationen zur Verwendung von KI-Krediten finden Sie im [Handbuch zu Agentenvorgängen und KI-Kreditkonsum](https://experienceleague.adobe.com/de/docs/core-services/interface/features/ai-credit-consumption).
+Berechtigte Kunden erhalten bis zu 10.000 KI-Credits für die Testversion, die als Agenten für die Ausführung von Aufträgen genutzt werden. Bitte beachten Sie, dass diese KI-Credits nur für die Dauer des Testerlebnisses existieren und nicht verlängert werden können, wenn Sie zusätzliche KI-Credits lizenzieren, bevor Sie die vollständigen 10.000 KI-Credits verwenden. Weitere Informationen zur Verwendung von KI-Krediten finden Sie im [Handbuch zu Agentenvorgängen und KI-Kreditkonsum](https://experienceleague.adobe.com/en/docs/core-services/interface/features/ai-credit-consumption).
 
 ### Kostet das irgendetwas?
 
@@ -84,9 +79,9 @@ Für die Testversion ist kein zusätzlicher Kauf erforderlich. Es findet keine a
 
 ### Wer kann die Nutzung sehen und wie?
 
-Sie können Ihre KI-Credits über das Lizenznutzungs-Dashboard in der Adobe Experience Platform-Benutzeroberfläche verfolgen. Weitere Informationen finden Sie in der [Dokumentation zum Lizenznutzungs-Dashboard](https://experienceleague.adobe.com/de/docs/experience-platform/dashboards/guides/license-usage).
+Sie können Ihre KI-Credits über das Lizenznutzungs-Dashboard in der Adobe Experience Platform-Benutzeroberfläche verfolgen. Weitere Informationen finden Sie in der [Dokumentation zum Lizenznutzungs-Dashboard](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage). Verwenden Sie das Dashboard, um Ihre KI-Guthaben-Nutzung und -Berichte anzuzeigen. Nur Administratoren und Benutzer mit den entsprechenden Berechtigungen können Ihre Nutzungsinformationen anzeigen.
 
-Verwenden Sie das Dashboard, um Ihre KI-Guthaben-Nutzung und -Berichte anzuzeigen. Nur Administratoren und Benutzer mit den entsprechenden Berechtigungen können Ihre Nutzungsinformationen anzeigen.
+Sie können auch das Dashboard für die Überwachung der Agent-KI verwenden, um insight zur Akzeptanz, Interaktion, Feedback und Nutzung von KI-Guthaben in Ihrem Unternehmen zu bewegen. Autorisierte Benutzer können das Dashboard verwenden, um Schlüsselmetriken zu verfolgen, Optimierungsmöglichkeiten zu identifizieren und Governance- und Adoptionsinitiativen zu unterstützen. Weitere Informationen finden Sie im Handbuch unter [AI-Überwachung](https://experienceleague.adobe.com/en/docs/core-services/interface/features/monitoring).
 
 ### Was passiert nach Ablauf des Prozesses?
 
@@ -102,7 +97,7 @@ Nach Ablauf der Testversion haben Sie folgende Möglichkeiten:
 
 Es gibt keinen automatischen ausgeblendeten Schalter, um Kunden zu konvertieren, deren Testversion beendet wurde, um bezahlt zu werden.
 
-## Weitere Ressourcen
+## Zusätzliche Ressourcen
 
 Weitere Informationen zu Agent Orchestrator und AI Assistant finden Sie in den folgenden Handbüchern:
 
