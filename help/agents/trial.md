@@ -2,9 +2,16 @@
 title: Adobe Experience Platform Agents-Testversion
 description: Erfahren Sie mehr über die kostenlose Testversion für Adobe Experience Platform Agents.
 TQID: https://experienceleague.adobe.com/3ar5j-6IYEk2w6oyvR6JCuaw2Zrrp2DxUri5EvI0QN0
-product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: e385f60b8c55779b636dcc494fced27bc63d1eb3
 workflow-type: tm+mt
 source-wordcount: 1243
@@ -63,7 +70,7 @@ Mit der Adobe Experience Platform Agents-Testversion können berechtigte Kunden 
 
 ### Welche Agenten sind in dieser Studie enthalten?
 
-Eine vollständige Liste der in [ Testversion enthaltenen Agenten finden Sie im Handbuch ](https://experienceleague.adobe.com/de/docs/core-services/interface/features/agentic-ai)Agent-KI in Experience Cloud“.
+Eine vollständige Liste der in [&#x200B; Testversion enthaltenen Agenten finden Sie im Handbuch &#x200B;](https://experienceleague.adobe.com/de/docs/core-services/interface/features/agentic-ai)Agent-KI in Experience Cloud“.
 
 ### Wer kann an dieser Studie teilnehmen?
 
