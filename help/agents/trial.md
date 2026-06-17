@@ -12,7 +12,7 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: e463f08590d0d44d286e3ce69e57607d35e74489
+source-git-commit: 3f67508410c0a41a8edb6f22f20f4c25709df9f7
 workflow-type: tm+mt
 source-wordcount: 1243
 ht-degree: 4%
@@ -40,6 +40,8 @@ Adobe entscheidet nach eigenem Ermessen über Ihren Anspruch auf die Testversion
 
 Berechtigte Kundinnen und Kunden erhalten eine einmalige Erstberechtigung von bis zu 10.000 KI-Credits zur Verwendung für eine beliebige Kombination von Aufträgen (abhängig von Ihren bestehenden Lizenzen für Experience Cloud-Programme), die in der Tabelle [KI-Kreditnutzung](https://experienceleague.adobe.com/de/docs/core-services/interface/features/ai-credit-consumption) aufgeführt sind. Sie können Ihre KI-Credits über das Lizenznutzungs-Dashboard in der Adobe Experience Platform-Benutzeroberfläche verfolgen. Weitere Informationen finden Sie in der [Dokumentation zum Lizenznutzungs-Dashboard](https://experienceleague.adobe.com/de/docs/experience-platform/dashboards/guides/license-usage).
 
+Das Dashboard für die Überwachung der Agent-KI bietet einen klaren Überblick darüber, wie Agent-KI in Ihrer gesamten Organisation übernommen und verwendet wird. Als autorisierter Benutzer können Sie Interaktionen einfach verfolgen, Feedback einholen, die KI-Kreditnutzung überwachen und Schlüsselmetriken überprüfen. Nutzen Sie diese Einblicke, um Optimierungsmöglichkeiten zu entdecken und Ihre Governance- und Adoptionsbemühungen zu unterstützen. Weitere Informationen finden Sie im [Handbuch zur Überwachung der Nutzung von Agent AI](https://experienceleague.adobe.com/de/docs/core-services/interface/features/monitoring).
+
 >[!IMPORTANT]
 >
 >KI-Credits gibt es nur für die Dauer der Testversion und **nicht verlängern** wenn Sie zusätzliche KI-Credits lizenzieren, bevor Sie die vollständige Berechtigung für 10.000 KI-Credits nutzen.
@@ -51,8 +53,6 @@ Die Testversion endet, sobald Sie die ursprüngliche einmalige Berechtigung von 
 Benutzer zugelassener Kundinnen und Kunden haben im Rahmen der Testversion Zugriff auf KI-Assistenten und -Agenten, sodass keine Aktion erforderlich ist. Experience Platform-Agenten orientieren sich an der Benutzereingabe und der Aufsicht. Agenten berücksichtigen auch zuvor definierte Zugriffssteuerungen auf Produktebene, sodass Benutzer nur Aufträge ausführen oder Aktionen ausführen können, für die sie über Berechtigungen in den entsprechenden zugrunde liegenden Experience Cloud-Produkten verfügen. Wenn Sie den Zugriff auf diese Funktionen von Agent deaktivieren und den Testzugriff deaktivieren möchten, senden Sie eine Anfrage an [aep-agents-trial-support@adobe.com](mailto:aep-agents-trial-support@adobe.com).
 
 Sobald Sie Zugriff haben, navigieren Sie zur Startseite von Adobe Experience Cloud , um mit dem KI-Assistenten zu beginnen. Sie können die [Erkennungsaufforderungen“ verwenden](../ai-assistant/ai-assistant-ui.md#discovery-prompts) um Vorschläge für Aufforderungen und allgemeine Workflows anzuzeigen. Verwenden Sie diese Funktion, um das Onboarding mit dem KI-Assistenten zu beschleunigen. Lesen Sie außerdem die [Eingabeaufforderungsbibliothek](../ai-assistant/prompt-library.md), um eine Vielzahl von Eingabeaufforderungen anzuzeigen, die Sie mit verschiedenen Agenten verwenden können. Ausführlichere Informationen finden Sie im Handbuch [Benutzeroberfläche des KI-Assistenten](../ai-assistant/ai-assistant-ui.md).
-
-Das Dashboard für die Überwachung der Agent-KI bietet einen klaren Überblick darüber, wie Agent-KI in Ihrer gesamten Organisation übernommen und verwendet wird. Als autorisierter Benutzer können Sie Interaktionen einfach verfolgen, Feedback einholen, die KI-Kreditnutzung überwachen und Schlüsselmetriken überprüfen. Nutzen Sie diese Einblicke, um Optimierungsmöglichkeiten zu entdecken und Ihre Governance- und Adoptionsbemühungen zu unterstützen. Weitere Informationen finden Sie im [Handbuch zur Überwachung der Nutzung von Agent AI](https://experienceleague.adobe.com/de/docs/core-services/interface/features/monitoring).
 
 Informationen zu den verfügbaren Agenten finden Sie in der [Übersicht über Agent Orchestrator](agent-orchestrator.md).
 
