@@ -12,7 +12,7 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: e385f60b8c55779b636dcc494fced27bc63d1eb3
+source-git-commit: e463f08590d0d44d286e3ce69e57607d35e74489
 workflow-type: tm+mt
 source-wordcount: 1243
 ht-degree: 4%
@@ -88,7 +88,7 @@ Für die Testversion ist kein zusätzlicher Kauf erforderlich. Es findet keine a
 
 Sie können Ihre KI-Credits über das Lizenznutzungs-Dashboard in der Adobe Experience Platform-Benutzeroberfläche verfolgen. Weitere Informationen finden Sie in der [Dokumentation zum Lizenznutzungs-Dashboard](https://experienceleague.adobe.com/de/docs/experience-platform/dashboards/guides/license-usage). Verwenden Sie das Dashboard, um Ihre KI-Guthaben-Nutzung und -Berichte anzuzeigen. Nur Administratoren und Benutzer mit den entsprechenden Berechtigungen können Ihre Nutzungsinformationen anzeigen.
 
-Sie können auch das Dashboard für die Überwachung der Agent-KI verwenden, um insight zur Akzeptanz, Interaktion, Feedback und Nutzung von KI-Guthaben in Ihrem Unternehmen zu bewegen. Autorisierte Benutzer können das Dashboard verwenden, um Schlüsselmetriken zu verfolgen, Optimierungsmöglichkeiten zu identifizieren und Governance- und Adoptionsinitiativen zu unterstützen. Weitere Informationen finden Sie im Handbuch unter [AI-Überwachung](https://experienceleague.adobe.com/de/docs/core-services/interface/features/monitoring).
+Sie können auch das Dashboard für die Überwachung der agenten KI verwenden, um insight in die Akzeptanz, Interaktion, Feedback und KI-Kreditnutzung der agenten KI in Ihrem Unternehmen einzubinden. Autorisierte Benutzer können das Dashboard verwenden, um Schlüsselmetriken zu verfolgen, Optimierungsmöglichkeiten zu identifizieren und Governance- und Adoptionsinitiativen zu unterstützen. Weitere Informationen finden Sie im Handbuch unter [AI-Überwachung](https://experienceleague.adobe.com/de/docs/core-services/interface/features/monitoring).
 
 ### Was passiert nach Ablauf des Prozesses?
 
